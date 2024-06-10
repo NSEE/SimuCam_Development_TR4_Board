@@ -1,0 +1,1607 @@
+ -- Copyright (C) 2018  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCPGM        : Dedicated power pin for configuration, which MUST be connected to 1.8V, 2.5V or 3.0V depending on the requirements of the configuration device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (0.9V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1A:       3.0V
+ --                  Bank 1C:       2.5V
+ --                  Bank 2C:       2.5V
+ --                  Bank 2A:       2.5V
+ --                  Bank 3A:       2.5V
+ --                  Bank 3B:       2.5V
+ --                  Bank 3C:       2.5V
+ --                  Bank 4C:       2.5V
+ --                  Bank 4B:       3.0V
+ --                  Bank 4A:  2.5V
+ --                  Bank 5A:  2.5V
+ --                  Bank 5C:  2.5V
+ --                  Bank 6C:  2.5V
+ --                  Bank 6A:  2.5V
+ --                  Bank 7A:  2.5V
+ --                  Bank 7B:  1.5V
+ --                  Bank 7C:  1.5V
+ --                  Bank 8C:  1.5V
+ --                  Bank 8B:  1.5V
+ --                  Bank 8A:  1.5V
+ -- RREF          : External reference resistor for the quad, MUST be connected to
+ --                 GND via a 2k Ohm resistor.
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks, connect each pin marked GND*
+ --                  either individually through a 10k Ohm resistor to GND or tie all pins
+ --                  together and connect through a single 10k Ohm resistor to GND.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ -- GXB_GND*      : Unused GXB Receiver or dedicated reference clock pin. This pin
+ --                 must be connected to GXB_GND through a 10k Ohm resistor.
+ -- GXB_NC        : Unused GXB Transmitter or dedicated clock output pin. This pin
+ --                 must not be connected.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+CHIP  "MebX_Quartus_Project_DE4_230"  ASSIGNED TO AN: EP4SGX230KF40C2
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A2        : gnd    :                   :         :           :                
+GND                          : A3        : gnd    :                   :         :           :                
+GND                          : A4        : gnd    :                   :         :           :                
+GND                          : A5        : gnd    :                   :         :           :                
+RREF                         : A6        :        :                   :         :           :                
+GND                          : A7        : gnd    :                   :         :           :                
+MSEL2                        : A8        :        :                   :         : 1A        :                
+TEMPDIODEp                   : A9        :        :                   :         :           :                
+HSME_TX_p[11]                : A10       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[13]                : A11       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCIO7A                      : A12       : power  :                   : 2.5V    : 7A        :                
+HSME_RX_n[15]                : A13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_n[14]                : A14       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCIO7B                      : A15       : power  :                   : 1.5V    : 7B        :                
+mem_dq[5]                    : A16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+MAX2_I2C_SDA                 : A17       : bidir  : 1.5 V             :         : 7C        : Y              
+LED[1]                       : A18       : output : 1.5 V             :         : 7C        : Y              
+BUTTON[2]                    : A19       : input  : 1.5 V             :         : 7C        : Y              
+FLASH_WP_n                   : A20       : output : 1.5 V             :         : 7C        : Y              
+OSC_50_BANK7                 : A21       : input  : 1.5 V             :         : 7C        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A22       :        :                   :         : 8C        :                
+FLASH_RDY_BSY_n              : A23       : input  : 1.5 V             :         : 8C        : Y              
+mem_a[5]                     : A24       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_a[8]                     : A25       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[53]                   : A26       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[24]                   : A27       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[25]                   : A28       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_ba[1]                    : A29       : output : SSTL-15 Class I   :         : 8A        : Y              
+VCCIO8A                      : A30       : power  :                   : 1.5V    : 8A        :                
+mem_dq[30]                   : A31       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+altera_reserved_ntrst        : A32       : input  : 3.3-V LVTTL       :         : 1A        : N              
+GND                          : A33       : gnd    :                   :         :           :                
+RREF                         : A34       :        :                   :         :           :                
+GND                          : A35       : gnd    :                   :         :           :                
+GND                          : A36       : gnd    :                   :         :           :                
+GND                          : A37       : gnd    :                   :         :           :                
+GND                          : A38       : gnd    :                   :         :           :                
+GXB_GND*                     : AA1       :        :                   :         : QR1       :                
+GXB_GND*                     : AA2       :        :                   :         : QR1       :                
+GND                          : AA3       : gnd    :                   :         :           :                
+GND                          : AA4       : gnd    :                   :         :           :                
+HSME_CLKIN_n2                : AA5       : input  : 2.5 V             :         : 6C        : Y              
+VCCH_GXBR1                   : AA6       : power  :                   : 1.4V    : QR1       :                
+VCCL_GXBR1                   : AA7       : power  :                   : 1.1V    : QR1       :                
+VCC                          : AA8       : power  :                   : 0.9V    :           :                
+VCCHIP_R                     : AA9       : power  :                   : 0.9V    :           :                
+VCCA_PLL_R3                  : AA10      : power  :                   : 2.5V    :           :                
+VCCD_PLL_R3                  : AA11      : power  :                   : 0.9V    :           :                
+VCCPT                        : AA12      : power  :                   : 1.5V    :           :                
+VCCPD5C                      : AA13      : power  :                   : 2.5V    : 5C        :                
+GND                          : AA14      : gnd    :                   :         :           :                
+VCC                          : AA15      : power  :                   : 0.9V    :           :                
+GND                          : AA16      : gnd    :                   :         :           :                
+VCC                          : AA17      : power  :                   : 0.9V    :           :                
+GND                          : AA18      : gnd    :                   :         :           :                
+VCC                          : AA19      : power  :                   : 0.9V    :           :                
+DNU                          : AA20      :        :                   :         :           :                
+VCC                          : AA21      : power  :                   : 0.9V    :           :                
+GND                          : AA22      : gnd    :                   :         :           :                
+VCC                          : AA23      : power  :                   : 0.9V    :           :                
+GND                          : AA24      : gnd    :                   :         :           :                
+VCC                          : AA25      : power  :                   : 0.9V    :           :                
+VCCPT                        : AA26      : power  :                   : 1.5V    :           :                
+VCCPT                        : AA27      : power  :                   : 1.5V    :           :                
+VCCD_PLL_L3                  : AA28      : power  :                   : 0.9V    :           :                
+VCCA_PLL_L3                  : AA29      : power  :                   : 2.5V    :           :                
+VCCIO1C                      : AA30      : power  :                   : 2.5V    : 1C        :                
+VCCHIP_L                     : AA31      : power  :                   : 0.9V    :           :                
+VCC                          : AA32      : power  :                   : 0.9V    :           :                
+VCCL_GXBL1                   : AA33      : power  :                   : 1.1V    : QL1       :                
+VCCH_GXBL1                   : AA34      : power  :                   : 1.4V    : QL1       :                
+HSMD_CLKIN0                  : AA35      : input  : 2.5 V             :         : 1C        : Y              
+GND                          : AA36      : gnd    :                   :         :           :                
+GND                          : AA37      : gnd    :                   :         :           :                
+GXB_GND*                     : AA38      :        :                   :         : QL1       :                
+GXB_GND*                     : AA39      :        :                   :         : QL1       :                
+GND                          : AB1       : gnd    :                   :         :           :                
+GND                          : AB2       : gnd    :                   :         :           :                
+GXB_NC                       : AB3       :        :                   :         : QR1       :                
+GXB_NC                       : AB4       :        :                   :         : QR1       :                
+VCCT_R                       : AB5       : power  :                   : 1.1V    :           :                
+HSME_CLKIN_p2                : AB6       : input  : 2.5 V             :         : 6C        : Y              
+GND                          : AB7       : gnd    :                   :         :           :                
+VCC                          : AB8       : power  :                   : 0.9V    :           :                
+HSMA_RX_p[7]                 : AB9       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_n[6]                 : AB10      : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[6]                 : AB11      : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_n[5]                 : AB12      : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[5]                 : AB13      : bidir  : 2.5 V             :         : 5C        : Y              
+VCC                          : AB14      : power  :                   : 0.9V    :           :                
+GND                          : AB15      : gnd    :                   :         :           :                
+VCC                          : AB16      : power  :                   : 0.9V    :           :                
+GND                          : AB17      : gnd    :                   :         :           :                
+VCC                          : AB18      : power  :                   : 0.9V    :           :                
+GND                          : AB19      : gnd    :                   :         :           :                
+VCC                          : AB20      : power  :                   : 0.9V    :           :                
+GND                          : AB21      : gnd    :                   :         :           :                
+VCC                          : AB22      : power  :                   : 0.9V    :           :                
+GND                          : AB23      : gnd    :                   :         :           :                
+VCC                          : AB24      : power  :                   : 0.9V    :           :                
+GND                          : AB25      : gnd    :                   :         :           :                
+VCCPD2A                      : AB26      : power  :                   : 2.5V    : 2A        :                
+HSMC_D[0]                    : AB27      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_D[2]                    : AB28      : bidir  : 2.5 V             :         : 2C        : Y              
+VREFB2CN0                    : AB29      : power  :                   :         : 2C        :                
+HSMC_TX_p[7]                 : AB30      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[7]                 : AB31      : bidir  : 2.5 V             :         : 2C        : Y              
+VCC                          : AB32      : power  :                   : 0.9V    :           :                
+GND                          : AB33      : gnd    :                   :         :           :                
+OSC_50_BANK1                 : AB34      : input  : 2.5 V             :         : 1C        : Y              
+VCCT_L                       : AB35      : power  :                   : 1.1V    :           :                
+GXB_NC                       : AB36      :        :                   :         : QL1       :                
+GXB_NC                       : AB37      :        :                   :         : QL1       :                
+GND                          : AB38      : gnd    :                   :         :           :                
+GND                          : AB39      : gnd    :                   :         :           :                
+GXB_GND*                     : AC1       :        :                   :         : QR1       :                
+GXB_GND*                     : AC2       :        :                   :         : QR1       :                
+GND                          : AC3       : gnd    :                   :         :           :                
+GND                          : AC4       : gnd    :                   :         :           :                
+HSMA_CLKIN_n2                : AC5       : input  : 2.5 V             :         : 5C        : Y              
+HSMA_CLKIN_p2                : AC6       : input  : 2.5 V             :         : 5C        : Y              
+GND                          : AC7       : gnd    :                   :         :           :                
+HSMA_RX_n[7]                 : AC8       : bidir  : 2.5 V             :         : 5C        : Y              
+GND                          : AC9       : gnd    :                   :         :           :                
+SMA_CLKOUT_n                 : AC10      : output : 2.5 V             :         : 5C        : Y              
+SMA_CLKOUT_p                 : AC11      : output : 2.5 V             :         : 5C        : Y              
+GND                          : AC12      : gnd    :                   :         :           :                
+VCCPD5A                      : AC13      : power  :                   : 2.5V    : 5A        :                
+GND                          : AC14      : gnd    :                   :         :           :                
+VCC                          : AC15      : power  :                   : 0.9V    :           :                
+GND                          : AC16      : gnd    :                   :         :           :                
+VCC                          : AC17      : power  :                   : 0.9V    :           :                
+GND                          : AC18      : gnd    :                   :         :           :                
+VCC                          : AC19      : power  :                   : 0.9V    :           :                
+GND                          : AC20      : gnd    :                   :         :           :                
+VCC                          : AC21      : power  :                   : 0.9V    :           :                
+GND                          : AC22      : gnd    :                   :         :           :                
+VCC                          : AC23      : power  :                   : 0.9V    :           :                
+GND                          : AC24      : gnd    :                   :         :           :                
+VCC                          : AC25      : power  :                   : 0.9V    :           :                
+HSMD_TX_p[8]                 : AC26      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AC27      : gnd    :                   :         :           :                
+HSMC_TX_p[0]                 : AC28      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[0]                 : AC29      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AC30      : gnd    :                   :         :           :                
+HSMC_RX_p[16]                : AC31      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[16]                : AC32      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AC33      : gnd    :                   :         :           :                
+HSMC_CLKIN_p2                : AC34      : input  : 2.5 V             :         : 2C        : Y              
+HSMC_CLKIN_n2                : AC35      : input  : 2.5 V             :         : 2C        : Y              
+GND                          : AC36      : gnd    :                   :         :           :                
+GND                          : AC37      : gnd    :                   :         :           :                
+GXB_GND*                     : AC38      :        :                   :         : QL1       :                
+GXB_GND*                     : AC39      :        :                   :         : QL1       :                
+GND                          : AD1       : gnd    :                   :         :           :                
+GND                          : AD2       : gnd    :                   :         :           :                
+GXB_NC                       : AD3       :        :                   :         : QR1       :                
+GXB_NC                       : AD4       :        :                   :         : QR1       :                
+VCCR_R                       : AD5       : power  :                   : 1.1V    :           :                
+GND                          : AD6       : gnd    :                   :         :           :                
+VCCL_GXBR0                   : AD7       : power  :                   : 1.1V    : QR0       :                
+GND                          : AD8       : gnd    :                   :         :           :                
+HSMA_TX_n[4]                 : AD9       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[4]                 : AD10      : bidir  : 2.5 V             :         : 5C        : Y              
+VREFB5CN0                    : AD11      : power  :                   :         : 5C        :                
+HSMB_TX_n[15]                : AD12      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_p[15]                : AD13      : bidir  : 2.5 V             :         : 5A        : Y              
+VCCPD4A                      : AD14      : power  :                   : 2.5V    : 4A        :                
+HSMB_D[0]                    : AD15      : bidir  : 2.5 V             :         : 4A        : Y              
+VCCPD4B                      : AD16      : power  :                   : 3.0V    : 4B        :                
+NC                           : AD17      :        :                   :         :           :                
+VCCPD4C                      : AD18      : power  :                   : 2.5V    : 4C        :                
+HSMF_TX_p[16]                : AD19      : bidir  : 2.5 V             :         : 4C        : Y              
+VCCPD3C                      : AD20      : power  :                   : 2.5V    : 3C        :                
+HSMF_TX_p[14]                : AD21      : bidir  : 2.5 V             :         : 3C        : Y              
+VCCPD3B                      : AD22      : power  :                   : 2.5V    : 3B        :                
+GND                          : AD23      : gnd    :                   :         :           :                
+VCCPD3A                      : AD24      : power  :                   : 2.5V    : 3A        :                
+HSMC_OUT_n2                  : AD25      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMD_TX_n[8]                 : AD26      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[7]                 : AD27      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_TX_p[1]                 : AD28      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[1]                 : AD29      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_p[6]                 : AD30      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[6]                 : AD31      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AD32      : gnd    :                   :         :           :                
+VCCL_GXBL0                   : AD33      : power  :                   : 1.1V    : QL0       :                
+GND                          : AD34      : gnd    :                   :         :           :                
+VCCR_L                       : AD35      : power  :                   : 1.1V    :           :                
+GXB_NC                       : AD36      :        :                   :         : QL1       :                
+GXB_NC                       : AD37      :        :                   :         : QL1       :                
+GND                          : AD38      : gnd    :                   :         :           :                
+GND                          : AD39      : gnd    :                   :         :           :                
+GXB_GND*                     : AE1       :        :                   :         : QR1       :                
+GXB_GND*                     : AE2       :        :                   :         : QR1       :                
+GND                          : AE3       : gnd    :                   :         :           :                
+GND                          : AE4       : gnd    :                   :         :           :                
+HSMA_CLKIN_n1                : AE5       : input  : 2.5 V             :         : 5C        : Y              
+VCCH_GXBR0                   : AE6       : power  :                   : 1.4V    : QR0       :                
+VCCL_GXBR0                   : AE7       : power  :                   : 1.1V    : QR0       :                
+VCC                          : AE8       : power  :                   : 0.9V    :           :                
+VCCIO5C                      : AE9       : power  :                   : 2.5V    : 5C        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE10      :        :                   :         : 5C        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE11      :        :                   :         : 5C        :                
+HSMB_TX_n[13]                : AE12      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_p[13]                : AE13      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[15]                : AE14      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_D[2]                    : AE15      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_SCL                     : AE16      : output : 2.5 V             :         : 4A        : Y              
+FSM_A[17]                    : AE17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_TX_n[15]                : AE18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[16]                : AE19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[15]                : AE20      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_n[13]                : AE21      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_n[12]                : AE22      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_TX_p[11]                : AE23      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_TX_n[9]                 : AE24      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_OUT_p2                  : AE25      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMD_TX_p[9]                 : AE26      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[7]                 : AE27      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_TX_p[2]                 : AE28      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[2]                 : AE29      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_p[4]                 : AE30      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[4]                 : AE31      : bidir  : 2.5 V             :         : 2C        : Y              
+VCC                          : AE32      : power  :                   : 0.9V    :           :                
+VCCL_GXBL0                   : AE33      : power  :                   : 1.1V    : QL0       :                
+VCCH_GXBL0                   : AE34      : power  :                   : 1.4V    : QL0       :                
+HSMC_CLKIN_n1                : AE35      : input  : 2.5 V             :         : 2C        : Y              
+GND                          : AE36      : gnd    :                   :         :           :                
+GND                          : AE37      : gnd    :                   :         :           :                
+GXB_GND*                     : AE38      :        :                   :         : QL1       :                
+GXB_GND*                     : AE39      :        :                   :         : QL1       :                
+GND                          : AF1       : gnd    :                   :         :           :                
+GND                          : AF2       : gnd    :                   :         :           :                
+GXB_NC                       : AF3       :        :                   :         : QR0       :                
+GXB_NC                       : AF4       :        :                   :         : QR0       :                
+VCCA_R                       : AF5       : power  :                   : 2.5V    :           :                
+HSMA_CLKIN_p1                : AF6       : input  : 2.5 V             :         : 5C        : Y              
+GND                          : AF7       : gnd    :                   :         :           :                
+VCC                          : AF8       : power  :                   : 0.9V    :           :                
+GND                          : AF9       : gnd    :                   :         :           :                
+HSMA_TX_n[3]                 : AF10      : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[3]                 : AF11      : bidir  : 2.5 V             :         : 5C        : Y              
+GND                          : AF12      : gnd    :                   :         :           :                
+HSMB_TX_p[14]                : AF13      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[15]                : AF14      : bidir  : 2.5 V             :         : 4A        : Y              
+GND                          : AF15      : gnd    :                   :         :           :                
+HSMB_SDA                     : AF16      : bidir  : 2.5 V             :         : 4A        : Y              
+SSRAM_CE1_n                  : AF17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+GND                          : AF18      : gnd    :                   :         :           :                
+HSMF_RX_n[16]                : AF19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_n[15]                : AF20      : bidir  : 2.5 V             :         : 3C        : Y              
+GND                          : AF21      : gnd    :                   :         :           :                
+HSMF_RX_p[14]                : AF22      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_TX_p[12]                : AF23      : bidir  : 2.5 V             :         : 3B        : Y              
+GND                          : AF24      : gnd    :                   :         :           :                
+HSMC_RX_p[7]                 : AF25      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMD_TX_n[9]                 : AF26      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AF27      : gnd    :                   :         :           :                
+VREFB2AN0                    : AF28      : power  :                   :         : 2A        :                
+HSMC_TX_p[3]                 : AF29      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AF30      : gnd    :                   :         :           :                
+VCCIO2C                      : AF31      : power  :                   : 2.5V    : 2C        :                
+VCC                          : AF32      : power  :                   : 0.9V    :           :                
+GND                          : AF33      : gnd    :                   :         :           :                
+HSMC_CLKIN_p1                : AF34      : input  : 2.5 V             :         : 2C        : Y              
+VCCA_L                       : AF35      : power  :                   : 2.5V    :           :                
+GXB_NC                       : AF36      :        :                   :         : QL0       :                
+GXB_NC                       : AF37      :        :                   :         : QL0       :                
+GND                          : AF38      : gnd    :                   :         :           :                
+GND                          : AF39      : gnd    :                   :         :           :                
+GXB_GND*                     : AG1       :        :                   :         : QR0       :                
+GXB_GND*                     : AG2       :        :                   :         : QR0       :                
+GND                          : AG3       : gnd    :                   :         :           :                
+GND                          : AG4       : gnd    :                   :         :           :                
+HSMA_RX_n[6]                 : AG5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[6]                 : AG6       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_n[2]                 : AG7       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[2]                 : AG8       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_n[0]                 : AG9       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[0]                 : AG10      : bidir  : 2.5 V             :         : 5C        : Y              
+VREFB5AN0                    : AG11      : power  :                   :         : 5A        :                
+HSMB_TX_p[12]                : AG12      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[14]                : AG13      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_p[6]                 : AG14      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_n[6]                 : AG15      : bidir  : 2.5 V             :         : 4A        : Y              
+FSM_A[18]                    : AG16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SSRAM_CLK                    : AG17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_TX_p[15]                : AG18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_TX_n[16]                : AG19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_TX_n[14]                : AG20      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_p[13]                : AG21      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[14]                : AG22      : bidir  : 2.5 V             :         : 3B        : Y              
+VCCIO3B                      : AG23      : power  :                   : 2.5V    : 3B        :                
+HSMC_TX_n[11]                : AG24      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[7]                 : AG25      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCIO2A                      : AG26      : power  :                   : 2.5V    : 2A        :                
+HSMD_TX_p[4]                 : AG27      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[6]                 : AG28      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[5]                 : AG29      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_TX_n[3]                 : AG30      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_p[5]                 : AG31      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_TX_n[5]                 : AG32      : bidir  : 2.5 V             :         : 2C        : Y              
+VCCIO2C                      : AG33      : power  :                   : 2.5V    : 2C        :                
+HSMC_CLKOUT_p1               : AG34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_CLKOUT_n1               : AG35      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AG36      : gnd    :                   :         :           :                
+GND                          : AG37      : gnd    :                   :         :           :                
+GXB_GND*                     : AG38      :        :                   :         : QL0       :                
+GXB_GND*                     : AG39      :        :                   :         : QL0       :                
+GND                          : AH1       : gnd    :                   :         :           :                
+GND                          : AH2       : gnd    :                   :         :           :                
+GXB_NC                       : AH3       :        :                   :         : QR0       :                
+GXB_NC                       : AH4       :        :                   :         : QR0       :                
+HSMA_RX_n[5]                 : AH5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[5]                 : AH6       : bidir  : 2.5 V             :         : 5C        : Y              
+VCCIO5C                      : AH7       : power  :                   : 2.5V    : 5C        :                
+HSMA_TX_n[1]                 : AH8       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_TX_p[1]                 : AH9       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMB_OUT_p2                  : AH10      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_p[11]                : AH11      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[12]                : AH12      : bidir  : 2.5 V             :         : 5A        : Y              
+TEMP_INT_n                   : AH13      : input  : 2.5 V             :         : 4A        : Y              
+HSMB_RX_p[14]                : AH14      : bidir  : 2.5 V             :         : 4A        : Y              
+VCCIO4A                      : AH15      : power  :                   : 2.5V    : 4A        :                
+FSM_A[16]                    : AH16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+FSM_A[15]                    : AH17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SW[0]                        : AH18      : input  : 2.5 V             :         : 4C        : Y              
+SW[1]                        : AH19      : input  : 2.5 V             :         : 4C        : Y              
+HSMF_CLKOUT_p2               : AH20      : bidir  : 2.5 V             :         : 3C        : Y              
+VCCIO3C                      : AH21      : power  :                   : 2.5V    : 3C        :                
+HSMF_TX_n[11]                : AH22      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_RX_p[13]                : AH23      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_TX_p[11]                : AH24      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCIO3A                      : AH25      : power  :                   : 2.5V    : 3A        :                
+HSMC_TX_n[8]                 : AH26      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMD_TX_n[4]                 : AH27      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[6]                 : AH28      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[5]                 : AH29      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[3]                 : AH30      : bidir  : 2.5 V             :         : 2A        : Y              
+VCCIO2C                      : AH31      : power  :                   : 2.5V    : 2C        :                
+HSMC_RX_p[15]                : AH32      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[15]                : AH33      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_p[14]                : AH34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[14]                : AH35      : bidir  : 2.5 V             :         : 2C        : Y              
+GXB_NC                       : AH36      :        :                   :         : QL0       :                
+GXB_NC                       : AH37      :        :                   :         : QL0       :                
+GND                          : AH38      : gnd    :                   :         :           :                
+GND                          : AH39      : gnd    :                   :         :           :                
+GXB_GND*                     : AJ1       :        :                   :         : QR0       :                
+GXB_GND*                     : AJ2       :        :                   :         : QR0       :                
+GND                          : AJ3       : gnd    :                   :         :           :                
+GND                          : AJ4       : gnd    :                   :         :           :                
+HSMA_RX_n[4]                 : AJ5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[4]                 : AJ6       : bidir  : 2.5 V             :         : 5C        : Y              
+GND                          : AJ7       : gnd    :                   :         :           :                
+VCCIO5C                      : AJ8       : power  :                   : 2.5V    : 5C        :                
+GND                          : AJ9       : gnd    :                   :         :           :                
+HSMB_OUT_n2                  : AJ10      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[11]                : AJ11      : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AJ12      : gnd    :                   :         :           :                
+HSMB_RX_p[13]                : AJ13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_RX_n[14]                : AJ14      : bidir  : 2.5 V             :         : 4A        : Y              
+GND                          : AJ15      : gnd    :                   :         :           :                
+FSM_D[15]                    : AJ16      : bidir  : 3.0-V PCI-X       :         : 4B        : Y              
+VCCIO4B                      : AJ17      : power  :                   : 3.0V    : 4B        :                
+GND                          : AJ18      : gnd    :                   :         :           :                
+VCCIO4C                      : AJ19      : power  :                   : 2.5V    : 4C        :                
+HSMF_CLKOUT_n2               : AJ20      : bidir  : 2.5 V             :         : 3C        : Y              
+GND                          : AJ21      : gnd    :                   :         :           :                
+HSMF_TX_p[10]                : AJ22      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_RX_n[13]                : AJ23      : bidir  : 2.5 V             :         : 3B        : Y              
+GND                          : AJ24      : gnd    :                   :         :           :                
+HSMC_D[1]                    : AJ25      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_p[6]                 : AJ26      : bidir  : 2.5 V             :         : 3A        : Y              
+GND                          : AJ27      : gnd    :                   :         :           :                
+VCCIO2A                      : AJ28      : power  :                   : 2.5V    : 2A        :                
+HSMD_D[0]                    : AJ29      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AJ30      : gnd    :                   :         :           :                
+HSMD_TX_p[3]                 : AJ31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_RX_p[8]                 : AJ32      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AJ33      : gnd    :                   :         :           :                
+HSMC_RX_p[13]                : AJ34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[13]                : AJ35      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AJ36      : gnd    :                   :         :           :                
+GND                          : AJ37      : gnd    :                   :         :           :                
+GXB_GND*                     : AJ38      :        :                   :         : QL0       :                
+GXB_GND*                     : AJ39      :        :                   :         : QL0       :                
+GND                          : AK1       : gnd    :                   :         :           :                
+GND                          : AK2       : gnd    :                   :         :           :                
+GXB_NC                       : AK3       :        :                   :         : QR0       :                
+GXB_NC                       : AK4       :        :                   :         : QR0       :                
+HSMA_RX_n[3]                 : AK5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[3]                 : AK6       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_D[2]                    : AK7       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_D[0]                    : AK8       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMB_TX_p[9]                 : AK9       : bidir  : 2.5 V             :         : 5A        : Y              
+VCCIO5A                      : AK10      : power  :                   : 2.5V    : 5A        :                
+NC                           : AK11      :        :                   :         :           :                
+VCCPGM                       : AK12      : power  :                   : 1.8V/2.5V/3.0V :           :                
+HSMB_RX_n[13]                : AK13      : bidir  : 2.5 V             :         : 4A        : Y              
+TEMP_OVERT_n                 : AK14      : input  : 2.5 V             :         : 4A        : Y              
+VCCIO4A                      : AK15      : power  :                   : 2.5V    : 4A        :                
+FSM_D[14]                    : AK16      : bidir  : 3.0-V PCI-X       :         : 4B        : Y              
+FSM_D[16]                    : AK17      : bidir  : 3.0-V PCI-X       :         : 4B        : Y              
+VCC_CLKIN4C                  : AK18      : power  :                   : 2.5V    :           :                
+VCCD_PLL_B2                  : AK19      : power  :                   : 0.9V    :           :                
+VCCD_PLL_B1                  : AK20      : power  :                   : 0.9V    :           :                
+VCC_CLKIN3C                  : AK21      : power  :                   : 2.5V    :           :                
+VCCIO3C                      : AK22      : power  :                   : 2.5V    : 3C        :                
+HSMF_RX_p[12]                : AK23      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_TX_n[10]                : AK24      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_D[3]                    : AK25      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[6]                 : AK26      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_p[9]                 : AK27      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCPGM                       : AK28      : power  :                   : 1.8V/2.5V/3.0V :           :                
+HSMD_D[2]                    : AK29      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[1]                 : AK30      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[16]                : AK31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_p[2]                 : AK32      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_RX_n[8]                 : AK33      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_p[12]                : AK34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[12]                : AK35      : bidir  : 2.5 V             :         : 2C        : Y              
+GXB_NC                       : AK36      :        :                   :         : QL0       :                
+GXB_NC                       : AK37      :        :                   :         : QL0       :                
+GND                          : AK38      : gnd    :                   :         :           :                
+GND                          : AK39      : gnd    :                   :         :           :                
+GXB_GND*                     : AL1       :        :                   :         : QR0       :                
+GXB_GND*                     : AL2       :        :                   :         : QR0       :                
+GND                          : AL3       : gnd    :                   :         :           :                
+GND                          : AL4       : gnd    :                   :         :           :                
+HSMA_RX_n[2]                 : AL5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[2]                 : AL6       : bidir  : 2.5 V             :         : 5C        : Y              
+VCCIO5C                      : AL7       : power  :                   : 2.5V    : 5C        :                
+HSMB_TX_p[8]                 : AL8       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[9]                 : AL9       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_p[10]                : AL10      : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AL11      : gnd    :                   :         :           :                
+VCCAUX                       : AL12      : power  :                   : 2.5V    :           :                
+HSMB_RX_p[16]                : AL13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_p[3]                 : AL14      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_n[0]                 : AL15      : bidir  : 2.5 V             :         : 4A        : Y              
+FSM_WE_n                     : AL16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+FSM_D[13]                    : AL17      : bidir  : 3.0-V PCI-X       :         : 4B        : Y              
+VREFB4CN0                    : AL18      : power  :                   :         : 4C        :                
+VCCA_PLL_B2                  : AL19      : power  :                   : 2.5V    :           :                
+VCCA_PLL_B1                  : AL20      : power  :                   : 2.5V    :           :                
+HSMF_TX_n[6]                 : AL21      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_p[6]                 : AL22      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[12]                : AL23      : bidir  : 2.5 V             :         : 3B        : Y              
+VREFB3BN0                    : AL24      : power  :                   :         : 3B        :                
+HSMC_TX_p[14]                : AL25      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCIO3A                      : AL26      : power  :                   : 2.5V    : 3A        :                
+HSMC_TX_p[8]                 : AL27      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCAUX                       : AL28      : power  :                   : 2.5V    :           :                
+HSMD_TX_p[0]                 : AL29      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[1]                 : AL30      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[16]                : AL31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_TX_n[2]                 : AL32      : bidir  : 2.5 V             :         : 2A        : Y              
+VCCIO2C                      : AL33      : power  :                   : 2.5V    : 2C        :                
+HSMC_RX_p[11]                : AL34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[11]                : AL35      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AL36      : gnd    :                   :         :           :                
+GND                          : AL37      : gnd    :                   :         :           :                
+GXB_GND*                     : AL38      :        :                   :         : QL0       :                
+GXB_GND*                     : AL39      :        :                   :         : QL0       :                
+GND                          : AM1       : gnd    :                   :         :           :                
+GND                          : AM2       : gnd    :                   :         :           :                
+GXB_NC                       : AM3       :        :                   :         : QR0       :                
+GXB_NC                       : AM4       :        :                   :         : QR0       :                
+HSMA_RX_n[1]                 : AM5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[1]                 : AM6       : bidir  : 2.5 V             :         : 5C        : Y              
+GND                          : AM7       : gnd    :                   :         :           :                
+HSMB_TX_n[8]                 : AM8       : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AM9       : gnd    :                   :         :           :                
+HSMB_TX_n[10]                : AM10      : bidir  : 2.5 V             :         : 5A        : Y              
+nIO_PULLUP                   : AM11      :        :                   :         : 1A        :                
+GND                          : AM12      : gnd    :                   :         :           :                
+HSMB_RX_n[16]                : AM13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_n[3]                 : AM14      : bidir  : 2.5 V             :         : 4A        : Y              
+GND                          : AM15      : gnd    :                   :         :           :                
+VREFB4BN0                    : AM16      : power  :                   :         : 4B        :                
+FSM_D[12]                    : AM17      : bidir  : 3.0-V PCI-X       :         : 4B        : Y              
+GND                          : AM18      : gnd    :                   :         :           :                
+HSMF_TX_n[9]                 : AM19      : bidir  : 2.5 V             :         : 4C        : Y              
+VCCPT                        : AM20      : power  :                   : 1.5V    :           :                
+GND                          : AM21      : gnd    :                   :         :           :                
+HSMF_RX_p[10]                : AM22      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_p[4]                 : AM23      : bidir  : 2.5 V             :         : 3C        : Y              
+GND                          : AM24      : gnd    :                   :         :           :                
+HSMF_TX_n[5]                 : AM25      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_RX_p[0]                 : AM26      : bidir  : 2.5 V             :         : 3A        : Y              
+GND                          : AM27      : gnd    :                   :         :           :                
+NC                           : AM28      :        :                   :         :           :                
+HSMD_TX_n[0]                 : AM29      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AM30      : gnd    :                   :         :           :                
+HSMD_RX_p[8]                 : AM31      : bidir  : 2.5 V             :         : 2A        : Y              
+VCCIO2A                      : AM32      : power  :                   : 2.5V    : 2A        :                
+GND                          : AM33      : gnd    :                   :         :           :                
+HSMC_RX_p[10]                : AM34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[10]                : AM35      : bidir  : 2.5 V             :         : 2C        : Y              
+GXB_NC                       : AM36      :        :                   :         : QL0       :                
+GXB_NC                       : AM37      :        :                   :         : QL0       :                
+GND                          : AM38      : gnd    :                   :         :           :                
+GND                          : AM39      : gnd    :                   :         :           :                
+GXB_GND*                     : AN1       :        :                   :         : QR0       :                
+GXB_GND*                     : AN2       :        :                   :         : QR0       :                
+GND                          : AN3       : gnd    :                   :         :           :                
+GND                          : AN4       : gnd    :                   :         :           :                
+HSMA_RX_n[0]                 : AN5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_RX_p[0]                 : AN6       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMB_TX_p[16]                : AN7       : bidir  : 2.5 V             :         : 5A        : Y              
+VCCIO5A                      : AN8       : power  :                   : 2.5V    : 5A        :                
+HSMB_TX_p[7]                 : AN9       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_OUT_p1                  : AN10      : bidir  : 2.5 V             :         : 5A        : Y              
+ASDO                         : AN11      :        :                   :         : 1A        :                
+VREFB4AN0                    : AN12      : power  :                   :         : 4A        :                
+HSMB_TX_p[0]                 : AN13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_n[5]                 : AN14      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_OUT0                    : AN15      : bidir  : 2.5 V             :         : 4A        : Y              
+SSRAM_BE_n[0]                : AN16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SSRAM_BE_n[1]                : AN17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_RX_p[11]                : AN18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_TX_p[9]                 : AN19      : bidir  : 2.5 V             :         : 4C        : Y              
+SMA_CLKOUT                   : AN20      : output : 2.5 V             :         : 4C        : Y              
+HSMF_CLKOUT_p1               : AN21      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[10]                : AN22      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_n[4]                 : AN23      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_p[2]                 : AN24      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_TX_p[5]                 : AN25      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_RX_n[0]                 : AN26      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_n[16]                : AN27      : bidir  : 2.5 V             :         : 3A        : Y              
+VREFB3AN0                    : AN28      : power  :                   :         : 3A        :                
+nCE                          : AN29      :        :                   :         : 1A        :                
+HSMD_RX_p[9]                 : AN30      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[8]                 : AN31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[7]                 : AN32      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[4]                 : AN33      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMC_RX_p[9]                 : AN34      : bidir  : 2.5 V             :         : 2C        : Y              
+HSMC_RX_n[9]                 : AN35      : bidir  : 2.5 V             :         : 2C        : Y              
+GND                          : AN36      : gnd    :                   :         :           :                
+GND                          : AN37      : gnd    :                   :         :           :                
+GXB_GND*                     : AN38      :        :                   :         : QL0       :                
+GXB_GND*                     : AN39      :        :                   :         : QL0       :                
+GND                          : AP1       : gnd    :                   :         :           :                
+GND                          : AP2       : gnd    :                   :         :           :                
+GXB_NC                       : AP3       :        :                   :         : QR0       :                
+GXB_NC                       : AP4       :        :                   :         : QR0       :                
+HSMA_D[3]                    : AP5       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMA_D[1]                    : AP6       : bidir  : 2.5 V             :         : 5C        : Y              
+HSMB_TX_n[16]                : AP7       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[8]                 : AP8       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[7]                 : AP9       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_OUT_n1                  : AP10      : bidir  : 2.5 V             :         : 5A        : Y              
+nCSO                         : AP11      :        :                   :         : 1A        :                
+VCCIO4A                      : AP12      : power  :                   : 2.5V    : 4A        :                
+HSMB_TX_p[5]                 : AP13      : bidir  : 2.5 V             :         : 4A        : Y              
+TEMP_DATA                    : AP14      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_CLKIN0                  : AP15      : input  : 2.5 V             :         : 4A        : Y              
+FLASH_CE_n                   : AP16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SSRAM_ADSC_n                 : AP17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_RX_n[11]                : AP18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_TX_n[7]                 : AP19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_OUT0                    : AP20      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_CLKOUT_n1               : AP21      : bidir  : 2.5 V             :         : 3C        : Y              
+VREFB3CN0                    : AP22      : power  :                   :         : 3C        :                
+HSMF_TX_p[3]                 : AP23      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[2]                 : AP24      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_TX_n[1]                 : AP25      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_TX_n[14]                : AP26      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_p[16]                : AP27      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_p[1]                 : AP28      : bidir  : 2.5 V             :         : 3A        : Y              
+PORSEL                       : AP29      :        :                   :         : 1A        :                
+HSMD_RX_n[9]                 : AP30      : bidir  : 2.5 V             :         : 2A        : Y              
+VCCIO2A                      : AP31      : power  :                   : 2.5V    : 2A        :                
+HSMD_RX_p[10]                : AP32      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[7]                 : AP33      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[4]                 : AP34      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[6]                 : AP35      : bidir  : 2.5 V             :         : 2A        : Y              
+GXB_NC                       : AP36      :        :                   :         : QL0       :                
+GXB_NC                       : AP37      :        :                   :         : QL0       :                
+GND                          : AP38      : gnd    :                   :         :           :                
+GND                          : AP39      : gnd    :                   :         :           :                
+GXB_GND*                     : AR1       :        :                   :         : QR0       :                
+GXB_GND*                     : AR2       :        :                   :         : QR0       :                
+GND                          : AR3       : gnd    :                   :         :           :                
+GND                          : AR4       : gnd    :                   :         :           :                
+HSMB_RX_p[6]                 : AR5       : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AR6       : gnd    :                   :         :           :                
+VCCIO5A                      : AR7       : power  :                   : 2.5V    : 5A        :                
+HSMB_RX_n[8]                 : AR8       : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AR9       : gnd    :                   :         :           :                
+VCCIO5A                      : AR10      : power  :                   : 2.5V    : 5A        :                
+DCLK                         : AR11      : bidir  :                   :         : 1A        :                
+GND                          : AR12      : gnd    :                   :         :           :                
+HSMB_RX_p[12]                : AR13      : bidir  : 2.5 V             :         : 4A        : Y              
+TEMP_CLK                     : AR14      : output : 2.5 V             :         : 4A        : Y              
+GND                          : AR15      : gnd    :                   :         :           :                
+SSRAM_BE_n[2]                : AR16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SSRAM_ADSP_n                 : AR17      : output : 3.0-V PCI-X       :         : 4B        : Y              
+GND                          : AR18      : gnd    :                   :         :           :                
+HSMF_TX_p[7]                 : AR19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[4]                 : AR20      : bidir  : 2.5 V             :         : 4C        : Y              
+GND                          : AR21      : gnd    :                   :         :           :                
+HSMF_CLKIN_p2                : AR22      : input  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_n[3]                 : AR23      : bidir  : 2.5 V             :         : 3C        : Y              
+GND                          : AR24      : gnd    :                   :         :           :                
+HSMF_TX_p[1]                 : AR25      : bidir  : 2.5 V             :         : 3B        : Y              
+VCCIO3B                      : AR26      : power  :                   : 2.5V    : 3B        :                
+GND                          : AR27      : gnd    :                   :         :           :                
+HSMC_RX_n[1]                 : AR28      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCIO3A                      : AR29      : power  :                   : 2.5V    : 3A        :                
+GND                          : AR30      : gnd    :                   :         :           :                
+HSMD_D[1]                    : AR31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[10]                : AR32      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AR33      : gnd    :                   :         :           :                
+HSMD_RX_n[5]                 : AR34      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[6]                 : AR35      : bidir  : 2.5 V             :         : 2A        : Y              
+GND                          : AR36      : gnd    :                   :         :           :                
+GND                          : AR37      : gnd    :                   :         :           :                
+GXB_GND*                     : AR38      :        :                   :         : QL0       :                
+GXB_GND*                     : AR39      :        :                   :         : QL0       :                
+GND                          : AT1       : gnd    :                   :         :           :                
+GND                          : AT2       : gnd    :                   :         :           :                
+GXB_NC                       : AT3       :        :                   :         : QR0       :                
+GXB_NC                       : AT4       :        :                   :         : QR0       :                
+HSMB_RX_n[6]                 : AT5       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[7]                 : AT6       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_CLKIN_p1                : AT7       : input  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[9]                 : AT8       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[1]                 : AT9       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[10]                : AT10      : bidir  : 2.5 V             :         : 5A        : Y              
+nCEO                         : AT11      :        :                   :         : 1A        :                
+HSMB_TX_p[4]                 : AT12      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_RX_n[12]                : AT13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_p[1]                 : AT14      : bidir  : 2.5 V             :         : 4A        : Y              
+FLASH_ADV_n                  : AT15      : output : 3.0-V PCI-X       :         : 4B        : Y              
+FSM_OE_n                     : AT16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_TX_p[8]                 : AT17      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[8]                 : AT18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[7]                 : AT19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_n[4]                 : AT20      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_CLKIN_n2                : AT21      : input  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_p[5]                 : AT22      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_p[3]                 : AT23      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_p[1]                 : AT24      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_D[2]                    : AT25      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_RX_p[0]                 : AT26      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_OUT0                    : AT27      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_p[2]                 : AT28      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_n[15]                : AT29      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMD_D[3]                    : AT30      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[0]                 : AT31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[1]                 : AT32      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[2]                 : AT33      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[5]                 : AT34      : bidir  : 2.5 V             :         : 2A        : Y              
+VCCIO2A                      : AT35      : power  :                   : 2.5V    : 2A        :                
+GXB_NC                       : AT36      :        :                   :         : QL0       :                
+GXB_NC                       : AT37      :        :                   :         : QL0       :                
+GND                          : AT38      : gnd    :                   :         :           :                
+GND                          : AT39      : gnd    :                   :         :           :                
+GXB_GND*                     : AU1       :        :                   :         : QR0       :                
+GXB_GND*                     : AU2       :        :                   :         : QR0       :                
+GND                          : AU3       : gnd    :                   :         :           :                
+GND                          : AU4       : gnd    :                   :         :           :                
+NC                           : AU5       :        :                   :         :           :                
+HSMB_RX_n[7]                 : AU6       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_CLKIN_n1                : AU7       : input  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[9]                 : AU8       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[1]                 : AU9       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[10]                : AU10      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[11]                : AU11      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_n[4]                 : AU12      : bidir  : 2.5 V             :         : 4A        : Y              
+VCCIO4A                      : AU13      : power  :                   : 2.5V    : 4A        :                
+HSMB_TX_n[1]                 : AU14      : bidir  : 2.5 V             :         : 4A        : Y              
+FLASH_CLK                    : AU15      : output : 3.0-V PCI-X       :         : 4B        : Y              
+SSRAM_BE_n[3]                : AU16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_RX_p[9]                 : AU17      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_n[8]                 : AU18      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_n[7]                 : AU19      : bidir  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_p[6]                 : AU20      : bidir  : 2.5 V             :         : 4C        : Y              
+VCCIO4C                      : AU21      : power  :                   : 2.5V    : 4C        :                
+HSMF_RX_n[5]                 : AU22      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[3]                 : AU23      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_RX_n[1]                 : AU24      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_D[0]                    : AU25      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMF_RX_n[0]                 : AU26      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_CLKIN0                  : AU27      : input  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[2]                 : AU28      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_p[15]                : AU29      : bidir  : 2.5 V             :         : 3A        : Y              
+VCCIO3A                      : AU30      : power  :                   : 2.5V    : 3A        :                
+HSMD_RX_n[0]                 : AU31      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[1]                 : AU32      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_n[2]                 : AU33      : bidir  : 2.5 V             :         : 2A        : Y              
+HSMD_RX_p[3]                 : AU34      : bidir  : 2.5 V             :         : 2A        : Y              
+NC                           : AU35      :        :                   :         :           :                
+GND                          : AU36      : gnd    :                   :         :           :                
+GND                          : AU37      : gnd    :                   :         :           :                
+GXB_GND*                     : AU38      :        :                   :         : QL0       :                
+GXB_GND*                     : AU39      :        :                   :         : QL0       :                
+GND                          : AV1       : gnd    :                   :         :           :                
+GND                          : AV2       : gnd    :                   :         :           :                
+GND                          : AV3       : gnd    :                   :         :           :                
+NC                           : AV4       :        :                   :         :           :                
+HSMB_RX_p[4]                 : AV5       : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AV6       : gnd    :                   :         :           :                
+HSMB_RX_p[2]                 : AV7       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[5]                 : AV8       : bidir  : 2.5 V             :         : 5A        : Y              
+GND                          : AV9       : gnd    :                   :         :           :                
+HSMB_RX_p[0]                 : AV10      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[11]                : AV11      : bidir  : 2.5 V             :         : 4A        : Y              
+GND                          : AV12      : gnd    :                   :         :           :                
+HSMB_D[1]                    : AV13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_CLKIN_p2                : AV14      : input  : 2.5 V             :         : 4A        : Y              
+GND                          : AV15      : gnd    :                   :         :           :                
+FLASH_RESET_n                : AV16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+HSMF_RX_n[9]                 : AV17      : bidir  : 2.5 V             :         : 4C        : Y              
+GND                          : AV18      : gnd    :                   :         :           :                
+OSC_50_BANK4                 : AV19      : input  : 2.5 V             :         : 4C        : Y              
+HSMF_RX_n[6]                 : AV20      : bidir  : 2.5 V             :         : 4C        : Y              
+GND                          : AV21      : gnd    :                   :         :           :                
+HSMF_CLKIN0                  : AV22      : input  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_p[2]                 : AV23      : bidir  : 2.5 V             :         : 3C        : Y              
+GND                          : AV24      : gnd    :                   :         :           :                
+HSMF_TX_p[0]                 : AV25      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_D[1]                    : AV26      : bidir  : 2.5 V             :         : 3B        : Y              
+GND                          : AV27      : gnd    :                   :         :           :                
+HSMC_RX_p[3]                 : AV28      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_p[4]                 : AV29      : bidir  : 2.5 V             :         : 3A        : Y              
+GND                          : AV30      : gnd    :                   :         :           :                
+HSMC_TX_n[12]                : AV31      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_p[5]                 : AV32      : bidir  : 2.5 V             :         : 3A        : Y              
+GND                          : AV33      : gnd    :                   :         :           :                
+HSMD_RX_n[3]                 : AV34      : bidir  : 2.5 V             :         : 2A        : Y              
+CONF_DONE                    : AV35      :        :                   :         : 1A        :                
+NC                           : AV36      :        :                   :         :           :                
+GND                          : AV37      : gnd    :                   :         :           :                
+GND                          : AV38      : gnd    :                   :         :           :                
+GND                          : AV39      : gnd    :                   :         :           :                
+RREF                         : AW2       :        :                   :         :           :                
+GND                          : AW3       : gnd    :                   :         :           :                
+HSMB_RX_n[4]                 : AW4       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[3]                 : AW5       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_p[3]                 : AW6       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[2]                 : AW7       : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_RX_n[5]                 : AW8       : bidir  : 2.5 V             :         : 5A        : Y              
+VCCIO5A                      : AW9       : power  :                   : 2.5V    : 5A        :                
+HSMB_RX_n[0]                 : AW10      : bidir  : 2.5 V             :         : 5A        : Y              
+HSMB_TX_n[2]                 : AW11      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_TX_p[2]                 : AW12      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_D[3]                    : AW13      : bidir  : 2.5 V             :         : 4A        : Y              
+HSMB_CLKIN_n2                : AW14      : input  : 2.5 V             :         : 4A        : Y              
+VCCIO4B                      : AW15      : power  :                   : 3.0V    : 4B        :                
+SSRAM_ADV_n                  : AW16      : output : 3.0-V PCI-X       :         : 4B        : Y              
+VCCIO4C                      : AW17      : power  :                   : 2.5V    : 4C        :                
+HSMF_TX_n[8]                 : AW18      : bidir  : 2.5 V             :         : 4C        : Y              
+SMA_CLKIN                    : AW19      : input  : 2.5 V             :         : 4C        : Y              
+HSMF_CLKIN_p1                : AW20      : input  : 2.5 V             :         : 4C        : Y              
+HSMF_CLKIN_n1                : AW21      : input  : 2.5 V             :         : 4C        : Y              
+OSC_50_BANK3                 : AW22      : input  : 2.5 V             :         : 3C        : Y              
+HSMF_TX_n[2]                 : AW23      : bidir  : 2.5 V             :         : 3C        : Y              
+VCCIO3C                      : AW24      : power  :                   : 2.5V    : 3C        :                
+HSMF_TX_n[0]                 : AW25      : bidir  : 2.5 V             :         : 3C        : Y              
+HSMF_D[3]                    : AW26      : bidir  : 2.5 V             :         : 3B        : Y              
+HSMC_TX_p[10]                : AW27      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_n[10]                : AW28      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[3]                 : AW29      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[4]                 : AW30      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_p[12]                : AW31      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_RX_n[5]                 : AW32      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_p[13]                : AW33      : bidir  : 2.5 V             :         : 3A        : Y              
+HSMC_TX_n[13]                : AW34      : bidir  : 2.5 V             :         : 3A        : Y              
+nSTATUS                      : AW35      :        :                   :         : 1A        :                
+nCONFIG                      : AW36      :        :                   :         : 1A        :                
+GND                          : AW37      : gnd    :                   :         :           :                
+RREF                         : AW38      :        :                   :         :           :                
+GND                          : B1        : gnd    :                   :         :           :                
+GND                          : B2        : gnd    :                   :         :           :                
+GXB_NC                       : B3        :        :                   :         : QR2       :                
+GXB_NC                       : B4        :        :                   :         : QR2       :                
+GND                          : B5        : gnd    :                   :         :           :                
+GND                          : B6        : gnd    :                   :         :           :                
+GND                          : B7        : gnd    :                   :         :           :                
+VCCIO6A                      : B8        : power  :                   : 2.5V    : 6A        :                
+GND                          : B9        : gnd    :                   :         :           :                
+HSME_TX_n[10]                : B10       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_p[13]                : B11       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : B12       : gnd    :                   :         :           :                
+HSME_RX_p[15]                : B13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_p[14]                : B14       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : B15       : gnd    :                   :         :           :                
+mem_dq[3]                    : B16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+FAN_CTRL                     : B17       : output : 1.5 V             :         : 7C        : Y              
+GND                          : B18       : gnd    :                   :         :           :                
+LED[0]                       : B19       : output : 1.5 V             :         : 7C        : Y              
+LOOP_CLKIN1                  : B20       : input  : 1.5 V             :         : 7C        : Y              
+GND                          : B21       : gnd    :                   :         :           :                
+LOOP_CLKIN0                  : B22       : input  : 1.5 V             :         : 8C        : Y              
+OSC_50_BANK8                 : B23       : input  : 1.5 V             :         : 8C        : Y              
+GND                          : B24       : gnd    :                   :         :           :                
+mem_dq[52]                   : B25       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_ba[0]                    : B26       : output : SSTL-15 Class I   :         : 8B        : Y              
+GND                          : B27       : gnd    :                   :         :           :                
+mem_dqs_n[3]                 : B28       : bidir  : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+mem_dm[3]                    : B29       : output : SSTL-15 Class I   :         : 8A        : Y              
+GND                          : B30       : gnd    :                   :         :           :                
+mem_dq[31]                   : B31       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+FSM_D[0]                     : B32       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : B33       : gnd    :                   :         :           :                
+GND                          : B34       : gnd    :                   :         :           :                
+GND                          : B35       : gnd    :                   :         :           :                
+GXB_NC                       : B36       :        :                   :         : QL2       :                
+GXB_NC                       : B37       :        :                   :         : QL2       :                
+GND                          : B38       : gnd    :                   :         :           :                
+GND                          : B39       : gnd    :                   :         :           :                
+GXB_GND*                     : C1        :        :                   :         : QR2       :                
+GXB_GND*                     : C2        :        :                   :         : QR2       :                
+GND                          : C3        : gnd    :                   :         :           :                
+GND                          : C4        : gnd    :                   :         :           :                
+HSMA_RX_n[15]                : C5        : bidir  : 2.5 V             :         : 6A        : Y              
+SW[3]                        : C6        : input  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_n[16]                : C7        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_n[14]                : C8        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_n[10]                : C9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_CLKIN0                  : C10       : input  : 2.5 V             :         : 6A        : Y              
+HSME_TX_n[11]                : C11       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_OUT0                    : C12       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_CLKIN0                  : C13       : input  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[16]                : C14       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dqs_n[0]                 : C15       : bidir  : Differential 1.5-V SSTL Class I :         : 7B        : Y              
+mem_dq[2]                    : C16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[44]                   : C17       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+mem_dq[46]                   : C18       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+LED[3]                       : C19       : output : 1.5 V             :         : 7C        : Y              
+MAX2_I2C_SCL                 : C20       : output : 1.5 V             :         : 7C        : Y              
+VCCIO7C                      : C21       : power  :                   : 1.5V    : 7C        :                
+mem_a[1]                     : C22       : output : SSTL-15 Class I   :         : 8C        : Y              
+VCCIO8C                      : C23       : power  :                   : 1.5V    : 8C        :                
+mem_a[10]                    : C24       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[49]                   : C25       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dm[6]                    : C26       : output : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[28]                   : C27       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dqs[3]                   : C28       : bidir  : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+mem_dq[26]                   : C29       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[27]                   : C30       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+FSM_D[2]                     : C31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[1]                     : C32       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[30]                    : C33       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[7]                     : C34       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[6]                     : C35       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : C36       : gnd    :                   :         :           :                
+GND                          : C37       : gnd    :                   :         :           :                
+GXB_GND*                     : C38       :        :                   :         : QL2       :                
+GXB_GND*                     : C39       :        :                   :         : QL2       :                
+GND                          : D1        : gnd    :                   :         :           :                
+GND                          : D2        : gnd    :                   :         :           :                
+GXB_NC                       : D3        :        :                   :         : QR2       :                
+GXB_NC                       : D4        :        :                   :         : QR2       :                
+HSMA_RX_p[15]                : D5        : bidir  : 2.5 V             :         : 6A        : Y              
+SW[2]                        : D6        : input  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[16]                : D7        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[14]                : D8        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[10]                : D9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_OUT0                    : D10       : bidir  : 2.5 V             :         : 6A        : Y              
+HSME_TX_p[10]                : D11       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCIO7A                      : D12       : power  :                   : 2.5V    : 7A        :                
+HSME_TX_n[13]                : D13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_p[16]                : D14       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dqs[0]                   : D15       : bidir  : Differential 1.5-V SSTL Class I :         : 7B        : Y              
+mem_dq[6]                    : D16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_a[7]                     : D17       : output : SSTL-15 Class I   :         : 7C        : Y              
+mem_dq[47]                   : D18       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+LED[2]                       : D19       : output : 1.5 V             :         : 7C        : Y              
+MAX2_CS_n                    : D20       : output : 1.5 V             :         : 7C        : Y              
+mem_a[3]                     : D21       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[61]                   : D22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_cs_n[0]                  : D23       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_ras_n                    : D24       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[48]                   : D25       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[54]                   : D26       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[29]                   : D27       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[37]                   : D28       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dqs_n[4]                 : D29       : bidir  : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+VCCIO8A                      : D30       : power  :                   : 1.5V    : 8A        :                
+FSM_D[26]                    : D31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1A                      : D32       : power  :                   : 3.0V    : 1A        :                
+FSM_D[31]                    : D33       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[4]                     : D34       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[3]                     : D35       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GXB_NC                       : D36       :        :                   :         : QL2       :                
+GXB_NC                       : D37       :        :                   :         : QL2       :                
+GND                          : D38       : gnd    :                   :         :           :                
+GND                          : D39       : gnd    :                   :         :           :                
+GXB_GND*                     : E1        :        :                   :         : QR2       :                
+GXB_GND*                     : E2        :        :                   :         : QR2       :                
+GND                          : E3        : gnd    :                   :         :           :                
+GND                          : E4        : gnd    :                   :         :           :                
+VCCIO6A                      : E5        : power  :                   : 2.5V    : 6A        :                
+GND                          : E6        : gnd    :                   :         :           :                
+HSMA_RX_n[13]                : E7        : bidir  : 2.5 V             :         : 6A        : Y              
+VCCIO6A                      : E8        : power  :                   : 2.5V    : 6A        :                
+GND                          : E9        : gnd    :                   :         :           :                
+HSMA_RX_n[8]                 : E10       : bidir  : 2.5 V             :         : 6A        : Y              
+TEMPDIODEn                   : E11       :        :                   :         :           :                
+GND                          : E12       : gnd    :                   :         :           :                
+HSME_RX_n[12]                : E13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[14]                : E14       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : E15       : gnd    :                   :         :           :                
+mem_dq[7]                    : E16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_dm[5]                    : E17       : output : SSTL-15 Class I   :         : 7C        : Y              
+GND                          : E18       : gnd    :                   :         :           :                
+VCCIO7C                      : E19       : power  :                   : 1.5V    : 7C        :                
+VREFB7CN0                    : E20       : power  :                   : 0.75V   : 7C        :                
+GND                          : E21       : gnd    :                   :         :           :                
+mem_dq[63]                   : E22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dm[7]                    : E23       : output : SSTL-15 Class I   :         : 8C        : Y              
+GND                          : E24       : gnd    :                   :         :           :                
+mem_dqs_n[6]                 : E25       : bidir  : Differential 1.5-V SSTL Class I :         : 8B        : Y              
+VCCIO8B                      : E26       : power  :                   : 1.5V    : 8B        :                
+GND                          : E27       : gnd    :                   :         :           :                
+mem_dq[36]                   : E28       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dqs[4]                   : E29       : bidir  : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+GND                          : E30       : gnd    :                   :         :           :                
+FSM_D[27]                    : E31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[29]                    : E32       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : E33       : gnd    :                   :         :           :                
+FSM_A[5]                     : E34       : output : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1A                      : E35       : power  :                   : 3.0V    : 1A        :                
+GND                          : E36       : gnd    :                   :         :           :                
+GND                          : E37       : gnd    :                   :         :           :                
+GXB_GND*                     : E38       :        :                   :         : QL2       :                
+GXB_GND*                     : E39       :        :                   :         : QL2       :                
+GND                          : F1        : gnd    :                   :         :           :                
+GND                          : F2        : gnd    :                   :         :           :                
+GXB_NC                       : F3        :        :                   :         : QR2       :                
+GXB_NC                       : F4        :        :                   :         : QR2       :                
+HSMA_RX_n[12]                : F5        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_n[11]                : F6        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[13]                : F7        : bidir  : 2.5 V             :         : 6A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 6A        :                
+HSMA_RX_n[9]                 : F9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[8]                 : F10       : bidir  : 2.5 V             :         : 6A        : Y              
+NC                           : F11       :        :                   :         :           :                
+HSME_TX_p[13]                : F12       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_p[12]                : F13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_p[14]                : F14       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dq[1]                    : F15       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_a[14]                    : F16       : output : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[45]                   : F17       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+mem_dqs_n[5]                 : F18       : bidir  : Differential 1.5-V SSTL Class I :         : 7C        : Y              
+mem_dq[40]                   : F19       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+mem_dq[42]                   : F20       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+HSMD_SDA                     : F21       : bidir  : 1.5 V             :         : 8C        : Y              
+VCCIO8C                      : F22       : power  :                   : 1.5V    : 8C        :                
+mem_dq[56]                   : F23       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[55]                   : F24       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dqs[6]                   : F25       : bidir  : Differential 1.5-V SSTL Class I :         : 8B        : Y              
+mem_odt[0]                   : F26       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[35]                   : F27       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[34]                   : F28       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+VREFB8AN0                    : F29       : power  :                   : 0.75V   : 8A        :                
+altera_reserved_tdo          : F30       : output : 3.3-V LVTTL       :         : 1A        : N              
+FSM_D[28]                    : F31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[3]                     : F32       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[8]                     : F33       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[2]                     : F34       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[22]                    : F35       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GXB_NC                       : F36       :        :                   :         : QL2       :                
+GXB_NC                       : F37       :        :                   :         : QL2       :                
+GND                          : F38       : gnd    :                   :         :           :                
+GND                          : F39       : gnd    :                   :         :           :                
+GXB_GND*                     : G1        :        :                   :         : QR2       :                
+GXB_GND*                     : G2        :        :                   :         : QR2       :                
+GND                          : G3        : gnd    :                   :         :           :                
+GND                          : G4        : gnd    :                   :         :           :                
+HSMA_RX_p[12]                : G5        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_RX_p[11]                : G6        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_n[15]                : G7        : bidir  : 2.5 V             :         : 6A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 6A        :                
+HSMA_RX_p[9]                 : G9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_OUT_n2                  : G10       : bidir  : 2.5 V             :         : 6A        : Y              
+VCCAUX                       : G11       : power  :                   : 2.5V    :           :                
+VREFB7AN0                    : G12       : power  :                   :         : 7A        :                
+HSME_RX_n[11]                : G13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_n[15]                : G14       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dq[0]                    : G15       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_dm[0]                    : G16       : output : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[4]                    : G17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_dqs[5]                   : G18       : bidir  : Differential 1.5-V SSTL Class I :         : 7C        : Y              
+mem_dq[41]                   : G19       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+mem_dq[43]                   : G20       : bidir  : SSTL-15 Class I   :         : 7C        : Y              
+HSMD_SCL                     : G21       : output : 1.5 V             :         : 8C        : Y              
+mem_dq[62]                   : G22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[57]                   : G23       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[50]                   : G24       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[51]                   : G25       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_odt[1]                   : G26       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[32]                   : G27       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_cs_n[1]                  : G28       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_dq[33]                   : G29       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+altera_reserved_tck          : G30       : input  : 3.3-V LVTTL       :         : 1A        : N              
+FSM_D[25]                    : G31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1A                      : G32       : power  :                   : 3.0V    : 1A        :                
+FSM_A[21]                    : G33       : output : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1A                      : G34       : power  :                   : 3.0V    : 1A        :                
+FSM_A[9]                     : G35       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : G36       : gnd    :                   :         :           :                
+GND                          : G37       : gnd    :                   :         :           :                
+GXB_GND*                     : G38       :        :                   :         : QL2       :                
+GXB_GND*                     : G39       :        :                   :         : QL2       :                
+GND                          : H1        : gnd    :                   :         :           :                
+GND                          : H2        : gnd    :                   :         :           :                
+GXB_NC                       : H3        :        :                   :         : QR2       :                
+GXB_NC                       : H4        :        :                   :         : QR2       :                
+VCCIO6C                      : H5        : power  :                   : 2.5V    : 6C        :                
+GND                          : H6        : gnd    :                   :         :           :                
+HSMA_TX_p[15]                : H7        : bidir  : 2.5 V             :         : 6A        : Y              
+VCCIO6A                      : H8        : power  :                   : 2.5V    : 6A        :                
+GND                          : H9        : gnd    :                   :         :           :                
+HSMA_OUT_p2                  : H10       : bidir  : 2.5 V             :         : 6A        : Y              
+MSEL1                        : H11       :        :                   :         : 1A        :                
+GND                          : H12       : gnd    :                   :         :           :                
+HSME_RX_p[11]                : H13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_p[15]                : H14       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : H15       : gnd    :                   :         :           :                
+VREFB7BN0                    : H16       : power  :                   : 0.75V   : 7B        :                
+mem_dq[15]                   : H17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+GND                          : H18       : gnd    :                   :         :           :                
+mem_scl                      : H19       : output : 1.5 V             :         : 7C        : Y              
+VCCPT                        : H20       : power  :                   : 1.5V    :           :                
+GND                          : H21       : gnd    :                   :         :           :                
+mem_dq[59]                   : H22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dqs_n[7]                 : H23       : bidir  : Differential 1.5-V SSTL Class I :         : 8C        : Y              
+GND                          : H24       : gnd    :                   :         :           :                
+VREFB8BN0                    : H25       : power  :                   : 0.75V   : 8B        :                
+mem_dq[38]                   : H26       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+GND                          : H27       : gnd    :                   :         :           :                
+mem_dm[4]                    : H28       : output : SSTL-15 Class I   :         : 8A        : Y              
+VCCAUX                       : H29       : power  :                   : 2.5V    :           :                
+GND                          : H30       : gnd    :                   :         :           :                
+FSM_D[24]                    : H31       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[19]                    : H32       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : H33       : gnd    :                   :         :           :                
+FSM_A[20]                    : H34       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[10]                    : H35       : output : 3.0-V PCI-X       :         : 1A        : Y              
+GXB_NC                       : H36       :        :                   :         : QL2       :                
+GXB_NC                       : H37       :        :                   :         : QL2       :                
+GND                          : H38       : gnd    :                   :         :           :                
+GND                          : H39       : gnd    :                   :         :           :                
+GXB_GND*                     : J1        :        :                   :         : QR2       :                
+GXB_GND*                     : J2        :        :                   :         : QR2       :                
+GND                          : J3        : gnd    :                   :         :           :                
+GND                          : J4        : gnd    :                   :         :           :                
+HSME_RX_n[7]                 : J5        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[7]                 : J6        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_n[7]                 : J7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSMA_TX_n[13]                : J8        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_n[14]                : J9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_n[16]                : J10       : bidir  : 2.5 V             :         : 6A        : Y              
+MSEL0                        : J11       :        :                   :         : 1A        :                
+HSME_TX_p[12]                : J12       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_n[12]                : J13       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCIO7A                      : J14       : power  :                   : 2.5V    : 7A        :                
+HSME_TX_n[16]                : J15       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dqs_n[1]                 : J16       : bidir  : Differential 1.5-V SSTL Class I :         : 7B        : Y              
+mem_dq[14]                   : J17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_reset_n                  : J18       : output : 1.5 V             :         : 7C        : Y              
+VCCA_PLL_T2                  : J19       : power  :                   : 2.5V    :           :                
+VCCA_PLL_T1                  : J20       : power  :                   : 2.5V    :           :                
+VREFB8CN0                    : J21       : power  :                   : 0.75V   : 8C        :                
+mem_dq[58]                   : J22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dqs[7]                   : J23       : bidir  : Differential 1.5-V SSTL Class I :         : 8C        : Y              
+mem_dq[23]                   : J24       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[18]                   : J25       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[39]                   : J26       : bidir  : SSTL-15 Class I   :         : 8A        : Y              
+mem_ck_n[0]                  : J27       : output : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+VCCIO8A                      : J28       : power  :                   : 1.5V    : 8A        :                
+altera_reserved_tdi          : J29       : input  : 3.3-V LVTTL       :         : 1A        : N              
+FSM_D[4]                     : J30       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1A                      : J31       : power  :                   : 3.0V    : 1A        :                
+FSM_A[11]                    : J32       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[12]                    : J33       : output : 3.0-V PCI-X       :         : 1A        : Y              
+HSMD_CLKIN_p2                : J34       : input  : 2.5 V             :         : 1C        : Y              
+HSMD_CLKIN_n2                : J35       : input  : 2.5 V             :         : 1C        : Y              
+GND                          : J36       : gnd    :                   :         :           :                
+GND                          : J37       : gnd    :                   :         :           :                
+GXB_GND*                     : J38       :        :                   :         : QL2       :                
+GXB_GND*                     : J39       :        :                   :         : QL2       :                
+GND                          : K1        : gnd    :                   :         :           :                
+GND                          : K2        : gnd    :                   :         :           :                
+GXB_NC                       : K3        :        :                   :         : QR2       :                
+GXB_NC                       : K4        :        :                   :         : QR2       :                
+HSME_RX_n[6]                 : K5        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[6]                 : K6        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[7]                 : K7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSMA_TX_p[13]                : K8        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[14]                : K9        : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[16]                : K10       : bidir  : 2.5 V             :         : 6A        : Y              
+VCCBAT                       : K11       : power  :                   : 3.0V    :           :                
+HSME_TX_n[9]                 : K12       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[9]                 : K13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[10]                : K14       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_p[16]                : K15       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dqs[1]                   : K16       : bidir  : Differential 1.5-V SSTL Class I :         : 7B        : Y              
+mem_dq[10]                   : K17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+VCC_CLKIN7C                  : K18       : power  :                   : 2.5V    :           :                
+VCCD_PLL_T2                  : K19       : power  :                   : 0.9V    :           :                
+VCCD_PLL_T1                  : K20       : power  :                   : 0.9V    :           :                
+VCC_CLKIN8C                  : K21       : power  :                   : 2.5V    :           :                
+mem_dq[60]                   : K22       : bidir  : SSTL-15 Class I   :         : 8C        : Y              
+mem_dqs_n[2]                 : K23       : bidir  : Differential 1.5-V SSTL Class I :         : 8B        : Y              
+mem_dq[22]                   : K24       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+VCCIO8B                      : K25       : power  :                   : 1.5V    : 8B        :                
+mem_a[13]                    : K26       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_ck[0]                    : K27       : output : Differential 1.5-V SSTL Class I :         : 8A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K28       :        :                   :         : 8A        :                
+FSM_D[5]                     : K29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[6]                     : K30       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[14]                    : K31       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[13]                    : K32       : output : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1C                      : K33       : power  :                   : 2.5V    : 1C        :                
+HSMD_RX_p[16]                : K34       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_n[16]                : K35       : bidir  : 2.5 V             :         : 1C        : Y              
+GXB_NC                       : K36       :        :                   :         : QL2       :                
+GXB_NC                       : K37       :        :                   :         : QL2       :                
+GND                          : K38       : gnd    :                   :         :           :                
+GND                          : K39       : gnd    :                   :         :           :                
+GXB_GND*                     : L1        :        :                   :         : QR2       :                
+GXB_GND*                     : L2        :        :                   :         : QR2       :                
+GND                          : L3        : gnd    :                   :         :           :                
+GND                          : L4        : gnd    :                   :         :           :                
+HSME_RX_n[5]                 : L5        : bidir  : 2.5 V             :         : 6C        : Y              
+GND                          : L6        : gnd    :                   :         :           :                
+HSME_TX_n[6]                 : L7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[6]                 : L8        : bidir  : 2.5 V             :         : 6C        : Y              
+GND                          : L9        : gnd    :                   :         :           :                
+HSMA_TX_n[11]                : L10       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_n[12]                : L11       : bidir  : 2.5 V             :         : 6A        : Y              
+GND                          : L12       : gnd    :                   :         :           :                
+HSME_RX_p[9]                 : L13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_p[10]                : L14       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : L15       : gnd    :                   :         :           :                
+mem_dq[11]                   : L16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+VCCIO7B                      : L17       : power  :                   : 1.5V    : 7B        :                
+GND                          : L18       : gnd    :                   :         :           :                
+BUTTON[0]                    : L19       : input  : 1.5 V             :         : 7C        : Y              
+LOOP_CLKOUT1                 : L20       : output : 1.5 V             :         : 8C        : Y              
+GND                          : L21       : gnd    :                   :         :           :                
+VCCIO8C                      : L22       : power  :                   : 1.5V    : 8C        :                
+mem_dqs[2]                   : L23       : bidir  : Differential 1.5-V SSTL Class I :         : 8B        : Y              
+GND                          : L24       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L25       :        :                   :         : 8A        :                
+mem_cas_n                    : L26       : output : SSTL-15 Class I   :         : 8A        : Y              
+GND                          : L27       : gnd    :                   :         :           :                
+NC                           : L28       :        :                   :         :           :                
+FSM_D[7]                     : L29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : L30       : gnd    :                   :         :           :                
+FSM_A[1]                     : L31       : output : 3.0-V PCI-X       :         : 1A        : Y              
+HSMD_OUT_n2                  : L32       : bidir  : 2.5 V             :         : 1C        : Y              
+GND                          : L33       : gnd    :                   :         :           :                
+HSMD_RX_p[15]                : L34       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_n[15]                : L35       : bidir  : 2.5 V             :         : 1C        : Y              
+GND                          : L36       : gnd    :                   :         :           :                
+GND                          : L37       : gnd    :                   :         :           :                
+GXB_GND*                     : L38       :        :                   :         : QL2       :                
+GXB_GND*                     : L39       :        :                   :         : QL2       :                
+GND                          : M1        : gnd    :                   :         :           :                
+GND                          : M2        : gnd    :                   :         :           :                
+GXB_NC                       : M3        :        :                   :         : QR2       :                
+GXB_NC                       : M4        :        :                   :         : QR2       :                
+VCCA_R                       : M5        : power  :                   : 2.5V    :           :                
+HSME_RX_p[5]                 : M6        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_n[5]                 : M7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[5]                 : M8        : bidir  : 2.5 V             :         : 6C        : Y              
+VCCIO6A                      : M9        : power  :                   : 2.5V    : 6A        :                
+HSMA_TX_p[11]                : M10       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[12]                : M11       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_n[10]                : M12       : bidir  : 2.5 V             :         : 6A        : Y              
+HSME_TX_n[8]                 : M13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_TX_p[9]                 : M14       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCIO7A                      : M15       : power  :                   : 2.5V    : 7A        :                
+mem_cke[1]                   : M16       : output : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[9]                    : M17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+VCCIO7C                      : M18       : power  :                   : 1.5V    : 7C        :                
+BUTTON[1]                    : M19       : input  : 1.5 V             :         : 7C        : Y              
+LOOP_CLKOUT0                 : M20       : output : 1.5 V             :         : 8C        : Y              
+mem_a[6]                     : M21       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_a[2]                     : M22       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[17]                   : M23       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dq[19]                   : M24       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_a[12]                    : M25       : output : SSTL-15 Class I   :         : 8A        : Y              
+VCCIO8A                      : M26       : power  :                   : 1.5V    : 8A        :                
+mem_we_n                     : M27       : output : SSTL-15 Class I   :         : 8A        : Y              
+FSM_D[23]                    : M28       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[8]                     : M29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[25]                    : M30       : output : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[24]                    : M31       : output : 3.0-V PCI-X       :         : 1A        : Y              
+HSMD_OUT_p2                  : M32       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_p[14]                : M33       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_n[14]                : M34       : bidir  : 2.5 V             :         : 1C        : Y              
+VCCA_L                       : M35       : power  :                   : 2.5V    :           :                
+GXB_NC                       : M36       :        :                   :         : QL2       :                
+GXB_NC                       : M37       :        :                   :         : QL2       :                
+GND                          : M38       : gnd    :                   :         :           :                
+GND                          : M39       : gnd    :                   :         :           :                
+GXB_GND*                     : N1        :        :                   :         : QR2       :                
+GXB_GND*                     : N2        :        :                   :         : QR2       :                
+GND                          : N3        : gnd    :                   :         :           :                
+GND                          : N4        : gnd    :                   :         :           :                
+HSME_RX_n[3]                 : N5        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[3]                 : N6        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_n[4]                 : N7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[4]                 : N8        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[4]                 : N9        : bidir  : 2.5 V             :         : 6C        : Y              
+HSMA_TX_n[9]                 : N10       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[9]                 : N11       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[10]                : N12       : bidir  : 2.5 V             :         : 6A        : Y              
+HSME_TX_p[8]                 : N13       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_RX_n[8]                 : N14       : bidir  : 2.5 V             :         : 7A        : Y              
+HSME_OUT_n2                  : N15       : bidir  : 2.5 V             :         : 7A        : Y              
+mem_dm[1]                    : N16       : output : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[8]                    : N17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+GND                          : N18       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 7C        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N20       :        :                   :         : 8C        :                
+mem_a[11]                    : N21       : output : SSTL-15 Class I   :         : 8C        : Y              
+mem_dq[16]                   : N22       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_a[0]                     : N23       : output : SSTL-15 Class I   :         : 8B        : Y              
+GND                          : N24       : gnd    :                   :         :           :                
+mem_a[9]                     : N25       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_oct_rdn                  : N26       : input  : 1.5 V             :         : 8A        : Y              
+altera_reserved_tms          : N27       : input  : 3.3-V LVTTL       :         : 1A        : N              
+FSM_D[22]                    : N28       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[9]                     : N29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[21]                    : N30       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_A[23]                    : N31       : output : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1C                      : N32       : power  :                   : 2.5V    : 1C        :                
+HSMD_RX_p[13]                : N33       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_n[13]                : N34       : bidir  : 2.5 V             :         : 1C        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N35       :        :                   :         : 1C        :                
+GND                          : N36       : gnd    :                   :         :           :                
+GND                          : N37       : gnd    :                   :         :           :                
+GXB_GND*                     : N38       :        :                   :         : QL2       :                
+GXB_GND*                     : N39       :        :                   :         : QL2       :                
+GND                          : P1        : gnd    :                   :         :           :                
+GND                          : P2        : gnd    :                   :         :           :                
+GXB_NC                       : P3        :        :                   :         : QR1       :                
+GXB_NC                       : P4        :        :                   :         : QR1       :                
+VCCT_R                       : P5        : power  :                   : 1.1V    :           :                
+HSME_RX_n[2]                 : P6        : bidir  : 2.5 V             :         : 6C        : Y              
+GND                          : P7        : gnd    :                   :         :           :                
+HSME_TX_n[4]                 : P8        : bidir  : 2.5 V             :         : 6C        : Y              
+GND                          : P9        : gnd    :                   :         :           :                
+VCCIO6C                      : P10       : power  :                   : 2.5V    : 6C        :                
+VREFB6AN0                    : P11       : power  :                   :         : 6A        :                
+GND                          : P12       : gnd    :                   :         :           :                
+HSMA_TX_n[8]                 : P13       : bidir  : 2.5 V             :         : 6A        : Y              
+HSME_RX_p[8]                 : P14       : bidir  : 2.5 V             :         : 7A        : Y              
+GND                          : P15       : gnd    :                   :         :           :                
+mem_dq[12]                   : P16       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_dq[13]                   : P17       : bidir  : SSTL-15 Class I   :         : 7B        : Y              
+mem_sda                      : P18       : bidir  : 1.5 V             :         : 7C        : Y              
+HSMD_OUT0                    : P19       : bidir  : 1.5 V             :         : 7C        : Y              
+BUTTON[3]                    : P20       : input  : 1.5 V             :         : 8C        : Y              
+GND                          : P21       : gnd    :                   :         :           :                
+mem_dq[21]                   : P22       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+mem_dm[2]                    : P23       : output : SSTL-15 Class I   :         : 8B        : Y              
+mem_a[4]                     : P24       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_cke[0]                   : P25       : output : SSTL-15 Class I   :         : 8A        : Y              
+mem_oct_rup                  : P26       : input  : 1.5 V             :         : 8A        : Y              
+GND                          : P27       : gnd    :                   :         :           :                
+VREFB1AN0                    : P28       : power  :                   :         : 1A        :                
+FSM_D[10]                    : P29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+GND                          : P30       : gnd    :                   :         :           :                
+HSMD_TX_p[14]                : P31       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_n[14]                : P32       : bidir  : 2.5 V             :         : 1C        : Y              
+GND                          : P33       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P34       :        :                   :         : 1C        :                
+VCCT_L                       : P35       : power  :                   : 1.1V    :           :                
+GXB_NC                       : P36       :        :                   :         : QL1       :                
+GXB_NC                       : P37       :        :                   :         : QL1       :                
+GND                          : P38       : gnd    :                   :         :           :                
+GND                          : P39       : gnd    :                   :         :           :                
+GXB_GND*                     : R1        :        :                   :         : QR1       :                
+GXB_GND*                     : R2        :        :                   :         : QR1       :                
+GND                          : R3        : gnd    :                   :         :           :                
+GND                          : R4        : gnd    :                   :         :           :                
+HSME_RX_n[1]                 : R5        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[1]                 : R6        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_RX_p[2]                 : R7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_n[3]                 : R8        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[3]                 : R9        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_n[1]                 : R10       : bidir  : 2.5 V             :         : 6C        : Y              
+HSMA_OUT_n1                  : R11       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_OUT_p1                  : R12       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[8]                 : R13       : bidir  : 2.5 V             :         : 6A        : Y              
+HSME_OUT_p2                  : R14       : bidir  : 2.5 V             :         : 7A        : Y              
+VCCPD7A                      : R15       : power  :                   : 2.5V    : 7A        :                
+NC                           : R16       :        :                   :         :           :                
+VCCPD7B                      : R17       : power  :                   : 2.5V    : 7B        :                
+mem_event_n                  : R18       : input  : SSTL-15 Class I   :         : 7C        : Y              
+VCCPD7C                      : R19       : power  :                   : 2.5V    : 7C        :                
+mem_a[15]                    : R20       : output : SSTL-15 Class I   :         : 8C        : Y              
+VCCPD8C                      : R21       : power  :                   : 2.5V    : 8C        :                
+mem_dq[20]                   : R22       : bidir  : SSTL-15 Class I   :         : 8B        : Y              
+VCCPD8B                      : R23       : power  :                   : 2.5V    : 8B        :                
+mem_ba[2]                    : R24       : output : SSTL-15 Class I   :         : 8A        : Y              
+VCCPD8A                      : R25       : power  :                   : 2.5V    : 8A        :                
+NC                           : R26       :        :                   :         :           :                
+FSM_D[18]                    : R27       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[19]                    : R28       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[20]                    : R29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+HSMD_TX_p[15]                : R30       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_n[15]                : R31       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_p[13]                : R32       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_n[13]                : R33       : bidir  : 2.5 V             :         : 1C        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R34       :        :                   :         : 1C        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R35       :        :                   :         : 1C        :                
+GND                          : R36       : gnd    :                   :         :           :                
+GND                          : R37       : gnd    :                   :         :           :                
+GXB_GND*                     : R38       :        :                   :         : QL1       :                
+GXB_GND*                     : R39       :        :                   :         : QL1       :                
+GND                          : T1        : gnd    :                   :         :           :                
+GND                          : T2        : gnd    :                   :         :           :                
+GXB_NC                       : T3        :        :                   :         : QR1       :                
+GXB_NC                       : T4        :        :                   :         : QR1       :                
+VCCR_R                       : T5        : power  :                   : 1.1V    :           :                
+GND                          : T6        : gnd    :                   :         :           :                
+VCCL_GXBR2                   : T7        : power  :                   : 1.1V    : QR2       :                
+GND                          : T8        : gnd    :                   :         :           :                
+HSME_TX_n[2]                 : T9        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[1]                 : T10       : bidir  : 2.5 V             :         : 6C        : Y              
+VCCIO6C                      : T11       : power  :                   : 2.5V    : 6C        :                
+HSMA_TX_n[7]                 : T12       : bidir  : 2.5 V             :         : 6A        : Y              
+HSMA_TX_p[7]                 : T13       : bidir  : 2.5 V             :         : 6A        : Y              
+VCC                          : T14       : power  :                   : 0.9V    :           :                
+GND                          : T15       : gnd    :                   :         :           :                
+VCC                          : T16       : power  :                   : 0.9V    :           :                
+GND                          : T17       : gnd    :                   :         :           :                
+VCC                          : T18       : power  :                   : 0.9V    :           :                
+GND                          : T19       : gnd    :                   :         :           :                
+VCC                          : T20       : power  :                   : 0.9V    :           :                
+GND                          : T21       : gnd    :                   :         :           :                
+VCC                          : T22       : power  :                   : 0.9V    :           :                
+GND                          : T23       : gnd    :                   :         :           :                
+VCC                          : T24       : power  :                   : 0.9V    :           :                
+GND                          : T25       : gnd    :                   :         :           :                
+VCC                          : T26       : power  :                   : 0.9V    :           :                
+FSM_D[11]                    : T27       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+FSM_D[17]                    : T28       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
+VCCIO1C                      : T29       : power  :                   : 2.5V    : 1C        :                
+HSMD_TX_p[12]                : T30       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_n[12]                : T31       : bidir  : 2.5 V             :         : 1C        : Y              
+GND                          : T32       : gnd    :                   :         :           :                
+VCCL_GXBL2                   : T33       : power  :                   : 1.1V    : QL2       :                
+GND                          : T34       : gnd    :                   :         :           :                
+VCCR_L                       : T35       : power  :                   : 1.1V    :           :                
+GXB_NC                       : T36       :        :                   :         : QL1       :                
+GXB_NC                       : T37       :        :                   :         : QL1       :                
+GND                          : T38       : gnd    :                   :         :           :                
+GND                          : T39       : gnd    :                   :         :           :                
+GXB_GND*                     : U1        :        :                   :         : QR1       :                
+GXB_GND*                     : U2        :        :                   :         : QR1       :                
+GND                          : U3        : gnd    :                   :         :           :                
+GND                          : U4        : gnd    :                   :         :           :                
+HSME_RX_n[0]                 : U5        : bidir  : 2.5 V             :         : 6C        : Y              
+VCCH_GXBR2                   : U6        : power  :                   : 1.4V    : QR2       :                
+VCCL_GXBR2                   : U7        : power  :                   : 1.1V    : QR2       :                
+VCC                          : U8        : power  :                   : 0.9V    :           :                
+GND                          : U9        : gnd    :                   :         :           :                
+HSME_TX_p[2]                 : U10       : bidir  : 2.5 V             :         : 6C        : Y              
+VREFB6CN0                    : U11       : power  :                   :         : 6C        :                
+GND                          : U12       : gnd    :                   :         :           :                
+VCCPD6A                      : U13       : power  :                   : 2.5V    : 6A        :                
+GND                          : U14       : gnd    :                   :         :           :                
+VCC                          : U15       : power  :                   : 0.9V    :           :                
+GND                          : U16       : gnd    :                   :         :           :                
+VCC                          : U17       : power  :                   : 0.9V    :           :                
+GND                          : U18       : gnd    :                   :         :           :                
+VCC                          : U19       : power  :                   : 0.9V    :           :                
+GND                          : U20       : gnd    :                   :         :           :                
+VCC                          : U21       : power  :                   : 0.9V    :           :                
+GND                          : U22       : gnd    :                   :         :           :                
+VCC                          : U23       : power  :                   : 0.9V    :           :                
+GND                          : U24       : gnd    :                   :         :           :                
+VCC                          : U25       : power  :                   : 0.9V    :           :                
+GND                          : U26       : gnd    :                   :         :           :                
+VCCPD1A                      : U27       : power  :                   : 3.0V    : 1A        :                
+GND                          : U28       : gnd    :                   :         :           :                
+VREFB1CN0                    : U29       : power  :                   :         : 1C        :                
+GND                          : U30       : gnd    :                   :         :           :                
+HSMD_RX_p[12]                : U31       : bidir  : 2.5 V             :         : 1C        : Y              
+VCC                          : U32       : power  :                   : 0.9V    :           :                
+VCCL_GXBL2                   : U33       : power  :                   : 1.1V    : QL2       :                
+VCCH_GXBL2                   : U34       : power  :                   : 1.4V    : QL2       :                
+HSMD_RX_n[11]                : U35       : bidir  : 2.5 V             :         : 1C        : Y              
+GND                          : U36       : gnd    :                   :         :           :                
+GND                          : U37       : gnd    :                   :         :           :                
+GXB_GND*                     : U38       :        :                   :         : QL1       :                
+GXB_GND*                     : U39       :        :                   :         : QL1       :                
+GND                          : V1        : gnd    :                   :         :           :                
+GND                          : V2        : gnd    :                   :         :           :                
+GXB_NC                       : V3        :        :                   :         : QR1       :                
+GXB_NC                       : V4        :        :                   :         : QR1       :                
+VCCT_R                       : V5        : power  :                   : 1.1V    :           :                
+HSME_RX_p[0]                 : V6        : bidir  : 2.5 V             :         : 6C        : Y              
+GND                          : V7        : gnd    :                   :         :           :                
+VCC                          : V8        : power  :                   : 0.9V    :           :                
+HSME_TX_n[0]                 : V9        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_TX_p[0]                 : V10       : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_D[2]                    : V11       : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_D[0]                    : V12       : bidir  : 2.5 V             :         : 6C        : Y              
+VCCIO6C                      : V13       : power  :                   : 2.5V    : 6C        :                
+VCC                          : V14       : power  :                   : 0.9V    :           :                
+GND                          : V15       : gnd    :                   :         :           :                
+VCC                          : V16       : power  :                   : 0.9V    :           :                
+GND                          : V17       : gnd    :                   :         :           :                
+VCC                          : V18       : power  :                   : 0.9V    :           :                
+GND                          : V19       : gnd    :                   :         :           :                
+VCC                          : V20       : power  :                   : 0.9V    :           :                
+GND                          : V21       : gnd    :                   :         :           :                
+VCC                          : V22       : power  :                   : 0.9V    :           :                
+GND                          : V23       : gnd    :                   :         :           :                
+VCC                          : V24       : power  :                   : 0.9V    :           :                
+GND                          : V25       : gnd    :                   :         :           :                
+VCC                          : V26       : power  :                   : 0.9V    :           :                
+FSM_A[0]                     : V27       : output : 2.5 V             :         : 1C        : N              
+HSMD_TX_n[11]                : V28       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_p[10]                : V29       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_TX_n[10]                : V30       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_RX_n[12]                : V31       : bidir  : 2.5 V             :         : 1C        : Y              
+VCC                          : V32       : power  :                   : 0.9V    :           :                
+GND                          : V33       : gnd    :                   :         :           :                
+HSMD_RX_p[11]                : V34       : bidir  : 2.5 V             :         : 1C        : Y              
+VCCT_L                       : V35       : power  :                   : 1.1V    :           :                
+GXB_NC                       : V36       :        :                   :         : QL1       :                
+GXB_NC                       : V37       :        :                   :         : QL1       :                
+GND                          : V38       : gnd    :                   :         :           :                
+GND                          : V39       : gnd    :                   :         :           :                
+GXB_GND*                     : W1        :        :                   :         : QR1       :                
+GXB_GND*                     : W2        :        :                   :         : QR1       :                
+GND                          : W3        : gnd    :                   :         :           :                
+GND                          : W4        : gnd    :                   :         :           :                
+HSME_CLKIN_n1                : W5        : input  : 2.5 V             :         : 6C        : Y              
+HSME_CLKIN_p1                : W6        : input  : 2.5 V             :         : 6C        : Y              
+HSME_D[3]                    : W7        : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_D[1]                    : W8        : bidir  : 2.5 V             :         : 6C        : Y              
+VCCHIP_R                     : W9        : power  :                   : 0.9V    :           :                
+GND                          : W10       : gnd    :                   :         :           :                
+HSME_CLKOUT_n1               : W11       : bidir  : 2.5 V             :         : 6C        : Y              
+HSME_CLKOUT_p1               : W12       : bidir  : 2.5 V             :         : 6C        : Y              
+VCCPD6C                      : W13       : power  :                   : 2.5V    : 6C        :                
+GND                          : W14       : gnd    :                   :         :           :                
+VCC                          : W15       : power  :                   : 0.9V    :           :                
+GND                          : W16       : gnd    :                   :         :           :                
+VCC                          : W17       : power  :                   : 0.9V    :           :                
+GND                          : W18       : gnd    :                   :         :           :                
+VCC                          : W19       : power  :                   : 0.9V    :           :                
+GND                          : W20       : gnd    :                   :         :           :                
+VCC                          : W21       : power  :                   : 0.9V    :           :                
+GND                          : W22       : gnd    :                   :         :           :                
+VCC                          : W23       : power  :                   : 0.9V    :           :                
+GND                          : W24       : gnd    :                   :         :           :                
+VCC                          : W25       : power  :                   : 0.9V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W26       :        :                   :         : 1C        :                
+VCCPD1C                      : W27       : power  :                   : 2.5V    : 1C        :                
+HSMD_TX_p[11]                : W28       : bidir  : 2.5 V             :         : 1C        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W29       :        :                   :         : 1C        :                
+~ALTERA_DATA0~ / RESERVED_INPUT : W30       : input  : 1.8 V             :         : 1C        : N              
+VCCHIP_L                     : W31       : power  :                   : 0.9V    :           :                
+HSMD_CLKOUT_p1               : W32       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_CLKOUT_n1               : W33       : bidir  : 2.5 V             :         : 1C        : Y              
+HSMD_CLKIN_p1                : W34       : input  : 2.5 V             :         : 1C        : Y              
+HSMD_CLKIN_n1                : W35       : input  : 2.5 V             :         : 1C        : Y              
+GND                          : W36       : gnd    :                   :         :           :                
+GND                          : W37       : gnd    :                   :         :           :                
+GXB_GND*                     : W38       :        :                   :         : QL1       :                
+GXB_GND*                     : W39       :        :                   :         : QL1       :                
+GND                          : Y1        : gnd    :                   :         :           :                
+GND                          : Y2        : gnd    :                   :         :           :                
+GXB_NC                       : Y3        :        :                   :         : QR1       :                
+GXB_NC                       : Y4        :        :                   :         : QR1       :                
+VCCR_R                       : Y5        : power  :                   : 1.1V    :           :                
+GND                          : Y6        : gnd    :                   :         :           :                
+VCCL_GXBR1                   : Y7        : power  :                   : 1.1V    : QR1       :                
+GND                          : Y8        : gnd    :                   :         :           :                
+VCCHIP_R                     : Y9        : power  :                   : 0.9V    :           :                
+VCCA_PLL_R2                  : Y10       : power  :                   : 2.5V    :           :                
+VCCD_PLL_R2                  : Y11       : power  :                   : 0.9V    :           :                
+GND                          : Y12       : gnd    :                   :         :           :                
+VCCPT                        : Y13       : power  :                   : 1.5V    :           :                
+VCC                          : Y14       : power  :                   : 0.9V    :           :                
+GND                          : Y15       : gnd    :                   :         :           :                
+VCC                          : Y16       : power  :                   : 0.9V    :           :                
+GND                          : Y17       : gnd    :                   :         :           :                
+VCC                          : Y18       : power  :                   : 0.9V    :           :                
+GND                          : Y19       : gnd    :                   :         :           :                
+VCC                          : Y20       : power  :                   : 0.9V    :           :                
+GND                          : Y21       : gnd    :                   :         :           :                
+VCC                          : Y22       : power  :                   : 0.9V    :           :                
+GND                          : Y23       : gnd    :                   :         :           :                
+VCC                          : Y24       : power  :                   : 0.9V    :           :                
+GND                          : Y25       : gnd    :                   :         :           :                
+VCCPD2C                      : Y26       : power  :                   : 2.5V    : 2C        :                
+GND                          : Y27       : gnd    :                   :         :           :                
+VCCD_PLL_L2                  : Y28       : power  :                   : 0.9V    :           :                
+VCCA_PLL_L2                  : Y29       : power  :                   : 2.5V    :           :                
+GND                          : Y30       : gnd    :                   :         :           :                
+VCCHIP_L                     : Y31       : power  :                   : 0.9V    :           :                
+GND                          : Y32       : gnd    :                   :         :           :                
+VCCL_GXBL1                   : Y33       : power  :                   : 1.1V    : QL1       :                
+GND                          : Y34       : gnd    :                   :         :           :                
+VCCR_L                       : Y35       : power  :                   : 1.1V    :           :                
+GXB_NC                       : Y36       :        :                   :         : QL1       :                
+GXB_NC                       : Y37       :        :                   :         : QL1       :                
+GND                          : Y38       : gnd    :                   :         :           :                
+GND                          : Y39       : gnd    :                   :         :           :                
