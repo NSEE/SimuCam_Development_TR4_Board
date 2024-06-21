@@ -10,10 +10,10 @@ DQS: {mem_dqs[0]} {mem_dqs[1]} {mem_dqs[2]} {mem_dqs[3]} {mem_dqs[4]} {mem_dqs[5
 DQSn: {mem_dqs_n[0]} {mem_dqs_n[1]} {mem_dqs_n[2]} {mem_dqs_n[3]} {mem_dqs_n[4]} {mem_dqs_n[5]} {mem_dqs_n[6]} {mem_dqs_n[7]}
 DQ: {{mem_dq[0]} {mem_dq[1]} {mem_dq[2]} {mem_dq[3]} {mem_dq[4]} {mem_dq[5]} {mem_dq[6]} {mem_dq[7]}} {{mem_dq[8]} {mem_dq[9]} {mem_dq[10]} {mem_dq[11]} {mem_dq[12]} {mem_dq[13]} {mem_dq[14]} {mem_dq[15]}} {{mem_dq[16]} {mem_dq[17]} {mem_dq[18]} {mem_dq[19]} {mem_dq[20]} {mem_dq[21]} {mem_dq[22]} {mem_dq[23]}} {{mem_dq[24]} {mem_dq[25]} {mem_dq[26]} {mem_dq[27]} {mem_dq[28]} {mem_dq[29]} {mem_dq[30]} {mem_dq[31]}} {{mem_dq[32]} {mem_dq[33]} {mem_dq[34]} {mem_dq[35]} {mem_dq[36]} {mem_dq[37]} {mem_dq[38]} {mem_dq[39]}} {{mem_dq[40]} {mem_dq[41]} {mem_dq[42]} {mem_dq[43]} {mem_dq[44]} {mem_dq[45]} {mem_dq[46]} {mem_dq[47]}} {{mem_dq[48]} {mem_dq[49]} {mem_dq[50]} {mem_dq[51]} {mem_dq[52]} {mem_dq[53]} {mem_dq[54]} {mem_dq[55]}} {{mem_dq[56]} {mem_dq[57]} {mem_dq[58]} {mem_dq[59]} {mem_dq[60]} {mem_dq[61]} {mem_dq[62]} {mem_dq[63]}}
 DM {mem_dm[0]} {mem_dm[1]} {mem_dm[2]} {mem_dm[3]} {mem_dm[4]} {mem_dm[5]} {mem_dm[6]} {mem_dm[7]}
-CK: {mem_ck[0]}
-CKn: {mem_ck_n[0]}
-ADD: {mem_a[0]} {mem_a[10]} {mem_a[11]} {mem_a[12]} {mem_a[13]} {mem_a[1]} {mem_a[2]} {mem_a[3]} {mem_a[4]} {mem_a[5]} {mem_a[6]} {mem_a[7]} {mem_a[8]} {mem_a[9]}
-CMD: {mem_cs_n[0]} mem_we_n mem_ras_n mem_cas_n {mem_cke[0]} {mem_odt[0]}
+CK: {mem_ck[0]} {mem_ck[1]}
+CKn: {mem_ck_n[0]} {mem_ck_n[1]}
+ADD: {mem_a[0]} {mem_a[10]} {mem_a[11]} {mem_a[12]} {mem_a[13]} {mem_a[14]} {mem_a[1]} {mem_a[2]} {mem_a[3]} {mem_a[4]} {mem_a[5]} {mem_a[6]} {mem_a[7]} {mem_a[8]} {mem_a[9]}
+CMD: {mem_cs_n[0]} {mem_cs_n[1]} mem_we_n mem_ras_n mem_cas_n {mem_cke[0]} {mem_cke[1]} {mem_odt[0]} {mem_odt[1]}
 RESET: mem_reset_n
 BA: {mem_ba[0]} {mem_ba[1]} {mem_ba[2]}
 REF CLK: OSC_50_BANK8

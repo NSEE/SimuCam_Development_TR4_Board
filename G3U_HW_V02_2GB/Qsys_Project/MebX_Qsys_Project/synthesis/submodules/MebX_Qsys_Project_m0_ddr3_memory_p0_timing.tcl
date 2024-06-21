@@ -46,12 +46,12 @@ set t(min_CK) 1.875
 ##########################
 
 # A/C Setup/Hold
-set t(IS) 0.292
-set t(IH) 0.308
+set t(IS) 0.297
+set t(IH) 0.309
 
 # Data Setup/Hold
-set t(DS) 0.2
-set t(DH) 0.2
+set t(DS) 0.195
+set t(DH) 0.197
 
 # DQS clock edge to DQ data edge (in same group)
 set t(DQSQ) [expr { 150 / 1000.0 }]
@@ -128,10 +128,10 @@ set SSN(rel_pullin_i)  [expr [get_micro_node_delay -micro SSI -parameters [list 
 ###############
 
 # Intersymbol Interference
-set ISI(addresscmd_setup) 0.0
-set ISI(addresscmd_hold) 0.0
-set ISI(DQ) 0.0
-set ISI(DQS) 0.0
+set ISI(addresscmd_setup) 0.05
+set ISI(addresscmd_hold) 0.05
+set ISI(DQ) 0.049
+set ISI(DQS) 0.003
 
 # Board skews
 set board(abs_max_CK_delay) 1.2

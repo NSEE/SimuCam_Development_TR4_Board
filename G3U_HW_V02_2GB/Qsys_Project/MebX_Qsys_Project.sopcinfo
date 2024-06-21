@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.06.08.13:57:03 -->
+ <!-- 2024.06.21.14:53:48 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1717865818</value>
+  <value>1718992423</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -897,7 +897,7 @@ parameters are a RESULT of the module parameters. -->
     <slaveName>avl</slaveName>
     <name>m0_ddr3_memory.avl</name>
     <baseAddress>0</baseAddress>
-    <span>1073741824</span>
+    <span>4294967296</span>
    </memoryBlock>
   </interface>
  </module>
@@ -9523,7 +9523,7 @@ parameters are a RESULT of the module parameters. -->
     <slaveName>avl</slaveName>
     <name>m0_ddr3_memory.avl</name>
     <baseAddress>0</baseAddress>
-    <span>1073741824</span>
+    <span>4294967296</span>
    </memoryBlock>
   </interface>
   <interface name="cntl" kind="avalon_slave" version="18.1">
@@ -13506,7 +13506,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_ADDR_WIDTH</name>
-   <value>28</value>
+   <value>30</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_BANKADDR_WIDTH</name>
@@ -13514,11 +13514,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_CLK_EN_WIDTH</name>
-   <value>2</value>
+   <value>4</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_CLK_PAIR_COUNT</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_CONTROL_WIDTH</name>
@@ -13526,7 +13526,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_CS_WIDTH</name>
-   <value>2</value>
+   <value>4</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_DM_WIDTH</name>
@@ -13538,7 +13538,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_ODT_WIDTH</name>
-   <value>2</value>
+   <value>4</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_RATE_RATIO</name>
@@ -13550,7 +13550,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_RRANK_WIDTH</name>
-   <value>16</value>
+   <value>32</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_WLAT_WIDTH</name>
@@ -13558,7 +13558,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_WRANK_WIDTH</name>
-   <value>16</value>
+   <value>32</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.AFI_WRITE_DQS_WIDTH</name>
@@ -13734,7 +13734,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_CK_WIDTH</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_CLK_EN_WIDTH</name>
@@ -13798,7 +13798,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_ADDR_WIDTH</name>
-   <value>14</value>
+   <value>15</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_ADDR_WIDTH_MIN</name>
@@ -13818,15 +13818,15 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CK_WIDTH</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CLK_EN_WIDTH</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CLK_PAIR_COUNT</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_COL_ADDR_WIDTH</name>
@@ -13838,7 +13838,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CS_PER_DIMM</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CS_PER_RANK</name>
@@ -13846,7 +13846,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_CS_WIDTH</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_DM_PINS_EN</name>
@@ -13874,11 +13874,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_NUMBER_OF_RANKS</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_ODT_WIDTH</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_RD_TO_WR_TURNAROUND_OCT</name>
@@ -13890,7 +13890,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_ROW_ADDR_WIDTH</name>
-   <value>14</value>
+   <value>15</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_IF_SIM_VALID_WINDOW</name>
@@ -13938,7 +13938,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_NUMBER_OF_RANKS_PER_DIMM</name>
-   <value>1</value>
+   <value>2</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_PD</name>
@@ -13954,7 +13954,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_ROW_ADDR_WIDTH</name>
-   <value>14</value>
+   <value>15</value>
   </assignment>
   <assignment>
    <name>testbench.partner.mem_model.parameter.MEM_RTT_NOM</name>
@@ -14650,7 +14650,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_ADDR_WIDTH">
    <type>int</type>
-   <value>14</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14666,7 +14666,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_ROW_ADDR_WIDTH">
    <type>int</type>
-   <value>14</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14698,7 +14698,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_NUMBER_OF_RANKS">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14706,7 +14706,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_CS_PER_DIMM">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14746,7 +14746,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_CS_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14778,7 +14778,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_CK_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14786,7 +14786,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_CLK_EN_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14794,7 +14794,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_CLK_PAIR_COUNT">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14930,7 +14930,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_IF_ODT_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15162,7 +15162,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_ROW_ADDR_WIDTH">
    <type>int</type>
-   <value>14</value>
+   <value>15</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -15226,7 +15226,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_NUMBER_OF_RANKS_PER_DIMM">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -15250,7 +15250,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="MEM_CK_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -15842,7 +15842,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_ADDR_WIDTH">
    <type>int</type>
-   <value>28</value>
+   <value>30</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15866,7 +15866,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_CS_WIDTH">
    <type>int</type>
-   <value>2</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15874,7 +15874,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_CLK_EN_WIDTH">
    <type>int</type>
-   <value>2</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15898,7 +15898,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_ODT_WIDTH">
    <type>int</type>
-   <value>2</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15930,7 +15930,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_RRANK_WIDTH">
    <type>int</type>
-   <value>16</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15938,7 +15938,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_WRANK_WIDTH">
    <type>int</type>
-   <value>16</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15946,7 +15946,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AFI_CLK_PAIR_COUNT">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16139,7 +16139,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="CTL_CS_WIDTH">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16147,7 +16147,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AVL_ADDR_WIDTH">
    <type>int</type>
-   <value>25</value>
+   <value>27</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>true</visible>
@@ -16363,7 +16363,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="CFG_PORT_WIDTH_WRITE_ODT_CHIP">
    <type>int</type>
-   <value>1</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16371,7 +16371,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="CFG_PORT_WIDTH_READ_ODT_CHIP">
    <type>int</type>
-   <value>1</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16379,7 +16379,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="CFG_WRITE_ODT_CHIP">
    <type>int</type>
-   <value>1</value>
+   <value>9</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16395,7 +16395,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="LOCAL_CS_WIDTH">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -25403,7 +25403,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_CK_CKN_SLEW_RATE_APPLIED">
    <type>double</type>
-   <value>1.28</value>
+   <value>1.38</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25411,7 +25411,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_AC_SLEW_RATE_APPLIED">
    <type>double</type>
-   <value>3.51</value>
+   <value>2.98</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25419,7 +25419,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_DQS_DQSN_SLEW_RATE_APPLIED">
    <type>double</type>
-   <value>3.87</value>
+   <value>2.99</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25427,7 +25427,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_DQ_SLEW_RATE_APPLIED">
    <type>double</type>
-   <value>1.56</value>
+   <value>1.18</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25467,7 +25467,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_TIS_APPLIED">
    <type>double</type>
-   <value>0.292</value>
+   <value>0.297</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25475,7 +25475,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_TIH_APPLIED">
    <type>double</type>
-   <value>0.308</value>
+   <value>0.309</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25483,7 +25483,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_TDS_APPLIED">
    <type>double</type>
-   <value>0.2</value>
+   <value>0.195</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25491,7 +25491,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_TDH_APPLIED">
    <type>double</type>
-   <value>0.2</value>
+   <value>0.197</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25555,7 +25555,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_AC_EYE_REDUCTION_SU_APPLIED">
    <type>double</type>
-   <value>0.0</value>
+   <value>0.05</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25563,7 +25563,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_AC_EYE_REDUCTION_H_APPLIED">
    <type>double</type>
-   <value>0.0</value>
+   <value>0.05</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25571,7 +25571,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_DQ_EYE_REDUCTION_APPLIED">
    <type>double</type>
-   <value>0.0</value>
+   <value>0.049</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -25579,7 +25579,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="TIMING_BOARD_DELTA_DQS_ARRIVAL_TIME_APPLIED">
    <type>double</type>
-   <value>0.0</value>
+   <value>0.003</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -26405,7 +26405,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>mem_a</name>
     <direction>Output</direction>
-    <width>14</width>
+    <width>15</width>
     <role>mem_a</role>
    </port>
    <port>
@@ -26417,25 +26417,25 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>mem_ck</name>
     <direction>Output</direction>
-    <width>1</width>
+    <width>2</width>
     <role>mem_ck</role>
    </port>
    <port>
     <name>mem_ck_n</name>
     <direction>Output</direction>
-    <width>1</width>
+    <width>2</width>
     <role>mem_ck_n</role>
    </port>
    <port>
     <name>mem_cke</name>
     <direction>Output</direction>
-    <width>1</width>
+    <width>2</width>
     <role>mem_cke</role>
    </port>
    <port>
     <name>mem_cs_n</name>
     <direction>Output</direction>
-    <width>1</width>
+    <width>2</width>
     <role>mem_cs_n</role>
    </port>
    <port>
@@ -26489,7 +26489,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>mem_odt</name>
     <direction>Output</direction>
-    <width>1</width>
+    <width>2</width>
     <role>mem_odt</role>
    </port>
   </interface>
@@ -26531,7 +26531,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>1073741824</value>
+    <value>4294967296</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -26842,7 +26842,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>avl_addr</name>
     <direction>Input</direction>
-    <width>25</width>
+    <width>27</width>
     <role>address</role>
    </port>
    <port>
@@ -33579,7 +33579,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1717865818</value>
+   <value>1718992423</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -33599,7 +33599,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1717865818</value>
+   <value>1718992423</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -33615,7 +33615,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1717865818</value>
+   <value>1718992423</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>

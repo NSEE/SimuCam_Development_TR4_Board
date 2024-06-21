@@ -58,5 +58,7 @@ typedef int bool;
 
 #define xDEBUG_I2C
 
+#define DEBUG_ON 1
+
 
 #endif /*MY_INCLUDES_H_*/

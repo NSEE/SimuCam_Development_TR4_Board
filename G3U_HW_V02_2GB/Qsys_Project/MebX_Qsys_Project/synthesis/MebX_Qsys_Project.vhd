@@ -18,12 +18,12 @@ entity MebX_Qsys_Project is
 		csense_sdo_export                                           : in    std_logic                     := '0';             --                           csense_sdo.export
 		m0_ddr3_i2c_scl_export                                      : out   std_logic;                                        --                      m0_ddr3_i2c_scl.export
 		m0_ddr3_i2c_sda_export                                      : inout std_logic                     := '0';             --                      m0_ddr3_i2c_sda.export
-		m0_ddr3_memory_mem_a                                        : out   std_logic_vector(13 downto 0);                    --                       m0_ddr3_memory.mem_a
+		m0_ddr3_memory_mem_a                                        : out   std_logic_vector(14 downto 0);                    --                       m0_ddr3_memory.mem_a
 		m0_ddr3_memory_mem_ba                                       : out   std_logic_vector(2 downto 0);                     --                                     .mem_ba
-		m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(0 downto 0);                     --                                     .mem_ck
-		m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(0 downto 0);                     --                                     .mem_ck_n
-		m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(0 downto 0);                     --                                     .mem_cke
-		m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(0 downto 0);                     --                                     .mem_cs_n
+		m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(1 downto 0);                     --                                     .mem_ck
+		m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(1 downto 0);                     --                                     .mem_ck_n
+		m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(1 downto 0);                     --                                     .mem_cke
+		m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(1 downto 0);                     --                                     .mem_cs_n
 		m0_ddr3_memory_mem_dm                                       : out   std_logic_vector(7 downto 0);                     --                                     .mem_dm
 		m0_ddr3_memory_mem_ras_n                                    : out   std_logic_vector(0 downto 0);                     --                                     .mem_ras_n
 		m0_ddr3_memory_mem_cas_n                                    : out   std_logic_vector(0 downto 0);                     --                                     .mem_cas_n
@@ -32,7 +32,7 @@ entity MebX_Qsys_Project is
 		m0_ddr3_memory_mem_dq                                       : inout std_logic_vector(63 downto 0) := (others => '0'); --                                     .mem_dq
 		m0_ddr3_memory_mem_dqs                                      : inout std_logic_vector(7 downto 0)  := (others => '0'); --                                     .mem_dqs
 		m0_ddr3_memory_mem_dqs_n                                    : inout std_logic_vector(7 downto 0)  := (others => '0'); --                                     .mem_dqs_n
-		m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(0 downto 0);                     --                                     .mem_odt
+		m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(1 downto 0);                     --                                     .mem_odt
 		m0_ddr3_memory_pll_sharing_pll_mem_clk                      : out   std_logic;                                        --           m0_ddr3_memory_pll_sharing.pll_mem_clk
 		m0_ddr3_memory_pll_sharing_pll_write_clk                    : out   std_logic;                                        --                                     .pll_write_clk
 		m0_ddr3_memory_pll_sharing_pll_locked                       : out   std_logic;                                        --                                     .pll_locked
@@ -322,12 +322,12 @@ architecture rtl of MebX_Qsys_Project is
 			afi_half_clk              : out   std_logic;                                         -- clk
 			afi_reset_n               : out   std_logic;                                         -- reset_n
 			afi_reset_export_n        : out   std_logic;                                         -- reset_n
-			mem_a                     : out   std_logic_vector(13 downto 0);                     -- mem_a
+			mem_a                     : out   std_logic_vector(14 downto 0);                     -- mem_a
 			mem_ba                    : out   std_logic_vector(2 downto 0);                      -- mem_ba
-			mem_ck                    : out   std_logic_vector(0 downto 0);                      -- mem_ck
-			mem_ck_n                  : out   std_logic_vector(0 downto 0);                      -- mem_ck_n
-			mem_cke                   : out   std_logic_vector(0 downto 0);                      -- mem_cke
-			mem_cs_n                  : out   std_logic_vector(0 downto 0);                      -- mem_cs_n
+			mem_ck                    : out   std_logic_vector(1 downto 0);                      -- mem_ck
+			mem_ck_n                  : out   std_logic_vector(1 downto 0);                      -- mem_ck_n
+			mem_cke                   : out   std_logic_vector(1 downto 0);                      -- mem_cke
+			mem_cs_n                  : out   std_logic_vector(1 downto 0);                      -- mem_cs_n
 			mem_dm                    : out   std_logic_vector(7 downto 0);                      -- mem_dm
 			mem_ras_n                 : out   std_logic_vector(0 downto 0);                      -- mem_ras_n
 			mem_cas_n                 : out   std_logic_vector(0 downto 0);                      -- mem_cas_n
@@ -336,10 +336,10 @@ architecture rtl of MebX_Qsys_Project is
 			mem_dq                    : inout std_logic_vector(63 downto 0)  := (others => 'X'); -- mem_dq
 			mem_dqs                   : inout std_logic_vector(7 downto 0)   := (others => 'X'); -- mem_dqs
 			mem_dqs_n                 : inout std_logic_vector(7 downto 0)   := (others => 'X'); -- mem_dqs_n
-			mem_odt                   : out   std_logic_vector(0 downto 0);                      -- mem_odt
+			mem_odt                   : out   std_logic_vector(1 downto 0);                      -- mem_odt
 			avl_ready                 : out   std_logic;                                         -- waitrequest_n
 			avl_burstbegin            : in    std_logic                      := 'X';             -- beginbursttransfer
-			avl_addr                  : in    std_logic_vector(24 downto 0)  := (others => 'X'); -- address
+			avl_addr                  : in    std_logic_vector(26 downto 0)  := (others => 'X'); -- address
 			avl_rdata_valid           : out   std_logic;                                         -- readdatavalid
 			avl_rdata                 : out   std_logic_vector(255 downto 0);                    -- readdata
 			avl_wdata                 : in    std_logic_vector(255 downto 0) := (others => 'X'); -- writedata
@@ -505,7 +505,7 @@ architecture rtl of MebX_Qsys_Project is
 			Memory_Filler_avalon_master_data_waitrequest                    : out std_logic;                                         -- waitrequest
 			Memory_Filler_avalon_master_data_write                          : in  std_logic                      := 'X';             -- write
 			Memory_Filler_avalon_master_data_writedata                      : in  std_logic_vector(255 downto 0) := (others => 'X'); -- writedata
-			m0_ddr3_memory_avl_address                                      : out std_logic_vector(24 downto 0);                     -- address
+			m0_ddr3_memory_avl_address                                      : out std_logic_vector(26 downto 0);                     -- address
 			m0_ddr3_memory_avl_write                                        : out std_logic;                                         -- write
 			m0_ddr3_memory_avl_read                                         : out std_logic;                                         -- read
 			m0_ddr3_memory_avl_readdata                                     : in  std_logic_vector(255 downto 0) := (others => 'X'); -- readdata
@@ -943,7 +943,7 @@ architecture rtl of MebX_Qsys_Project is
 	signal mm_interconnect_0_m0_ddr3_memory_avl_beginbursttransfer                   : std_logic;                      -- mm_interconnect_0:m0_ddr3_memory_avl_beginbursttransfer -> m0_ddr3_memory:avl_burstbegin
 	signal mm_interconnect_0_m0_ddr3_memory_avl_readdata                             : std_logic_vector(255 downto 0); -- m0_ddr3_memory:avl_rdata -> mm_interconnect_0:m0_ddr3_memory_avl_readdata
 	signal m0_ddr3_memory_avl_waitrequest                                            : std_logic;                      -- m0_ddr3_memory:avl_ready -> m0_ddr3_memory_avl_waitrequest:in
-	signal mm_interconnect_0_m0_ddr3_memory_avl_address                              : std_logic_vector(24 downto 0);  -- mm_interconnect_0:m0_ddr3_memory_avl_address -> m0_ddr3_memory:avl_addr
+	signal mm_interconnect_0_m0_ddr3_memory_avl_address                              : std_logic_vector(26 downto 0);  -- mm_interconnect_0:m0_ddr3_memory_avl_address -> m0_ddr3_memory:avl_addr
 	signal mm_interconnect_0_m0_ddr3_memory_avl_read                                 : std_logic;                      -- mm_interconnect_0:m0_ddr3_memory_avl_read -> m0_ddr3_memory:avl_read_req
 	signal mm_interconnect_0_m0_ddr3_memory_avl_byteenable                           : std_logic_vector(31 downto 0);  -- mm_interconnect_0:m0_ddr3_memory_avl_byteenable -> m0_ddr3_memory:avl_be
 	signal mm_interconnect_0_m0_ddr3_memory_avl_readdatavalid                        : std_logic;                      -- m0_ddr3_memory:avl_rdata_valid -> mm_interconnect_0:m0_ddr3_memory_avl_readdatavalid

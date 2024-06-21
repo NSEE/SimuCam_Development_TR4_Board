@@ -243,14 +243,21 @@ int main(){
 
             // memory test
             printf("=====> DDR3 Testing, Iteration: %d\n", TestIndex);
-            InitValue = alt_nticks();
-            bPass = TMEM_Verify((alt_u32)UNIPHY_DDR3_BASE, MemSize, InitValue);
-            TimeElapsed = alt_nticks()-TimeStart;
-            if (bPass){
-                printf("DDR3 test pass, size=%d bytes, %.3f sec\n", MemSize, (float)TimeElapsed/(float)alt_ticks_per_second());
-            }else{
-                printf("DDR3 test fail\n");
-            }
+//            InitValue = alt_nticks();
+//            bPass = TMEM_Verify((alt_u32)UNIPHY_DDR3_BASE, MemSize, InitValue);
+//            TimeElapsed = alt_nticks()-TimeStart;
+//            if (bPass){
+//                printf("DDR3 test pass, size=%d bytes, %.3f sec\n", MemSize, (float)TimeElapsed/(float)alt_ticks_per_second());
+//            }else{
+//                printf("DDR3 test fail\n");
+//            }
+
+            bDdr3MemoryRandomWriteTest(eDdr3Memory0Lower, TRUE, TRUE);
+            bDdr3MemoryRandomReadTest(eDdr3Memory0Lower, TRUE, TRUE);
+            usleep(20 * 1000);
+            bDdr3MemoryRandomWriteTest(eDdr3Memory0Upper, TRUE, TRUE);
+            bDdr3MemoryRandomReadTest(eDdr3Memory0Upper, TRUE, TRUE);
+
         }while(bLoop && bPass);
     }
     return 0;

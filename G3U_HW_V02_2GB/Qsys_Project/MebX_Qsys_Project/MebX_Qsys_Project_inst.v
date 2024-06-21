@@ -1,4 +1,6 @@
 	MebX_Qsys_Project u0 (
+		.board_led_export                                            (<connected-to-board_led_export>),                                            //                            board_led.export
+		.button_export                                               (<connected-to-button_export>),                                               //                               button.export
 		.clk50_clk                                                   (<connected-to-clk50_clk>),                                                   //                                clk50.clk
 		.csense_adc_fo_export                                        (<connected-to-csense_adc_fo_export>),                                        //                        csense_adc_fo.export
 		.csense_cs_n_export                                          (<connected-to-csense_cs_n_export>),                                          //                          csense_cs_n.export
@@ -22,12 +24,23 @@
 		.m0_ddr3_memory_mem_dqs                                      (<connected-to-m0_ddr3_memory_mem_dqs>),                                      //                                     .mem_dqs
 		.m0_ddr3_memory_mem_dqs_n                                    (<connected-to-m0_ddr3_memory_mem_dqs_n>),                                    //                                     .mem_dqs_n
 		.m0_ddr3_memory_mem_odt                                      (<connected-to-m0_ddr3_memory_mem_odt>),                                      //                                     .mem_odt
+		.m0_ddr3_memory_pll_sharing_pll_mem_clk                      (<connected-to-m0_ddr3_memory_pll_sharing_pll_mem_clk>),                      //           m0_ddr3_memory_pll_sharing.pll_mem_clk
+		.m0_ddr3_memory_pll_sharing_pll_write_clk                    (<connected-to-m0_ddr3_memory_pll_sharing_pll_write_clk>),                    //                                     .pll_write_clk
+		.m0_ddr3_memory_pll_sharing_pll_locked                       (<connected-to-m0_ddr3_memory_pll_sharing_pll_locked>),                       //                                     .pll_locked
+		.m0_ddr3_memory_pll_sharing_pll_write_clk_pre_phy_clk        (<connected-to-m0_ddr3_memory_pll_sharing_pll_write_clk_pre_phy_clk>),        //                                     .pll_write_clk_pre_phy_clk
+		.m0_ddr3_memory_pll_sharing_pll_addr_cmd_clk                 (<connected-to-m0_ddr3_memory_pll_sharing_pll_addr_cmd_clk>),                 //                                     .pll_addr_cmd_clk
+		.m0_ddr3_memory_pll_sharing_pll_avl_clk                      (<connected-to-m0_ddr3_memory_pll_sharing_pll_avl_clk>),                      //                                     .pll_avl_clk
+		.m0_ddr3_memory_pll_sharing_pll_config_clk                   (<connected-to-m0_ddr3_memory_pll_sharing_pll_config_clk>),                   //                                     .pll_config_clk
+		.m0_ddr3_memory_status_local_init_done                       (<connected-to-m0_ddr3_memory_status_local_init_done>),                       //                m0_ddr3_memory_status.local_init_done
+		.m0_ddr3_memory_status_local_cal_success                     (<connected-to-m0_ddr3_memory_status_local_cal_success>),                     //                                     .local_cal_success
+		.m0_ddr3_memory_status_local_cal_fail                        (<connected-to-m0_ddr3_memory_status_local_cal_fail>),                        //                                     .local_cal_fail
 		.m0_ddr3_oct_rdn                                             (<connected-to-m0_ddr3_oct_rdn>),                                             //                          m0_ddr3_oct.rdn
 		.m0_ddr3_oct_rup                                             (<connected-to-m0_ddr3_oct_rup>),                                             //                                     .rup
 		.rst_reset_n                                                 (<connected-to-rst_reset_n>),                                                 //                                  rst.reset_n
 		.rst_controller_conduit_reset_input_t_reset_input_signal     (<connected-to-rst_controller_conduit_reset_input_t_reset_input_signal>),     //   rst_controller_conduit_reset_input.t_reset_input_signal
 		.rst_controller_conduit_simucam_reset_t_simucam_reset_signal (<connected-to-rst_controller_conduit_simucam_reset_t_simucam_reset_signal>), // rst_controller_conduit_simucam_reset.t_simucam_reset_signal
 		.sd_card_wp_n_io_export                                      (<connected-to-sd_card_wp_n_io_export>),                                      //                      sd_card_wp_n_io.export
+		.slide_sw_export                                             (<connected-to-slide_sw_export>),                                             //                             slide_sw.export
 		.temp_scl_export                                             (<connected-to-temp_scl_export>),                                             //                             temp_scl.export
 		.temp_sda_export                                             (<connected-to-temp_sda_export>),                                             //                             temp_sda.export
 		.timer_1ms_external_port_export                              (<connected-to-timer_1ms_external_port_export>),                              //              timer_1ms_external_port.export
@@ -36,19 +49,6 @@
 		.tristate_conduit_tcm_read_n_out                             (<connected-to-tristate_conduit_tcm_read_n_out>),                             //                                     .tcm_read_n_out
 		.tristate_conduit_tcm_write_n_out                            (<connected-to-tristate_conduit_tcm_write_n_out>),                            //                                     .tcm_write_n_out
 		.tristate_conduit_tcm_data_out                               (<connected-to-tristate_conduit_tcm_data_out>),                               //                                     .tcm_data_out
-		.tristate_conduit_tcm_chipselect_n_out                       (<connected-to-tristate_conduit_tcm_chipselect_n_out>),                       //                                     .tcm_chipselect_n_out
-		.m0_ddr3_memory_status_local_init_done                       (<connected-to-m0_ddr3_memory_status_local_init_done>),                       //                m0_ddr3_memory_status.local_init_done
-		.m0_ddr3_memory_status_local_cal_success                     (<connected-to-m0_ddr3_memory_status_local_cal_success>),                     //                                     .local_cal_success
-		.m0_ddr3_memory_status_local_cal_fail                        (<connected-to-m0_ddr3_memory_status_local_cal_fail>),                        //                                     .local_cal_fail
-		.m0_ddr3_memory_pll_sharing_pll_mem_clk                      (<connected-to-m0_ddr3_memory_pll_sharing_pll_mem_clk>),                      //           m0_ddr3_memory_pll_sharing.pll_mem_clk
-		.m0_ddr3_memory_pll_sharing_pll_write_clk                    (<connected-to-m0_ddr3_memory_pll_sharing_pll_write_clk>),                    //                                     .pll_write_clk
-		.m0_ddr3_memory_pll_sharing_pll_locked                       (<connected-to-m0_ddr3_memory_pll_sharing_pll_locked>),                       //                                     .pll_locked
-		.m0_ddr3_memory_pll_sharing_pll_write_clk_pre_phy_clk        (<connected-to-m0_ddr3_memory_pll_sharing_pll_write_clk_pre_phy_clk>),        //                                     .pll_write_clk_pre_phy_clk
-		.m0_ddr3_memory_pll_sharing_pll_addr_cmd_clk                 (<connected-to-m0_ddr3_memory_pll_sharing_pll_addr_cmd_clk>),                 //                                     .pll_addr_cmd_clk
-		.m0_ddr3_memory_pll_sharing_pll_avl_clk                      (<connected-to-m0_ddr3_memory_pll_sharing_pll_avl_clk>),                      //                                     .pll_avl_clk
-		.m0_ddr3_memory_pll_sharing_pll_config_clk                   (<connected-to-m0_ddr3_memory_pll_sharing_pll_config_clk>),                   //                                     .pll_config_clk
-		.button_export                                               (<connected-to-button_export>),                                               //                               button.export
-		.slide_sw_export                                             (<connected-to-slide_sw_export>),                                             //                             slide_sw.export
-		.board_led_export                                            (<connected-to-board_led_export>)                                             //                            board_led.export
+		.tristate_conduit_tcm_chipselect_n_out                       (<connected-to-tristate_conduit_tcm_chipselect_n_out>)                        //                                     .tcm_chipselect_n_out
 	);
 

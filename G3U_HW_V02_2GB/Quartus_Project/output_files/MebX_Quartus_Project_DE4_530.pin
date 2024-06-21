@@ -1203,7 +1203,7 @@ mem_dq[22]                   : K24       : bidir  : SSTL-15 Class I   :         
 VCCIO8B                      : K25       : power  :                   : 1.5V    : 8B        :                
 mem_a[13]                    : K26       : output : SSTL-15 Class I   :         : 8A        : Y              
 mem_ck[0]                    : K27       : output : Differential 1.5-V SSTL Class I :         : 8A        : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K28       :        :                   :         : 8A        :                
+mem_ck_n[1]                  : K28       : output : Differential 1.5-V SSTL Class I :         : 8A        : Y              
 FSM_D[5]                     : K29       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
 FSM_D[6]                     : K30       : bidir  : 3.0-V PCI-X       :         : 1A        : Y              
 FSM_A[14]                    : K31       : output : 3.0-V PCI-X       :         : 1A        : Y              
@@ -1239,7 +1239,7 @@ GND                          : L21       : gnd    :                   :         
 VCCIO8C                      : L22       : power  :                   : 1.5V    : 8C        :                
 mem_dqs[2]                   : L23       : bidir  : Differential 1.5-V SSTL Class I :         : 8B        : Y              
 GND                          : L24       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L25       :        :                   :         : 8A        :                
+mem_ck[1]                    : L25       : output : Differential 1.5-V SSTL Class I :         : 8A        : Y              
 mem_cas_n                    : L26       : output : SSTL-15 Class I   :         : 8A        : Y              
 GND                          : L27       : gnd    :                   :         :           :                
 NC                           : L28       :        :                   :         :           :                
@@ -1405,7 +1405,7 @@ HSMD_TX_n[15]                : R31       : bidir  : 2.5 V             :         
 HSMD_TX_p[13]                : R32       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_n[13]                : R33       : bidir  : 2.5 V             :         : 1C        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R34       :        :                   :         : 1C        :                
-FSM_A[0]                     : R35       : output : 2.5 V             :         : 1C        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R35       :        :                   :         : 1C        :                
 GND                          : R36       : gnd    :                   :         :           :                
 GND                          : R37       : gnd    :                   :         :           :                
 GXB_GND*                     : R38       :        :                   :         : QL1       :                
@@ -1514,7 +1514,7 @@ GND                          : V23       : gnd    :                   :         
 VCC                          : V24       : power  :                   : 0.9V    :           :                
 GND                          : V25       : gnd    :                   :         :           :                
 VCC                          : V26       : power  :                   : 0.9V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : V27       :        :                   :         : 1C        :                
+FSM_A[0]                     : V27       : output : 2.5 V             :         : 1C        : N              
 HSMD_TX_n[11]                : V28       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_p[10]                : V29       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_n[10]                : V30       : bidir  : 2.5 V             :         : 1C        : Y              

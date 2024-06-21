@@ -1411,7 +1411,7 @@
   <parameter name="MEM_BL" value="OTF" />
   <parameter name="MEM_BT" value="Sequential" />
   <parameter name="MEM_CK_PHASE" value="0.0" />
-  <parameter name="MEM_CK_WIDTH" value="1" />
+  <parameter name="MEM_CK_WIDTH" value="2" />
   <parameter name="MEM_CLK_EN_WIDTH" value="1" />
   <parameter name="MEM_CLK_FREQ" value="533.33" />
   <parameter name="MEM_CLK_FREQ_MAX" value="533.333" />
@@ -1433,10 +1433,10 @@
   <parameter name="MEM_MIRROR_ADDRESSING" value="0" />
   <parameter name="MEM_NUMBER_OF_DIMMS" value="1" />
   <parameter name="MEM_NUMBER_OF_RANKS_PER_DEVICE" value="1" />
-  <parameter name="MEM_NUMBER_OF_RANKS_PER_DIMM" value="1" />
+  <parameter name="MEM_NUMBER_OF_RANKS_PER_DIMM" value="2" />
   <parameter name="MEM_PD" value="DLL off" />
   <parameter name="MEM_RANK_MULTIPLICATION_FACTOR" value="1" />
-  <parameter name="MEM_ROW_ADDR_WIDTH" value="14" />
+  <parameter name="MEM_ROW_ADDR_WIDTH" value="15" />
   <parameter name="MEM_RTT_NOM" value="RZQ/6" />
   <parameter name="MEM_RTT_WR" value="RZQ/4" />
   <parameter name="MEM_SRT" value="Normal" />

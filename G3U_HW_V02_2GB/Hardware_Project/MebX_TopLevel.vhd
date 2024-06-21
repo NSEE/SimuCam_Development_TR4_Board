@@ -193,8 +193,8 @@ entity MebX_TopLevel is
         mem_ba              : out std_logic_vector(2 downto 0);
         mem_cas_n           : out std_logic;
         mem_cke             : out std_logic_vector(1 downto 0);
-        mem_ck              : out std_logic_vector(0 downto 0); -- [1:0] for 2 rank
-        mem_ck_n            : out std_logic_vector(0 downto 0);
+        mem_ck              : out std_logic_vector(1 downto 0); -- [1:0] for 2 rank
+        mem_ck_n            : out std_logic_vector(1 downto 0);
         mem_cs_n            : out std_logic_vector(1 downto 0);
         mem_dm              : out std_logic_vector(7 downto 0);
         mem_dq              : inout std_logic_vector(63 downto 0);
@@ -266,12 +266,12 @@ architecture Behavioral of MebX_TopLevel is
             csense_sdo_export                                           : in    std_logic                     := 'X';             -- export
             m0_ddr3_i2c_scl_export                                      : out   std_logic;                                        -- export
             m0_ddr3_i2c_sda_export                                      : inout std_logic                     := 'X';             -- export
-            m0_ddr3_memory_mem_a                                        : out   std_logic_vector(13 downto 0);                    -- mem_a
+            m0_ddr3_memory_mem_a                                        : out   std_logic_vector(14 downto 0);                    -- mem_a
             m0_ddr3_memory_mem_ba                                       : out   std_logic_vector(2 downto 0);                     -- mem_ba
-            m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(0 downto 0);                     -- mem_ck
-            m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(0 downto 0);                     -- mem_ck_n
-            m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(0 downto 0);                     -- mem_cke
-            m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(0 downto 0);                     -- mem_cs_n
+            m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(1 downto 0);                     -- mem_ck
+            m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(1 downto 0);                     -- mem_ck_n
+            m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(1 downto 0);                     -- mem_cke
+            m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(1 downto 0);                     -- mem_cs_n
             m0_ddr3_memory_mem_dm                                       : out   std_logic_vector(7 downto 0);                     -- mem_dm
             m0_ddr3_memory_mem_ras_n                                    : out   std_logic_vector(0 downto 0);                     -- mem_ras_n
             m0_ddr3_memory_mem_cas_n                                    : out   std_logic_vector(0 downto 0);                     -- mem_cas_n
@@ -280,7 +280,7 @@ architecture Behavioral of MebX_TopLevel is
             m0_ddr3_memory_mem_dq                                       : inout std_logic_vector(63 downto 0) := (others => 'X'); -- mem_dq
             m0_ddr3_memory_mem_dqs                                      : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- mem_dqs
             m0_ddr3_memory_mem_dqs_n                                    : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- mem_dqs_n
-            m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(0 downto 0);                     -- mem_odt
+            m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(1 downto 0);                     -- mem_odt
             m0_ddr3_memory_pll_sharing_pll_mem_clk                      : out   std_logic;                                        -- pll_mem_clk
             m0_ddr3_memory_pll_sharing_pll_write_clk                    : out   std_logic;                                        -- pll_write_clk
             m0_ddr3_memory_pll_sharing_pll_locked                       : out   std_logic;                                        -- pll_locked
@@ -324,12 +324,12 @@ begin
             clk50_clk                                                   => OSC_50_BANK8,                                 --                                clk50.clk
             m0_ddr3_i2c_scl_export                                      => mem_scl,                                      --                      m0_ddr3_i2c_scl.export
             m0_ddr3_i2c_sda_export                                      => mem_sda,                                      --                      m0_ddr3_i2c_sda.export
-            m0_ddr3_memory_mem_a                                        => mem_a(13 downto 0),                           --                       m0_ddr3_memory.mem_a
+            m0_ddr3_memory_mem_a                                        => mem_a(14 downto 0),                           --                       m0_ddr3_memory.mem_a
             m0_ddr3_memory_mem_ba                                       => mem_ba,                                       --                                     .mem_ba
             m0_ddr3_memory_mem_ck                                       => mem_ck,                                       --                                     .mem_ck
             m0_ddr3_memory_mem_ck_n                                     => mem_ck_n,                                     --                                     .mem_ck_n
-            m0_ddr3_memory_mem_cke(0)                                   => mem_cke(0),                                   --                                     .mem_cke
-            m0_ddr3_memory_mem_cs_n(0)                                  => mem_cs_n(0),                                  --                                     .mem_cs_n
+            m0_ddr3_memory_mem_cke                                      => mem_cke,                                      --                                     .mem_cke
+            m0_ddr3_memory_mem_cs_n                                     => mem_cs_n,                                     --                                     .mem_cs_n
             m0_ddr3_memory_mem_dm                                       => mem_dm,                                       --                                     .mem_dm
             m0_ddr3_memory_mem_ras_n(0)                                 => mem_ras_n,                                    --                                     .mem_ras_n
             m0_ddr3_memory_mem_cas_n(0)                                 => mem_cas_n,                                    --                                     .mem_cas_n
@@ -338,7 +338,7 @@ begin
             m0_ddr3_memory_mem_dq                                       => mem_dq,                                       --                                     .mem_dq
             m0_ddr3_memory_mem_dqs                                      => mem_dqs,                                      --                                     .mem_dqs
             m0_ddr3_memory_mem_dqs_n                                    => mem_dqs_n,                                    --                                     .mem_dqs_n
-            m0_ddr3_memory_mem_odt(0)                                   => mem_odt(0),                                   --                                     .mem_odt
+            m0_ddr3_memory_mem_odt                                      => mem_odt,                                      --                                     .mem_odt
             m0_ddr3_memory_status_local_init_done                       => uniphy_ddr3_status_local_init_done,           --                m0_ddr3_memory_status.local_init_done
             m0_ddr3_memory_status_local_cal_success                     => uniphy_ddr3_status_local_cal_success,         --                                     .local_cal_success
             m0_ddr3_memory_status_local_cal_fail                        => uniphy_ddr3_status_local_cal_fail,            --                                     .local_cal_fail

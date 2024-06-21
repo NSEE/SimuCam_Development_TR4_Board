@@ -9,10 +9,10 @@ set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_io_standard_differential "1.5-V
 set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_io_standard_cmos "1.5V"
 set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_number_of_dqs_groups 8
 set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_dqs_group_size 8
-set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_number_of_ck_pins 1
+set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_number_of_ck_pins 2
 set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_number_of_dm_pins 8
 set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_dqs_delay_chain_length 2
-set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_uniphy_temp_ver_code 1171702250
+set ::GLOBAL_MebX_Qsys_Project_m0_ddr3_memory_p0_uniphy_temp_ver_code 766055138
 # PLL Parameters
 
 #USER W A R N I N G !
@@ -95,7 +95,7 @@ set IP(eol_reduction_factor_write) 1.0
 set IP(write_deskew_mode) "dynamic"
 set IP(read_deskew_mode) "dynamic"
 set IP(discrete_device) 0
-set IP(num_ranks) 1
+set IP(num_ranks) 2
 set IP(num_shadow_registers) 1
 set IP(tracking_enabled) 0
 

@@ -44,13 +44,8 @@ set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:48:13  OCTOBER 31, 2019"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
-set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 
 #============================================================
 # BUTTON
@@ -718,18 +713,18 @@ set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[9] -tag __
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[14]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[15]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cke[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cke[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cs_n[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
@@ -743,7 +738,7 @@ set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to 
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_event_n
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_odt[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_odt[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD 1.5V -to mem_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD 1.5V -to mem_scl
@@ -2031,7 +2026,7 @@ set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL
 set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|pll1 -tag __TR4_QSYS_uniphy_ddr3_p0
 set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
-set_global_assignment -name UNIPHY_TEMP_VER_CODE 1171702250
+set_global_assignment -name UNIPHY_TEMP_VER_CODE 766055138
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[1] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[2] -tag __TR4_QSYS_uniphy_ddr3_p0
@@ -2513,4 +2508,18 @@ set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|
 set_instance_assignment -name GLOBAL_SIGNAL OFF -from SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|clk[2] -to SOPC_INST|m0_ddr3_memory|dll0|dll_wys_m -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to SOPC_INST|m0_ddr3_memory -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1 -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to mem_ck[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ck[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to mem_ck_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ck_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_cs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_cke[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_odt[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_cs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_cke[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_odt[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

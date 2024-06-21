@@ -10,12 +10,12 @@
 			csense_sdo_export                                           : in    std_logic                     := 'X';             -- export
 			m0_ddr3_i2c_scl_export                                      : out   std_logic;                                        -- export
 			m0_ddr3_i2c_sda_export                                      : inout std_logic                     := 'X';             -- export
-			m0_ddr3_memory_mem_a                                        : out   std_logic_vector(13 downto 0);                    -- mem_a
+			m0_ddr3_memory_mem_a                                        : out   std_logic_vector(14 downto 0);                    -- mem_a
 			m0_ddr3_memory_mem_ba                                       : out   std_logic_vector(2 downto 0);                     -- mem_ba
-			m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(0 downto 0);                     -- mem_ck
-			m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(0 downto 0);                     -- mem_ck_n
-			m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(0 downto 0);                     -- mem_cke
-			m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(0 downto 0);                     -- mem_cs_n
+			m0_ddr3_memory_mem_ck                                       : out   std_logic_vector(1 downto 0);                     -- mem_ck
+			m0_ddr3_memory_mem_ck_n                                     : out   std_logic_vector(1 downto 0);                     -- mem_ck_n
+			m0_ddr3_memory_mem_cke                                      : out   std_logic_vector(1 downto 0);                     -- mem_cke
+			m0_ddr3_memory_mem_cs_n                                     : out   std_logic_vector(1 downto 0);                     -- mem_cs_n
 			m0_ddr3_memory_mem_dm                                       : out   std_logic_vector(7 downto 0);                     -- mem_dm
 			m0_ddr3_memory_mem_ras_n                                    : out   std_logic_vector(0 downto 0);                     -- mem_ras_n
 			m0_ddr3_memory_mem_cas_n                                    : out   std_logic_vector(0 downto 0);                     -- mem_cas_n
@@ -24,7 +24,7 @@
 			m0_ddr3_memory_mem_dq                                       : inout std_logic_vector(63 downto 0) := (others => 'X'); -- mem_dq
 			m0_ddr3_memory_mem_dqs                                      : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- mem_dqs
 			m0_ddr3_memory_mem_dqs_n                                    : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- mem_dqs_n
-			m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(0 downto 0);                     -- mem_odt
+			m0_ddr3_memory_mem_odt                                      : out   std_logic_vector(1 downto 0);                     -- mem_odt
 			m0_ddr3_memory_pll_sharing_pll_mem_clk                      : out   std_logic;                                        -- pll_mem_clk
 			m0_ddr3_memory_pll_sharing_pll_write_clk                    : out   std_logic;                                        -- pll_write_clk
 			m0_ddr3_memory_pll_sharing_pll_locked                       : out   std_logic;                                        -- pll_locked

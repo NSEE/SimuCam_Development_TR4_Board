@@ -29,11 +29,11 @@ module MebX_Qsys_Project_m0_ddr3_memory_s0 (
 		input  wire [7:0]   calib_skip_steps,            //            calib.calib_skip_steps
 		input  wire         afi_clk,                     //          afi_clk.clk
 		input  wire         afi_reset_n,                 //        afi_reset.reset_n
-		output wire [27:0]  afi_addr,                    //              afi.afi_addr
+		output wire [29:0]  afi_addr,                    //              afi.afi_addr
 		output wire [5:0]   afi_ba,                      //                 .afi_ba
-		output wire [1:0]   afi_cs_n,                    //                 .afi_cs_n
-		output wire [1:0]   afi_cke,                     //                 .afi_cke
-		output wire [1:0]   afi_odt,                     //                 .afi_odt
+		output wire [3:0]   afi_cs_n,                    //                 .afi_cs_n
+		output wire [3:0]   afi_cke,                     //                 .afi_cke
+		output wire [3:0]   afi_odt,                     //                 .afi_odt
 		output wire [1:0]   afi_ras_n,                   //                 .afi_ras_n
 		output wire [1:0]   afi_cas_n,                   //                 .afi_cas_n
 		output wire [1:0]   afi_we_n,                    //                 .afi_we_n
@@ -148,7 +148,7 @@ module MebX_Qsys_Project_m0_ddr3_memory_s0 (
 		.MEM_IF_WRITE_DQS_WIDTH (8),
 		.MEM_IF_DQ_WIDTH        (64),
 		.MEM_IF_DM_WIDTH        (8),
-		.MEM_NUMBER_OF_RANKS    (1),
+		.MEM_NUMBER_OF_RANKS    (2),
 		.DLL_DELAY_CHAIN_LENGTH (8),
 		.FAMILY                 ("STRATIXIV"),
 		.USE_2X_DLL             ("false"),
@@ -281,15 +281,15 @@ module MebX_Qsys_Project_m0_ddr3_memory_s0 (
 		.RATE                                 ("Half"),
 		.AVL_DATA_WIDTH                       (32),
 		.AVL_ADDR_WIDTH                       (13),
-		.MEM_ADDRESS_WIDTH                    (14),
+		.MEM_ADDRESS_WIDTH                    (15),
 		.MEM_CONTROL_WIDTH                    (1),
 		.MEM_DQ_WIDTH                         (64),
 		.MEM_DM_WIDTH                         (8),
-		.MEM_NUMBER_OF_RANKS                  (1),
-		.MEM_CLK_EN_WIDTH                     (1),
+		.MEM_NUMBER_OF_RANKS                  (2),
+		.MEM_CLK_EN_WIDTH                     (2),
 		.MEM_BANK_WIDTH                       (3),
-		.MEM_ODT_WIDTH                        (1),
-		.MEM_CHIP_SELECT_WIDTH                (1),
+		.MEM_ODT_WIDTH                        (2),
+		.MEM_CHIP_SELECT_WIDTH                (2),
 		.MEM_READ_DQS_WIDTH                   (8),
 		.MEM_WRITE_DQS_WIDTH                  (8),
 		.AFI_RATIO                            (2),

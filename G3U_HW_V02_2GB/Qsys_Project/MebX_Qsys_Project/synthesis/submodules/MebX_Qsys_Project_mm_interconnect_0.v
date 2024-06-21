@@ -25,7 +25,7 @@ module MebX_Qsys_Project_mm_interconnect_0 (
 		output wire         Memory_Filler_avalon_master_data_waitrequest,                    //                                                          .waitrequest
 		input  wire         Memory_Filler_avalon_master_data_write,                          //                                                          .write
 		input  wire [255:0] Memory_Filler_avalon_master_data_writedata,                      //                                                          .writedata
-		output wire [24:0]  m0_ddr3_memory_avl_address,                                      //                                        m0_ddr3_memory_avl.address
+		output wire [26:0]  m0_ddr3_memory_avl_address,                                      //                                        m0_ddr3_memory_avl.address
 		output wire         m0_ddr3_memory_avl_write,                                        //                                                          .write
 		output wire         m0_ddr3_memory_avl_read,                                         //                                                          .read
 		input  wire [255:0] m0_ddr3_memory_avl_readdata,                                     //                                                          .readdata
@@ -329,7 +329,7 @@ module MebX_Qsys_Project_mm_interconnect_0 (
 	);
 
 	altera_merlin_slave_translator #(
-		.AV_ADDRESS_W                   (25),
+		.AV_ADDRESS_W                   (27),
 		.AV_DATA_W                      (256),
 		.UAV_DATA_W                     (256),
 		.AV_BURSTCOUNT_W                (4),
