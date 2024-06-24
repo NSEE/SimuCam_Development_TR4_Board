@@ -1405,7 +1405,7 @@ HSMD_TX_n[15]                : R31       : bidir  : 2.5 V             :         
 HSMD_TX_p[13]                : R32       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_n[13]                : R33       : bidir  : 2.5 V             :         : 1C        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R34       :        :                   :         : 1C        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R35       :        :                   :         : 1C        :                
+FSM_A[0]                     : R35       : output : 2.5 V             :         : 1C        : N              
 GND                          : R36       : gnd    :                   :         :           :                
 GND                          : R37       : gnd    :                   :         :           :                
 GXB_GND*                     : R38       :        :                   :         : QL1       :                
@@ -1514,7 +1514,7 @@ GND                          : V23       : gnd    :                   :         
 VCC                          : V24       : power  :                   : 0.9V    :           :                
 GND                          : V25       : gnd    :                   :         :           :                
 VCC                          : V26       : power  :                   : 0.9V    :           :                
-FSM_A[0]                     : V27       : output : 2.5 V             :         : 1C        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V27       :        :                   :         : 1C        :                
 HSMD_TX_n[11]                : V28       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_p[10]                : V29       : bidir  : 2.5 V             :         : 1C        : Y              
 HSMD_TX_n[10]                : V30       : bidir  : 2.5 V             :         : 1C        : Y              

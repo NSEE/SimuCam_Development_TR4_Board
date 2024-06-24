@@ -2026,7 +2026,7 @@ set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL
 set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|pll1 -tag __TR4_QSYS_uniphy_ddr3_p0
 set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
-set_global_assignment -name UNIPHY_TEMP_VER_CODE 766055138
+set_global_assignment -name UNIPHY_TEMP_VER_CODE 22718804
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[1] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[2] -tag __TR4_QSYS_uniphy_ddr3_p0
