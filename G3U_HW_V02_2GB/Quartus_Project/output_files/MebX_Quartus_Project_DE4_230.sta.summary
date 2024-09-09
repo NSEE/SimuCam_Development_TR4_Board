@@ -2,532 +2,616 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.136
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : -11.624
+TNS   : -38106.894
+
+Type  : Slow 900mV 85C Model Setup 'umft601a_clk_100mhz'
+Slack : -0.732
+TNS   : -1.346
+
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.554
+TNS   : -50.573
+
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : -0.069
+TNS   : -0.422
+
+Type  : Slow 900mV 85C Model Setup 'M1_DDR2_clk[1]'
+Slack : 0.260
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 0.325
+Type  : Slow 900mV 85C Model Setup 'M1_DDR2_clk[0]'
+Slack : 0.294
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'mem_ck[0]'
-Slack : 0.336
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.435
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.471
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.995
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 0.664
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 1.023
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.829
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 7.039
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.993
-TNS   : 0.000
-
-Type  : Slow 900mV 85C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 6.838
-TNS   : 0.000
-
-Type  : Slow 900mV 85C Model Setup 'CLK_M5'
-Slack : 12.067
+Type  : Slow 900mV 85C Model Setup 'osc_bank_4_50mhz'
+Slack : 9.895
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Setup 'altera_reserved_tck'
-Slack : 47.602
+Slack : 46.825
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'CLK_M5'
-Slack : 0.204
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.157
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.227
+Type  : Slow 900mV 85C Model Hold 'osc_bank_4_50mhz'
+Slack : 0.186
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'umft601a_clk_100mhz'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
 Slack : 0.229
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.235
+Type  : Slow 900mV 85C Model Hold 'M1_DDR2_clk[0]'
+Slack : 0.247
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 0.235
-TNS   : 0.000
-
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.237
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.256
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Hold 'altera_reserved_tck'
-Slack : 0.264
+Slack : 0.265
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'mem_ck[0]'
-Slack : 0.313
+Type  : Slow 900mV 85C Model Hold 'M1_DDR2_clk[1]'
+Slack : 0.281
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.324
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.586
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 1.149
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 1.413
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : -0.712
-TNS   : -10.680
+Type  : Slow 900mV 85C Model Recovery 'umft601a_clk_100mhz'
+Slack : -1.653
+TNS   : -192.898
 
-Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : -0.225
-TNS   : -0.450
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : -1.452
+TNS   : -20.501
 
-Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : -0.132
-TNS   : -0.863
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.403
+TNS   : -15.844
 
-Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 3.077
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : -0.336
+TNS   : -0.672
+
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.169
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 4.009
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 3.313
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Recovery 'CLK_M5'
-Slack : 11.121
+Type  : Slow 900mV 85C Model Recovery 'osc_bank_4_50mhz'
+Slack : 15.392
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Recovery 'altera_reserved_tck'
-Slack : 48.805
+Slack : 48.229
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.427
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.372
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.496
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.452
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Removal 'altera_reserved_tck'
-Slack : 0.688
+Slack : 0.467
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.710
+Type  : Slow 900mV 85C Model Removal 'osc_bank_4_50mhz'
+Slack : 0.511
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.734
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.637
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 2.333
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.660
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Removal 'CLK_M5'
-Slack : 7.071
+Type  : Slow 900mV 85C Model Removal 'umft601a_clk_100mhz'
+Slack : 0.807
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.096
+TNS   : -13.056
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
 Slack : 0.190
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.327
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.324
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[1]'
-Slack : 0.346
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_mem_clk'
+Slack : 0.360
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 1.080
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.279
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 1.278
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 2.947
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 2.948
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'umft601a_clk_100mhz'
+Slack : 4.245
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 4.838
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 4.842
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLK_M5'
-Slack : 8.954
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'osc_bank_4_50mhz'
+Slack : 9.239
 TNS   : 0.000
 
-Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
 Slack : 11.667
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 49.334
+Slack : 49.314
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.310
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : -10.795
+TNS   : -28715.347
+
+Type  : Slow 900mV 0C Model Setup 'umft601a_clk_100mhz'
+Slack : -0.570
+TNS   : -1.021
+
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.448
+TNS   : -25.241
+
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : -0.028
+TNS   : -0.131
+
+Type  : Slow 900mV 0C Model Setup 'M1_DDR2_clk[1]'
+Slack : 0.293
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 0.334
+Type  : Slow 900mV 0C Model Setup 'M1_DDR2_clk[0]'
+Slack : 0.325
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'mem_ck[0]'
-Slack : 0.347
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.476
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.629
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.099
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.838
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 1.151
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 0.991
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 7.214
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 1.130
-TNS   : 0.000
-
-Type  : Slow 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 7.068
-TNS   : 0.000
-
-Type  : Slow 900mV 0C Model Setup 'CLK_M5'
-Slack : 12.416
+Type  : Slow 900mV 0C Model Setup 'osc_bank_4_50mhz'
+Slack : 10.450
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Setup 'altera_reserved_tck'
-Slack : 47.674
+Slack : 46.890
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'CLK_M5'
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'osc_bank_4_50mhz'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
 Slack : 0.203
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.219
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 0.212
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.221
+Type  : Slow 900mV 0C Model Hold 'umft601a_clk_100mhz'
+Slack : 0.217
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.228
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.242
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 0.230
-TNS   : 0.000
-
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.230
+Type  : Slow 900mV 0C Model Hold 'M1_DDR2_clk[0]'
+Slack : 0.251
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.256
+Slack : 0.263
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'mem_ck[0]'
-Slack : 0.336
+Type  : Slow 900mV 0C Model Hold 'M1_DDR2_clk[1]'
+Slack : 0.283
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.347
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.582
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 1.165
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 1.402
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : -0.683
-TNS   : -10.245
+Type  : Slow 900mV 0C Model Recovery 'umft601a_clk_100mhz'
+Slack : -1.449
+TNS   : -165.003
 
-Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : -0.146
-TNS   : -0.292
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : -1.276
+TNS   : -17.968
 
-Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : -0.055
-TNS   : -0.104
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.250
+TNS   : -9.415
 
-Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 3.165
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : -0.202
+TNS   : -0.404
+
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.372
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 4.181
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 3.472
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Recovery 'CLK_M5'
-Slack : 11.677
+Type  : Slow 900mV 0C Model Recovery 'osc_bank_4_50mhz'
+Slack : 15.690
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 48.828
+Slack : 48.258
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.433
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.353
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.493
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.438
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.652
+Slack : 0.449
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.692
+Type  : Slow 900mV 0C Model Removal 'osc_bank_4_50mhz'
+Slack : 0.490
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.730
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.557
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 2.211
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.623
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Removal 'CLK_M5'
-Slack : 6.524
+Type  : Slow 900mV 0C Model Removal 'umft601a_clk_100mhz'
+Slack : 0.769
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.096
+TNS   : -13.056
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
 Slack : 0.197
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.347
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.342
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[1]'
-Slack : 0.366
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_mem_clk'
+Slack : 0.350
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 1.084
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.296
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 1.297
-TNS   : 0.000
-
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
 Slack : 2.964
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 4.851
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'umft601a_clk_100mhz'
+Slack : 4.238
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLK_M5'
-Slack : 8.931
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 4.839
 TNS   : 0.000
 
-Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'osc_bank_4_50mhz'
+Slack : 9.233
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
 Slack : 11.667
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 49.361
+Slack : 49.378
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 0.314
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : -3.650
+TNS   : -6628.192
+
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.034
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'mem_ck[0]'
-Slack : 0.400
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 0.047
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.804
+Type  : Fast 900mV 0C Model Setup 'M1_DDR2_clk[1]'
+Slack : 0.344
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 1.084
+Type  : Fast 900mV 0C Model Setup 'M1_DDR2_clk[0]'
+Slack : 0.377
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 1.377
+Type  : Fast 900mV 0C Model Setup 'umft601a_clk_100mhz'
+Slack : 0.499
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 2.209
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.537
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 3.473
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.643
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 8.689
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 2.094
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Setup 'CLK_M5'
-Slack : 15.108
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 8.693
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'osc_bank_4_50mhz'
+Slack : 13.999
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Setup 'altera_reserved_tck'
-Slack : 49.034
+Slack : 48.444
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.109
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.029
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'CLK_M5'
-Slack : 0.127
+Type  : Fast 900mV 0C Model Hold 'osc_bank_4_50mhz'
+Slack : 0.102
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
 Slack : 0.131
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
+Type  : Fast 900mV 0C Model Hold 'umft601a_clk_100mhz'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
 Slack : 0.134
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 0.134
-TNS   : 0.000
-
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.135
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.144
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.145
+Slack : 0.154
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'mem_ck[0]'
-Slack : 0.394
+Type  : Fast 900mV 0C Model Hold 'M1_DDR2_clk[0]'
+Slack : 0.309
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.605
+Type  : Fast 900mV 0C Model Hold 'M1_DDR2_clk[1]'
+Slack : 0.342
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Hold 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
-Slack : 1.294
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.745
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : -0.324
-TNS   : -4.860
-
-Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.302
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 1.435
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.360
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : -0.953
+TNS   : -13.396
+
+Type  : Fast 900mV 0C Model Recovery 'umft601a_clk_100mhz'
+Slack : -0.078
+TNS   : -0.249
+
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.065
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 3.788
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 0.110
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 5.384
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 1.163
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Recovery 'CLK_M5'
-Slack : 14.338
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 3.785
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'osc_bank_4_50mhz'
+Slack : 17.126
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 49.699
+Slack : 49.290
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
-Slack : 0.240
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
+Slack : 0.229
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 0.305
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.260
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 0.263
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.385
+Slack : 0.269
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 0.414
+Type  : Fast 900mV 0C Model Removal 'osc_bank_4_50mhz'
+Slack : 0.280
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 0.453
+Type  : Fast 900mV 0C Model Removal 'umft601a_clk_100mhz'
+Slack : 0.463
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
-Slack : 1.437
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.537
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Removal 'CLK_M5'
-Slack : 4.582
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.799
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[2]'
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : -0.096
+TNS   : -13.056
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_write_clk'
 Slack : 0.192
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|MebX_Qsys_Project_m0_ddr3_memory_p0_leveling_clk'
-Slack : 0.391
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|MebX_Qsys_Project_mem_if_ddr3_emif_0_p0_leveling_clk'
+Slack : 0.387
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[1]'
-Slack : 0.522
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_mem_clk'
+Slack : 0.529
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[0]'
-Slack : 1.083
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.455
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[3]'
-Slack : 1.454
-TNS   : 0.000
-
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[4]'
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_afi_half_clk'
 Slack : 2.951
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[5]'
-Slack : 4.837
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'umft601a_clk_100mhz'
+Slack : 4.206
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLK_M5'
-Slack : 9.108
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 4.841
 TNS   : 0.000
 
-Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1|clk[6]'
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'osc_bank_4_50mhz'
+Slack : 9.189
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|mem_if_ddr3_emif_0|pll0|pll_config_clk'
 Slack : 11.667
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 49.193
+Slack : 49.132
 TNS   : 0.000
 
 ------------------------------------------------------------

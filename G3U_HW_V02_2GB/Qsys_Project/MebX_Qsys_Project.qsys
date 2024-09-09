@@ -9,43 +9,234 @@
    categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
-   element MebX_Qsys_Project
+   element Altera_UP_SD_Card_Avalon_Interface_0
    {
-      datum _originalDeviceFamily
+      datum _sortIndex
       {
-         value = "Stratix IV";
+         value = "55";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Altera_UP_SD_Card_Avalon_Interface_0.avalon_sdcard_slave
+   {
+      datum baseAddress
+      {
+         value = "0";
          type = "String";
       }
    }
-   element MebX_Qsys_Project
+   element Dumb_Communication_Module_v2_1
    {
-      datum _originalDeviceFamily
+      datum _sortIndex
       {
-         value = "Stratix IV";
+         value = "13";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_1.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147495936";
          type = "String";
       }
    }
-   element MebX_Qsys_Project
+   element Dumb_Communication_Module_v2_2
    {
-      datum _originalDeviceFamily
+      datum _sortIndex
       {
-         value = "Stratix IV";
+         value = "16";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_2.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147487744";
          type = "String";
       }
    }
-   element MebX_Qsys_Project
+   element Dumb_Communication_Module_v2_3
    {
-      datum _originalDeviceFamily
+      datum _sortIndex
       {
-         value = "Stratix IV";
+         value = "19";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_3.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147488768";
          type = "String";
       }
    }
-   element MebX_Qsys_Project
+   element Dumb_Communication_Module_v2_4
    {
-      datum _originalDeviceFamily
+      datum _sortIndex
       {
-         value = "Stratix IV";
+         value = "22";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_4.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147489792";
+         type = "String";
+      }
+   }
+   element Dumb_Communication_Module_v2_5
+   {
+      datum _sortIndex
+      {
+         value = "25";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_5.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147490816";
+         type = "String";
+      }
+   }
+   element Dumb_Communication_Module_v2_6
+   {
+      datum _sortIndex
+      {
+         value = "28";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_6.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147491840";
+         type = "String";
+      }
+   }
+   element Dumb_Communication_Module_v2_7
+   {
+      datum _sortIndex
+      {
+         value = "31";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_7.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147492864";
+         type = "String";
+      }
+   }
+   element Dumb_Communication_Module_v2_8
+   {
+      datum _sortIndex
+      {
+         value = "35";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_8.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147493888";
+         type = "String";
+      }
+   }
+   element Dumb_Communication_Module_v2_Timer
+   {
+      datum _sortIndex
+      {
+         value = "38";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Dumb_Communication_Module_v2_Timer.avalon_slave_dcom
+   {
+      datum baseAddress
+      {
+         value = "2147486720";
+         type = "String";
+      }
+   }
+   element FTDI_UMFT601A_Module
+   {
+      datum _sortIndex
+      {
+         value = "42";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element FTDI_UMFT601A_Module.avalon_slave_config
+   {
+      datum baseAddress
+      {
+         value = "2315259904";
          type = "String";
       }
    }
@@ -149,7 +340,7 @@
    {
       datum _sortIndex
       {
-         value = "11";
+         value = "43";
          type = "int";
       }
       datum sopceditor_expanded
@@ -162,11 +353,286 @@
    {
       datum baseAddress
       {
-         value = "2181038080";
+         value = "2315255808";
          type = "String";
       }
    }
-   element board_led
+   element RMAP_Echoing
+   {
+      datum _sortIndex
+      {
+         value = "37";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_1
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_1.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147614720";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_2
+   {
+      datum _sortIndex
+      {
+         value = "17";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_2.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147598336";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_3
+   {
+      datum _sortIndex
+      {
+         value = "20";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_3.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147581952";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_4
+   {
+      datum _sortIndex
+      {
+         value = "23";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_4.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147565568";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_5
+   {
+      datum _sortIndex
+      {
+         value = "26";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_5.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147549184";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_6
+   {
+      datum _sortIndex
+      {
+         value = "29";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_6.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147532800";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_7
+   {
+      datum _sortIndex
+      {
+         value = "32";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_7.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147516416";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_7.conduit_end_subunit_rmap_slave_0
+   {
+      datum _tags
+      {
+         value = "";
+         type = "String";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_8
+   {
+      datum _sortIndex
+      {
+         value = "36";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element RMAP_Memory_Subunit_Area_8.avalon_rmap_slave_0
+   {
+      datum baseAddress
+      {
+         value = "2147500032";
+         type = "String";
+      }
+   }
+   element SEVEN_SEGMENT_CONTROLLER_0
+   {
+      datum _sortIndex
+      {
+         value = "63";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SEVEN_SEGMENT_CONTROLLER_0.SSDP_avalon_slave
+   {
+      datum baseAddress
+      {
+         value = "2576";
+         type = "String";
+      }
+   }
+   element SpaceWire_Channel_A
+   {
+      datum _sortIndex
+      {
+         value = "12";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Channel_B
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Channel_C
+   {
+      datum _sortIndex
+      {
+         value = "18";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Channel_D
+   {
+      datum _sortIndex
+      {
+         value = "21";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Channel_E
+   {
+      datum _sortIndex
+      {
+         value = "24";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Channel_F
    {
       datum _sortIndex
       {
@@ -179,19 +645,11 @@
          type = "boolean";
       }
    }
-   element board_led.s1
-   {
-      datum baseAddress
-      {
-         value = "2688";
-         type = "String";
-      }
-   }
-   element button
+   element SpaceWire_Channel_G
    {
       datum _sortIndex
       {
-         value = "25";
+         value = "30";
          type = "int";
       }
       datum sopceditor_expanded
@@ -200,12 +658,56 @@
          type = "boolean";
       }
    }
-   element button.s1
+   element SpaceWire_Channel_H
    {
-      datum baseAddress
+      datum _sortIndex
       {
-         value = "2656";
-         type = "String";
+         value = "33";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element SpaceWire_Mux_Ch_H
+   {
+      datum _sortIndex
+      {
+         value = "34";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element Sync_Signal_Filter_Latch_0
+   {
+      datum _sortIndex
+      {
+         value = "77";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element altpll_0
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
       }
    }
    element clk_100
@@ -217,7 +719,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -230,7 +732,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -243,7 +745,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -255,11 +757,24 @@
          type = "int";
       }
    }
+   element clk_ftdi
+   {
+      datum _sortIndex
+      {
+         value = "41";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
    element clock_bridge_afi_50
    {
       datum _sortIndex
       {
-         value = "12";
+         value = "44";
          type = "int";
       }
       datum sopceditor_expanded
@@ -285,7 +800,7 @@
       }
       datum baseAddress
       {
-         value = "2147483648";
+         value = "2181038080";
          type = "String";
       }
    }
@@ -293,7 +808,7 @@
    {
       datum _sortIndex
       {
-         value = "20";
+         value = "58";
          type = "int";
       }
       datum sopceditor_expanded
@@ -314,7 +829,7 @@
    {
       datum _sortIndex
       {
-         value = "21";
+         value = "59";
          type = "int";
       }
       datum sopceditor_expanded
@@ -335,7 +850,7 @@
    {
       datum _sortIndex
       {
-         value = "22";
+         value = "60";
          type = "int";
       }
       datum sopceditor_expanded
@@ -356,7 +871,7 @@
    {
       datum _sortIndex
       {
-         value = "23";
+         value = "61";
          type = "int";
       }
       datum sopceditor_expanded
@@ -377,7 +892,7 @@
    {
       datum _sortIndex
       {
-         value = "24";
+         value = "62";
          type = "int";
       }
       datum sopceditor_expanded
@@ -398,12 +913,12 @@
    {
       datum _sortIndex
       {
-         value = "9";
+         value = "11";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -411,7 +926,7 @@
    {
       datum baseAddress
       {
-         value = "2164383744";
+         value = "2147494912";
          type = "String";
       }
    }
@@ -432,12 +947,12 @@
    {
       datum _sortIndex
       {
-         value = "4";
+         value = "6";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -454,75 +969,7 @@
          type = "String";
       }
    }
-   element jtag_uart
-   {
-      datum _sortIndex
-      {
-         value = "8";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element jtag_uart.avalon_jtag_slave
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "2166468432";
-         type = "String";
-      }
-   }
-   element m0_ddr3_i2c_scl
-   {
-      datum _sortIndex
-      {
-         value = "15";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element m0_ddr3_i2c_scl.s1
-   {
-      datum baseAddress
-      {
-         value = "2400";
-         type = "String";
-      }
-   }
-   element m0_ddr3_i2c_sda
-   {
-      datum _sortIndex
-      {
-         value = "16";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element m0_ddr3_i2c_sda.s1
-   {
-      datum baseAddress
-      {
-         value = "2416";
-         type = "String";
-      }
-   }
-   element m0_ddr3_memory
+   element jtag_uart_0
    {
       datum _sortIndex
       {
@@ -531,27 +978,11 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
-   element m0_ddr3_memory.afi_clk
-   {
-      datum color
-      {
-         value = "-16777063";
-         type = "int";
-      }
-   }
-   element m0_ddr3_memory.afi_half_clk
-   {
-      datum color
-      {
-         value = "-10053121";
-         type = "int";
-      }
-   }
-   element m0_ddr3_memory.avl
+   element jtag_uart_0.avalon_jtag_slave
    {
       datum _lockedAddress
       {
@@ -560,7 +991,49 @@
       }
       datum baseAddress
       {
+         value = "2147495056";
+         type = "String";
+      }
+   }
+   element m1_ddr2_i2c_scl
+   {
+      datum _sortIndex
+      {
+         value = "52";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
          value = "0";
+         type = "boolean";
+      }
+   }
+   element m1_ddr2_i2c_scl.s1
+   {
+      datum baseAddress
+      {
+         value = "2544";
+         type = "String";
+      }
+   }
+   element m1_ddr2_i2c_sda
+   {
+      datum _sortIndex
+      {
+         value = "53";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element m1_ddr2_i2c_sda.s1
+   {
+      datum baseAddress
+      {
+         value = "2560";
          type = "String";
       }
    }
@@ -578,18 +1051,26 @@
       {
          value = "Stratix IV";
          type = "String";
+      }
+   }
+   element mem_if_ddr3_emif_0
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
       }
    }
    element nios2_gen2_0
    {
       datum _sortIndex
       {
-         value = "3";
+         value = "5";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -610,7 +1091,7 @@
       }
       datum baseAddress
       {
-         value = "2166458368";
+         value = "2147483648";
          type = "String";
       }
    }
@@ -674,12 +1155,12 @@
    {
       datum _sortIndex
       {
-         value = "6";
+         value = "8";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -692,7 +1173,264 @@
       }
       datum baseAddress
       {
-         value = "2165309440";
+         value = "2149580800";
+         type = "String";
+      }
+   }
+   element pio_BUTTON
+   {
+      datum _sortIndex
+      {
+         value = "47";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_BUTTON.s1
+   {
+      datum baseAddress
+      {
+         value = "2528";
+         type = "String";
+      }
+   }
+   element pio_DIP
+   {
+      datum _sortIndex
+      {
+         value = "48";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_DIP.s1
+   {
+      datum baseAddress
+      {
+         value = "2496";
+         type = "String";
+      }
+   }
+   element pio_EXT
+   {
+      datum _sortIndex
+      {
+         value = "49";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_EXT.s1
+   {
+      datum baseAddress
+      {
+         value = "2480";
+         type = "String";
+      }
+   }
+   element pio_LED
+   {
+      datum _sortIndex
+      {
+         value = "50";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_LED.s1
+   {
+      datum baseAddress
+      {
+         value = "2512";
+         type = "String";
+      }
+   }
+   element pio_LED_painel
+   {
+      datum _sortIndex
+      {
+         value = "51";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_LED_painel.s1
+   {
+      datum baseAddress
+      {
+         value = "2304";
+         type = "String";
+      }
+   }
+   element pio_RST_ETH
+   {
+      datum _sortIndex
+      {
+         value = "66";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_RST_ETH.s1
+   {
+      datum baseAddress
+      {
+         value = "2192";
+         type = "String";
+      }
+   }
+   element pio_ctrl_io_lvds
+   {
+      datum _sortIndex
+      {
+         value = "70";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_ctrl_io_lvds.s1
+   {
+      datum baseAddress
+      {
+         value = "2208";
+         type = "String";
+      }
+   }
+   element pio_ftdi_umft601a_module_reset
+   {
+      datum _sortIndex
+      {
+         value = "74";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_ftdi_umft601a_module_reset.s1
+   {
+      datum baseAddress
+      {
+         value = "2816";
+         type = "String";
+      }
+   }
+   element pio_iso_logic_signal_enable
+   {
+      datum _sortIndex
+      {
+         value = "76";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_iso_logic_signal_enable.s1
+   {
+      datum baseAddress
+      {
+         value = "2832";
+         type = "String";
+      }
+   }
+   element pio_rmap_echoing_module_reset
+   {
+      datum _sortIndex
+      {
+         value = "75";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_rmap_echoing_module_reset.s1
+   {
+      datum baseAddress
+      {
+         value = "3072";
+         type = "String";
+      }
+   }
+   element pio_spw_mux_ch_h_select
+   {
+      datum _sortIndex
+      {
+         value = "71";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element pio_spw_mux_ch_h_select.s1
+   {
+      datum baseAddress
+      {
+         value = "2176";
+         type = "String";
+      }
+   }
+   element rs232_uart
+   {
+      datum _sortIndex
+      {
+         value = "40";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rs232_uart.s1
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "0";
          type = "String";
       }
    }
@@ -700,7 +1438,7 @@
    {
       datum _sortIndex
       {
-         value = "28";
+         value = "73";
          type = "int";
       }
       datum sopceditor_expanded
@@ -722,11 +1460,116 @@
          type = "String";
       }
    }
+   element rtcc_alarm
+   {
+      datum _sortIndex
+      {
+         value = "64";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rtcc_alarm.s1
+   {
+      datum baseAddress
+      {
+         value = "2288";
+         type = "String";
+      }
+   }
+   element rtcc_cs_n
+   {
+      datum _sortIndex
+      {
+         value = "65";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rtcc_cs_n.s1
+   {
+      datum baseAddress
+      {
+         value = "2224";
+         type = "String";
+      }
+   }
+   element rtcc_sck
+   {
+      datum _sortIndex
+      {
+         value = "67";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rtcc_sck.s1
+   {
+      datum baseAddress
+      {
+         value = "2240";
+         type = "String";
+      }
+   }
+   element rtcc_sdi
+   {
+      datum _sortIndex
+      {
+         value = "68";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rtcc_sdi.s1
+   {
+      datum baseAddress
+      {
+         value = "2256";
+         type = "String";
+      }
+   }
+   element rtcc_sdo
+   {
+      datum _sortIndex
+      {
+         value = "69";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element rtcc_sdo.s1
+   {
+      datum baseAddress
+      {
+         value = "2272";
+         type = "String";
+      }
+   }
    element sd_card_wp_n
    {
       datum _sortIndex
       {
-         value = "17";
+         value = "54";
          type = "int";
       }
       datum sopceditor_expanded
@@ -748,27 +1591,6 @@
          type = "String";
       }
    }
-   element slide_sw
-   {
-      datum _sortIndex
-      {
-         value = "26";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element slide_sw.s1
-   {
-      datum baseAddress
-      {
-         value = "2672";
-         type = "String";
-      }
-   }
    element subsystemA_0
    {
       datum _sortIndex
@@ -777,16 +1599,37 @@
          type = "int";
       }
    }
-   element sysid_qsys
+   element sync
    {
       datum _sortIndex
       {
-         value = "7";
+         value = "72";
          type = "int";
       }
       datum sopceditor_expanded
       {
          value = "0";
+         type = "boolean";
+      }
+   }
+   element sync.avalon_mm_slave
+   {
+      datum baseAddress
+      {
+         value = "1024";
+         type = "String";
+      }
+   }
+   element sysid_qsys
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
          type = "boolean";
       }
    }
@@ -799,7 +1642,7 @@
       }
       datum baseAddress
       {
-         value = "2166468416";
+         value = "2147495040";
          type = "String";
       }
    }
@@ -807,7 +1650,7 @@
    {
       datum _sortIndex
       {
-         value = "18";
+         value = "56";
          type = "int";
       }
       datum sopceditor_expanded
@@ -828,7 +1671,7 @@
    {
       datum _sortIndex
       {
-         value = "19";
+         value = "57";
          type = "int";
       }
       datum sopceditor_expanded
@@ -849,7 +1692,7 @@
    {
       datum _sortIndex
       {
-         value = "13";
+         value = "45";
          type = "int";
       }
       datum sopceditor_expanded
@@ -862,7 +1705,7 @@
    {
       datum baseAddress
       {
-         value = "2176";
+         value = "2144";
          type = "String";
       }
    }
@@ -870,7 +1713,7 @@
    {
       datum _sortIndex
       {
-         value = "14";
+         value = "46";
          type = "int";
       }
       datum sopceditor_expanded
@@ -883,7 +1726,7 @@
    {
       datum baseAddress
       {
-         value = "2144";
+         value = "2112";
          type = "String";
       }
    }
@@ -891,7 +1734,20 @@
    {
       datum _sortIndex
       {
-         value = "5";
+         value = "7";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element uart_module_top_0
+   {
+      datum _sortIndex
+      {
+         value = "39";
          type = "int";
       }
       datum sopceditor_expanded
@@ -900,10 +1756,18 @@
          type = "boolean";
       }
    }
+   element uart_module_top_0.avalon_slave_uart
+   {
+      datum baseAddress
+      {
+         value = "2147485696";
+         type = "String";
+      }
+   }
 }
 ]]></parameter>
  <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
- <parameter name="device" value="EP4SGX530KH40C2" />
+ <parameter name="device" value="EP4SGX230KF40C2" />
  <parameter name="deviceFamily" value="Stratix IV" />
  <parameter name="deviceSpeedGrade" value="2" />
  <parameter name="fabricMode" value="QSYS" />
@@ -922,13 +1786,8 @@
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface
-   name="board_led"
-   internal="board_led.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
    name="button"
-   internal="button.external_connection"
+   internal="pio_BUTTON.external_connection"
    type="conduit"
    dir="end" />
  <interface name="clk50" internal="clk_50.clk_in" type="clock" dir="end" />
@@ -958,33 +1817,163 @@
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_i2c_scl"
-   internal="m0_ddr3_i2c_scl.external_connection"
+   name="ctrl_io_lvds"
+   internal="pio_ctrl_io_lvds.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_i2c_sda"
-   internal="m0_ddr3_i2c_sda.external_connection"
+   name="dcom_1_sync_end"
+   internal="Dumb_Communication_Module_v2_1.sync_conduit_end"
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_memory"
-   internal="m0_ddr3_memory.memory"
+   name="dcom_2_sync_end"
+   internal="Dumb_Communication_Module_v2_2.sync_conduit_end"
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_memory_pll_sharing"
-   internal="m0_ddr3_memory.pll_sharing"
+   name="dcom_3_sync_end"
+   internal="Dumb_Communication_Module_v2_3.sync_conduit_end"
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_memory_status"
-   internal="m0_ddr3_memory.status"
+   name="dcom_4_sync_end"
+   internal="Dumb_Communication_Module_v2_4.sync_conduit_end"
    type="conduit"
    dir="end" />
  <interface
-   name="m0_ddr3_oct"
-   internal="m0_ddr3_memory.oct"
+   name="dcom_5_sync_end"
+   internal="Dumb_Communication_Module_v2_5.sync_conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcom_6_sync_end"
+   internal="Dumb_Communication_Module_v2_6.sync_conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcom_7_sync_end"
+   internal="Dumb_Communication_Module_v2_7.sync_conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dcom_8_sync_end"
+   internal="Dumb_Communication_Module_v2_8.sync_conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dip"
+   internal="pio_DIP.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_8_conduit_end_rmap_echo_out"
+   internal="Dumb_Communication_Module_v2_8.conduit_end_rmap_echo_out"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_avalon_slave_data_buffer"
+   internal="Dumb_Communication_Module_v2_Timer.avalon_slave_data_buffer" />
+ <interface
+   name="dumb_communication_module_v2_timer_conduit_end_rmap_echo_out"
+   internal="Dumb_Communication_Module_v2_Timer.conduit_end_rmap_echo_out"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_conduit_end_rmap_master_codec"
+   internal="Dumb_Communication_Module_v2_Timer.conduit_end_rmap_master_codec"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_conduit_end_rmap_mem_configs_out"
+   internal="Dumb_Communication_Module_v2_Timer.conduit_end_rmap_mem_configs_out"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_conduit_end_spacewire_controller"
+   internal="Dumb_Communication_Module_v2_Timer.conduit_end_spacewire_controller"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_rprt_interrupt_sender"
+   internal="Dumb_Communication_Module_v2_Timer.rprt_interrupt_sender"
+   type="interrupt"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_sync_conduit_end"
+   internal="Dumb_Communication_Module_v2_Timer.sync_conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="dumb_communication_module_v2_timer_tx_interrupt_sender"
+   internal="Dumb_Communication_Module_v2_Timer.tx_interrupt_sender"
+   type="interrupt"
+   dir="end" />
+ <interface
+   name="eth_rst"
+   internal="pio_RST_ETH.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="ext"
+   internal="pio_EXT.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface name="ftdi_clk" internal="clk_ftdi.clk_in" type="clock" dir="end" />
+ <interface
+   name="led_de4"
+   internal="pio_LED.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="led_painel"
+   internal="pio_LED_painel.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="m1_ddr2_i2c_scl"
+   internal="m1_ddr2_i2c_scl.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="m1_ddr2_i2c_sda"
+   internal="m1_ddr2_i2c_sda.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="memory"
+   internal="mem_if_ddr3_emif_0.memory"
+   type="conduit"
+   dir="end" />
+ <interface name="oct" internal="mem_if_ddr3_emif_0.oct" type="conduit" dir="end" />
+ <interface
+   name="pio_ftdi_umft601a_module_reset"
+   internal="pio_ftdi_umft601a_module_reset.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="pio_iso_logic_signal_enable"
+   internal="pio_iso_logic_signal_enable.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="pio_rmap_echoing_module_reset_external_connection"
+   internal="pio_rmap_echoing_module_reset.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="pio_spw_mux_ch_h_select"
+   internal="pio_spw_mux_ch_h_select.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="rmap_echoing_echo_rst_sink"
+   internal="RMAP_Echoing.echo_rst_sink"
+   type="reset"
+   dir="end" />
+ <interface
+   name="rs232_uart"
+   internal="rs232_uart.external_connection"
    type="conduit"
    dir="end" />
  <interface name="rst" internal="clk_50.clk_in_reset" type="reset" dir="end" />
@@ -999,13 +1988,201 @@
    type="conduit"
    dir="end" />
  <interface
+   name="rtcc_alarm"
+   internal="rtcc_alarm.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="rtcc_cs_n"
+   internal="rtcc_cs_n.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="rtcc_sck"
+   internal="rtcc_sck.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="rtcc_sdi"
+   internal="rtcc_sdi.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="rtcc_sdo"
+   internal="rtcc_sdo.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="sd_card_ip"
+   internal="Altera_UP_SD_Card_Avalon_Interface_0.conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
    name="sd_card_wp_n_io"
    internal="sd_card_wp_n.external_connection"
    type="conduit"
    dir="end" />
  <interface
-   name="slide_sw"
-   internal="slide_sw.external_connection"
+   name="spwc_a_enable"
+   internal="SpaceWire_Channel_A.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_a_leds"
+   internal="SpaceWire_Channel_A.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_a_lvds"
+   internal="SpaceWire_Channel_A.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_b_enable"
+   internal="SpaceWire_Channel_B.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_b_leds"
+   internal="SpaceWire_Channel_B.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_b_lvds"
+   internal="SpaceWire_Channel_B.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_c_enable"
+   internal="SpaceWire_Channel_C.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_c_leds"
+   internal="SpaceWire_Channel_C.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_c_lvds"
+   internal="SpaceWire_Channel_C.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_d_enable"
+   internal="SpaceWire_Channel_D.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_d_leds"
+   internal="SpaceWire_Channel_D.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_d_lvds"
+   internal="SpaceWire_Channel_D.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_e_enable"
+   internal="SpaceWire_Channel_E.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_e_leds"
+   internal="SpaceWire_Channel_E.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_e_lvds"
+   internal="SpaceWire_Channel_E.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_f_enable"
+   internal="SpaceWire_Channel_F.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_f_leds"
+   internal="SpaceWire_Channel_F.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_f_lvds"
+   internal="SpaceWire_Channel_F.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_g_enable"
+   internal="SpaceWire_Channel_G.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_g_leds"
+   internal="SpaceWire_Channel_G.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_g_lvds"
+   internal="SpaceWire_Channel_G.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_h_enable"
+   internal="SpaceWire_Channel_H.conduit_end_spacewire_enable"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_h_leds"
+   internal="SpaceWire_Channel_H.conduit_end_spacewire_leds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwc_h_lvds"
+   internal="SpaceWire_Channel_H.conduit_end_spacewire_lvds"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="spwm_h_select"
+   internal="SpaceWire_Mux_Ch_H.conduit_end_mux_select"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="ssdp"
+   internal="SEVEN_SEGMENT_CONTROLLER_0.SSDP_conduit"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="sync_filtered_sig"
+   internal="Sync_Signal_Filter_Latch_0.conduit_end_filtered_sig"
+   type="conduit"
+   dir="end" />
+ <interface name="sync_in" internal="sync.sync_in" type="conduit" dir="end" />
+ <interface name="sync_in_en" internal="sync.sync_in_en" type="conduit" dir="end" />
+ <interface name="sync_out" internal="sync.sync_out" type="conduit" dir="end" />
+ <interface
+   name="sync_out_en"
+   internal="sync.sync_out_en"
+   type="conduit"
+   dir="end" />
+ <interface name="sync_spw1" internal="sync.sync_spw1" type="conduit" dir="end" />
+ <interface name="sync_spw2" internal="sync.sync_spw2" type="conduit" dir="end" />
+ <interface name="sync_spw3" internal="sync.sync_spw3" type="conduit" dir="end" />
+ <interface name="sync_spw4" internal="sync.sync_spw4" type="conduit" dir="end" />
+ <interface name="sync_spw5" internal="sync.sync_spw5" type="conduit" dir="end" />
+ <interface name="sync_spw6" internal="sync.sync_spw6" type="conduit" dir="end" />
+ <interface name="sync_spw7" internal="sync.sync_spw7" type="conduit" dir="end" />
+ <interface name="sync_spw8" internal="sync.sync_spw8" type="conduit" dir="end" />
+ <interface name="sync_spwb" internal="sync.sync_spwb" />
+ <interface name="sync_spwc" internal="sync.sync_spwc" />
+ <interface name="sync_spwd" internal="sync.sync_spwd" />
+ <interface name="sync_spwe" internal="sync.sync_spwe" />
+ <interface name="sync_spwf" internal="sync.sync_spwf" />
+ <interface name="sync_spwg" internal="sync.sync_spwg" />
+ <interface name="sync_spwh" internal="sync.sync_spwh" />
+ <interface
+   name="sync_unfiltered_sig"
+   internal="Sync_Signal_Filter_Latch_0.conduit_end_unfiltered_sig"
    type="conduit"
    dir="end" />
  <interface
@@ -1033,34 +2210,333 @@
    internal="tristate_conduit_bridge_0.out"
    type="conduit"
    dir="end" />
- <module name="Memory_Filler" kind="Memory_Filler" version="1.0" enabled="1" />
- <module name="board_led" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="15" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="4" />
+ <interface name="uart_module" internal="uart_module_top_0.conduit_end" />
+ <interface
+   name="umft601a_pins"
+   internal="FTDI_UMFT601A_Module.conduit_umft601a_pins"
+   type="conduit"
+   dir="end" />
+ <module
+   name="Altera_UP_SD_Card_Avalon_Interface_0"
+   kind="Altera_UP_SD_Card_Avalon_Interface"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix IV" />
  </module>
- <module name="button" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="4" />
+ <module
+   name="Dumb_Communication_Module_v2_1"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_2"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_3"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_4"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_5"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_6"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_7"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_8"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="Dumb_Communication_Module_v2_Timer"
+   kind="Dumb_Communication_Module_v2"
+   version="1.7"
+   enabled="1" />
+ <module
+   name="FTDI_UMFT601A_Module"
+   kind="FTDI_UMFT601A_Module"
+   version="2.3"
+   enabled="1" />
+ <module name="Memory_Filler" kind="Memory_Filler" version="1.0" enabled="1" />
+ <module name="RMAP_Echoing" kind="RMAP_Echoing" version="1.7" enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_1"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_2"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_3"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_4"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_5"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_6"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_7"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="RMAP_Memory_Subunit_Area_8"
+   kind="RMAP_Memory_Subunit_Area"
+   version="1"
+   enabled="1" />
+ <module
+   name="SEVEN_SEGMENT_CONTROLLER_0"
+   kind="SEVEN_SEGMENT_CONTROLLER"
+   version="1.0"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_A"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_B"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_C"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_D"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_E"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_F"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_G"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Channel_H"
+   kind="SpaceWire_Channel"
+   version="1.5"
+   enabled="1" />
+ <module
+   name="SpaceWire_Mux_Ch_H"
+   kind="SpaceWire_Mux"
+   version="1.2"
+   enabled="1" />
+ <module
+   name="Sync_Signal_Filter_Latch_0"
+   kind="Signal_Filter_Latch"
+   version="1.0"
+   enabled="1" />
+ <module name="altpll_0" kind="altpll" version="18.1" enabled="1">
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix IV" />
+  <parameter name="AUTO_INCLK_INTERFACE_CLOCK_RATE" value="266666700" />
+  <parameter name="AVALON_USE_SEPARATE_SYSCLK" value="NO" />
+  <parameter name="BANDWIDTH" value="" />
+  <parameter name="BANDWIDTH_TYPE" value="AUTO" />
+  <parameter name="CLK0_DIVIDE_BY" value="133333" />
+  <parameter name="CLK0_DUTY_CYCLE" value="50" />
+  <parameter name="CLK0_MULTIPLY_BY" value="100000" />
+  <parameter name="CLK0_PHASE_SHIFT" value="0" />
+  <parameter name="CLK1_DIVIDE_BY" value="" />
+  <parameter name="CLK1_DUTY_CYCLE" value="" />
+  <parameter name="CLK1_MULTIPLY_BY" value="" />
+  <parameter name="CLK1_PHASE_SHIFT" value="" />
+  <parameter name="CLK2_DIVIDE_BY" value="" />
+  <parameter name="CLK2_DUTY_CYCLE" value="" />
+  <parameter name="CLK2_MULTIPLY_BY" value="" />
+  <parameter name="CLK2_PHASE_SHIFT" value="" />
+  <parameter name="CLK3_DIVIDE_BY" value="" />
+  <parameter name="CLK3_DUTY_CYCLE" value="" />
+  <parameter name="CLK3_MULTIPLY_BY" value="" />
+  <parameter name="CLK3_PHASE_SHIFT" value="" />
+  <parameter name="CLK4_DIVIDE_BY" value="" />
+  <parameter name="CLK4_DUTY_CYCLE" value="" />
+  <parameter name="CLK4_MULTIPLY_BY" value="" />
+  <parameter name="CLK4_PHASE_SHIFT" value="" />
+  <parameter name="CLK5_DIVIDE_BY" value="" />
+  <parameter name="CLK5_DUTY_CYCLE" value="" />
+  <parameter name="CLK5_MULTIPLY_BY" value="" />
+  <parameter name="CLK5_PHASE_SHIFT" value="" />
+  <parameter name="CLK6_DIVIDE_BY" value="" />
+  <parameter name="CLK6_DUTY_CYCLE" value="" />
+  <parameter name="CLK6_MULTIPLY_BY" value="" />
+  <parameter name="CLK6_PHASE_SHIFT" value="" />
+  <parameter name="CLK7_DIVIDE_BY" value="" />
+  <parameter name="CLK7_DUTY_CYCLE" value="" />
+  <parameter name="CLK7_MULTIPLY_BY" value="" />
+  <parameter name="CLK7_PHASE_SHIFT" value="" />
+  <parameter name="CLK8_DIVIDE_BY" value="" />
+  <parameter name="CLK8_DUTY_CYCLE" value="" />
+  <parameter name="CLK8_MULTIPLY_BY" value="" />
+  <parameter name="CLK8_PHASE_SHIFT" value="" />
+  <parameter name="CLK9_DIVIDE_BY" value="" />
+  <parameter name="CLK9_DUTY_CYCLE" value="" />
+  <parameter name="CLK9_MULTIPLY_BY" value="" />
+  <parameter name="CLK9_PHASE_SHIFT" value="" />
+  <parameter name="COMPENSATE_CLOCK" value="CLK0" />
+  <parameter name="DOWN_SPREAD" value="" />
+  <parameter name="DPA_DIVIDER" value="" />
+  <parameter name="DPA_DIVIDE_BY" value="" />
+  <parameter name="DPA_MULTIPLY_BY" value="" />
+  <parameter name="ENABLE_SWITCH_OVER_COUNTER" value="" />
+  <parameter name="EXTCLK0_DIVIDE_BY" value="" />
+  <parameter name="EXTCLK0_DUTY_CYCLE" value="" />
+  <parameter name="EXTCLK0_MULTIPLY_BY" value="" />
+  <parameter name="EXTCLK0_PHASE_SHIFT" value="" />
+  <parameter name="EXTCLK1_DIVIDE_BY" value="" />
+  <parameter name="EXTCLK1_DUTY_CYCLE" value="" />
+  <parameter name="EXTCLK1_MULTIPLY_BY" value="" />
+  <parameter name="EXTCLK1_PHASE_SHIFT" value="" />
+  <parameter name="EXTCLK2_DIVIDE_BY" value="" />
+  <parameter name="EXTCLK2_DUTY_CYCLE" value="" />
+  <parameter name="EXTCLK2_MULTIPLY_BY" value="" />
+  <parameter name="EXTCLK2_PHASE_SHIFT" value="" />
+  <parameter name="EXTCLK3_DIVIDE_BY" value="" />
+  <parameter name="EXTCLK3_DUTY_CYCLE" value="" />
+  <parameter name="EXTCLK3_MULTIPLY_BY" value="" />
+  <parameter name="EXTCLK3_PHASE_SHIFT" value="" />
+  <parameter name="FEEDBACK_SOURCE" value="" />
+  <parameter name="GATE_LOCK_COUNTER" value="" />
+  <parameter name="GATE_LOCK_SIGNAL" value="" />
+  <parameter name="HIDDEN_CONSTANTS">CT#PORT_clk9 PORT_UNUSED CT#PORT_clk8 PORT_UNUSED CT#PORT_clk7 PORT_UNUSED CT#PORT_clk6 PORT_UNUSED CT#PORT_clk5 PORT_UNUSED CT#PORT_clk4 PORT_UNUSED CT#PORT_clk3 PORT_UNUSED CT#PORT_clk2 PORT_UNUSED CT#PORT_clk1 PORT_UNUSED CT#PORT_clk0 PORT_USED CT#CLK0_MULTIPLY_BY 100000 CT#PORT_SCANWRITE PORT_UNUSED CT#PORT_SCANACLR PORT_UNUSED CT#PORT_PFDENA PORT_UNUSED CT#PORT_PLLENA PORT_UNUSED CT#PORT_SCANDATA PORT_UNUSED CT#PORT_SCANCLKENA PORT_UNUSED CT#WIDTH_CLOCK 10 CT#PORT_SCANDATAOUT PORT_UNUSED CT#LPM_TYPE altpll CT#PLL_TYPE AUTO CT#CLK0_PHASE_SHIFT 0 CT#PORT_PHASEDONE PORT_UNUSED CT#OPERATION_MODE NORMAL CT#PORT_CONFIGUPDATE PORT_UNUSED CT#COMPENSATE_CLOCK CLK0 CT#PORT_CLKSWITCH PORT_UNUSED CT#INCLK0_INPUT_FREQUENCY 3750 CT#PORT_SCANDONE PORT_UNUSED CT#PORT_CLKLOSS PORT_UNUSED CT#PORT_INCLK1 PORT_UNUSED CT#AVALON_USE_SEPARATE_SYSCLK NO CT#PORT_INCLK0 PORT_USED CT#PORT_clkena5 PORT_UNUSED CT#PORT_clkena4 PORT_UNUSED CT#PORT_clkena3 PORT_UNUSED CT#PORT_clkena2 PORT_UNUSED CT#PORT_clkena1 PORT_UNUSED CT#PORT_FBOUT PORT_UNUSED CT#PORT_clkena0 PORT_UNUSED CT#PORT_ARESET PORT_USED CT#BANDWIDTH_TYPE AUTO CT#INTENDED_DEVICE_FAMILY {Stratix IV} CT#PORT_SCANREAD PORT_UNUSED CT#PORT_PHASESTEP PORT_UNUSED CT#PORT_SCANCLK PORT_UNUSED CT#PORT_CLKBAD1 PORT_UNUSED CT#PORT_CLKBAD0 PORT_UNUSED CT#PORT_FBIN PORT_UNUSED CT#PORT_PHASEUPDOWN PORT_UNUSED CT#PORT_PHASECOUNTERSELECT PORT_UNUSED CT#PORT_ACTIVECLOCK PORT_UNUSED CT#CLK0_DUTY_CYCLE 50 CT#CLK0_DIVIDE_BY 133333 CT#USING_FBMIMICBIDIR_PORT OFF CT#PORT_LOCKED PORT_UNUSED</parameter>
+  <parameter name="HIDDEN_CUSTOM_ELABORATION">altpll_avalon_elaboration</parameter>
+  <parameter name="HIDDEN_CUSTOM_POST_EDIT">altpll_avalon_post_edit</parameter>
+  <parameter name="HIDDEN_IF_PORTS">IF#phasecounterselect {input 4} IF#locked {output 0} IF#reset {input 0} IF#clk {input 0} IF#phaseupdown {input 0} IF#scandone {output 0} IF#readdata {output 32} IF#write {input 0} IF#scanclk {input 0} IF#phasedone {output 0} IF#address {input 2} IF#c0 {output 0} IF#writedata {input 32} IF#read {input 0} IF#areset {input 0} IF#scanclkena {input 0} IF#scandataout {output 0} IF#configupdate {input 0} IF#phasestep {input 0} IF#scandata {input 0}</parameter>
+  <parameter name="HIDDEN_IS_FIRST_EDIT" value="0" />
+  <parameter name="HIDDEN_IS_NUMERIC">IN#WIDTH_CLOCK 1 IN#CLK0_DUTY_CYCLE 1 IN#PLL_TARGET_HARCOPY_CHECK 1 IN#SWITCHOVER_COUNT_EDIT 1 IN#INCLK0_INPUT_FREQUENCY 1 IN#PLL_LVDS_PLL_CHECK 1 IN#PLL_AUTOPLL_CHECK 1 IN#PLL_FASTPLL_CHECK 1 IN#PLL_ENHPLL_CHECK 1 IN#DIV_FACTOR0 1 IN#LVDS_MODE_DATA_RATE_DIRTY 1 IN#GLOCK_COUNTER_EDIT 1 IN#CLK0_DIVIDE_BY 1 IN#MULT_FACTOR0 1 IN#CLK0_MULTIPLY_BY 1 IN#USE_MIL_SPEED_GRADE 1</parameter>
+  <parameter name="HIDDEN_MF_PORTS">MF#areset 1 MF#clk 1 MF#locked 1 MF#inclk 1</parameter>
+  <parameter name="HIDDEN_PRIVATES">PT#GLOCKED_FEATURE_ENABLED 0 PT#SPREAD_FEATURE_ENABLED 0 PT#BANDWIDTH_FREQ_UNIT MHz PT#CUR_DEDICATED_CLK c0 PT#INCLK0_FREQ_EDIT 266.666 PT#BANDWIDTH_PRESET Low PT#PLL_LVDS_PLL_CHECK 0 PT#BANDWIDTH_USE_PRESET 0 PT#AVALON_USE_SEPARATE_SYSCLK NO PT#PLL_ENHPLL_CHECK 0 PT#OUTPUT_FREQ_UNIT0 MHz PT#PHASE_RECONFIG_FEATURE_ENABLED 1 PT#CREATE_CLKBAD_CHECK 0 PT#CLKSWITCH_CHECK 0 PT#INCLK1_FREQ_EDIT 100.000 PT#NORMAL_MODE_RADIO 1 PT#SRC_SYNCH_COMP_RADIO 0 PT#PLL_ARESET_CHECK 1 PT#LONG_SCAN_RADIO 1 PT#SCAN_FEATURE_ENABLED 1 PT#PHASE_RECONFIG_INPUTS_CHECK 0 PT#USE_CLK0 1 PT#PRIMARY_CLK_COMBO inclk0 PT#BANDWIDTH 1.000 PT#GLOCKED_COUNTER_EDIT_CHANGED 1 PT#PLL_FASTPLL_CHECK 0 PT#SPREAD_FREQ_UNIT KHz PT#PLL_AUTOPLL_CHECK 1 PT#LVDS_PHASE_SHIFT_UNIT0 deg PT#SWITCHOVER_FEATURE_ENABLED 0 PT#MIG_DEVICE_SPEED_GRADE Any PT#OUTPUT_FREQ_MODE0 1 PT#BANDWIDTH_FEATURE_ENABLED 1 PT#INCLK0_FREQ_UNIT_COMBO MHz PT#ZERO_DELAY_RADIO 0 PT#OUTPUT_FREQ0 200.00000000 PT#SHORT_SCAN_RADIO 0 PT#LVDS_MODE_DATA_RATE_DIRTY 0 PT#CUR_FBIN_CLK c0 PT#PLL_ADVANCED_PARAM_CHECK 0 PT#CLKBAD_SWITCHOVER_CHECK 0 PT#PHASE_SHIFT_STEP_ENABLED_CHECK 0 PT#DEVICE_SPEED_GRADE Any PT#PLL_FBMIMIC_CHECK 0 PT#LVDS_MODE_DATA_RATE {Not Available} PT#LOCKED_OUTPUT_CHECK 0 PT#SPREAD_PERCENT 0.500 PT#PHASE_SHIFT0 0.00000000 PT#DIV_FACTOR0 1 PT#CNX_NO_COMPENSATE_RADIO 0 PT#CREATE_INCLK1_CHECK 0 PT#GLOCK_COUNTER_EDIT 1048575 PT#INCLK1_FREQ_UNIT_COMBO MHz PT#EFF_OUTPUT_FREQ_VALUE0 200.000000 PT#SPREAD_FREQ 50.000 PT#USE_MIL_SPEED_GRADE 0 PT#EXPLICIT_SWITCHOVER_COUNTER 0 PT#STICKY_CLK0 1 PT#EXT_FEEDBACK_RADIO 0 PT#SWITCHOVER_COUNT_EDIT 1 PT#SELF_RESET_LOCK_LOSS 0 PT#PLL_PFDENA_CHECK 0 PT#INT_FEEDBACK__MODE_RADIO 1 PT#INCLK1_FREQ_EDIT_CHANGED 1 PT#CLKLOSS_CHECK 0 PT#SYNTH_WRAPPER_GEN_POSTFIX 0 PT#PHASE_SHIFT_UNIT0 deg PT#BANDWIDTH_USE_AUTO 1 PT#HAS_MANUAL_SWITCHOVER 1 PT#MULT_FACTOR0 1 PT#SPREAD_USE 0 PT#GLOCKED_MODE_CHECK 0 PT#SACN_INPUTS_CHECK 0 PT#DUTY_CYCLE0 50.00000000 PT#INTENDED_DEVICE_FAMILY {Stratix IV} PT#PLL_TARGET_HARCOPY_CHECK 0 PT#INCLK1_FREQ_UNIT_CHANGED 1 PT#RECONFIG_FILE ALTPLL1725018100215156.mif PT#ACTIVECLK_CHECK 0</parameter>
+  <parameter name="HIDDEN_USED_PORTS">UP#locked used UP#c0 used UP#areset used UP#inclk0 used</parameter>
+  <parameter name="INCLK0_INPUT_FREQUENCY" value="3750" />
+  <parameter name="INCLK1_INPUT_FREQUENCY" value="" />
+  <parameter name="INTENDED_DEVICE_FAMILY" value="Stratix IV" />
+  <parameter name="INVALID_LOCK_MULTIPLIER" value="" />
+  <parameter name="LOCK_HIGH" value="" />
+  <parameter name="LOCK_LOW" value="" />
+  <parameter name="OPERATION_MODE" value="NORMAL" />
+  <parameter name="PLL_TYPE" value="AUTO" />
+  <parameter name="PORT_ACTIVECLOCK" value="PORT_UNUSED" />
+  <parameter name="PORT_ARESET" value="PORT_USED" />
+  <parameter name="PORT_CLKBAD0" value="PORT_UNUSED" />
+  <parameter name="PORT_CLKBAD1" value="PORT_UNUSED" />
+  <parameter name="PORT_CLKLOSS" value="PORT_UNUSED" />
+  <parameter name="PORT_CLKSWITCH" value="PORT_UNUSED" />
+  <parameter name="PORT_CONFIGUPDATE" value="PORT_UNUSED" />
+  <parameter name="PORT_ENABLE0" value="" />
+  <parameter name="PORT_ENABLE1" value="" />
+  <parameter name="PORT_FBIN" value="PORT_UNUSED" />
+  <parameter name="PORT_FBOUT" value="PORT_UNUSED" />
+  <parameter name="PORT_INCLK0" value="PORT_USED" />
+  <parameter name="PORT_INCLK1" value="PORT_UNUSED" />
+  <parameter name="PORT_LOCKED" value="PORT_UNUSED" />
+  <parameter name="PORT_PFDENA" value="PORT_UNUSED" />
+  <parameter name="PORT_PHASECOUNTERSELECT" value="PORT_UNUSED" />
+  <parameter name="PORT_PHASEDONE" value="PORT_UNUSED" />
+  <parameter name="PORT_PHASESTEP" value="PORT_UNUSED" />
+  <parameter name="PORT_PHASEUPDOWN" value="PORT_UNUSED" />
+  <parameter name="PORT_PLLENA" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANACLR" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANCLK" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANCLKENA" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANDATA" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANDATAOUT" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANDONE" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANREAD" value="PORT_UNUSED" />
+  <parameter name="PORT_SCANWRITE" value="PORT_UNUSED" />
+  <parameter name="PORT_SCLKOUT0" value="" />
+  <parameter name="PORT_SCLKOUT1" value="" />
+  <parameter name="PORT_VCOOVERRANGE" value="" />
+  <parameter name="PORT_VCOUNDERRANGE" value="" />
+  <parameter name="PORT_clk0" value="PORT_USED" />
+  <parameter name="PORT_clk1" value="PORT_UNUSED" />
+  <parameter name="PORT_clk2" value="PORT_UNUSED" />
+  <parameter name="PORT_clk3" value="PORT_UNUSED" />
+  <parameter name="PORT_clk4" value="PORT_UNUSED" />
+  <parameter name="PORT_clk5" value="PORT_UNUSED" />
+  <parameter name="PORT_clk6" value="PORT_UNUSED" />
+  <parameter name="PORT_clk7" value="PORT_UNUSED" />
+  <parameter name="PORT_clk8" value="PORT_UNUSED" />
+  <parameter name="PORT_clk9" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena0" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena1" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena2" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena3" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena4" value="PORT_UNUSED" />
+  <parameter name="PORT_clkena5" value="PORT_UNUSED" />
+  <parameter name="PORT_extclk0" value="" />
+  <parameter name="PORT_extclk1" value="" />
+  <parameter name="PORT_extclk2" value="" />
+  <parameter name="PORT_extclk3" value="" />
+  <parameter name="PORT_extclkena0" value="" />
+  <parameter name="PORT_extclkena1" value="" />
+  <parameter name="PORT_extclkena2" value="" />
+  <parameter name="PORT_extclkena3" value="" />
+  <parameter name="PRIMARY_CLOCK" value="" />
+  <parameter name="QUALIFY_CONF_DONE" value="" />
+  <parameter name="SCAN_CHAIN" value="" />
+  <parameter name="SCAN_CHAIN_MIF_FILE" value="" />
+  <parameter name="SCLKOUT0_PHASE_SHIFT" value="" />
+  <parameter name="SCLKOUT1_PHASE_SHIFT" value="" />
+  <parameter name="SELF_RESET_ON_GATED_LOSS_LOCK" value="" />
+  <parameter name="SELF_RESET_ON_LOSS_LOCK" value="" />
+  <parameter name="SKIP_VCO" value="" />
+  <parameter name="SPREAD_FREQUENCY" value="" />
+  <parameter name="SWITCH_OVER_COUNTER" value="" />
+  <parameter name="SWITCH_OVER_ON_GATED_LOCK" value="" />
+  <parameter name="SWITCH_OVER_ON_LOSSCLK" value="" />
+  <parameter name="SWITCH_OVER_TYPE" value="" />
+  <parameter name="USING_FBMIMICBIDIR_PORT" value="OFF" />
+  <parameter name="VALID_LOCK_MULTIPLIER" value="" />
+  <parameter name="VCO_DIVIDE_BY" value="" />
+  <parameter name="VCO_FREQUENCY_CONTROL" value="" />
+  <parameter name="VCO_MULTIPLY_BY" value="" />
+  <parameter name="VCO_PHASE_SHIFT_STEP" value="" />
+  <parameter name="WIDTH_CLOCK" value="10" />
+  <parameter name="WIDTH_PHASECOUNTERSELECT" value="" />
  </module>
  <module name="clk_100" kind="clock_source" version="18.1" enabled="1">
   <parameter name="clockFrequency" value="100000000" />
@@ -1071,11 +2547,17 @@
  <module name="clk_200" kind="clock_source" version="18.1" enabled="1">
   <parameter name="clockFrequency" value="200000000" />
   <parameter name="clockFrequencyKnown" value="true" />
-  <parameter name="inputClockFrequency" value="266666700" />
+  <parameter name="inputClockFrequency" value="200000000" />
   <parameter name="resetSynchronousEdges" value="NONE" />
  </module>
  <module name="clk_50" kind="clock_source" version="18.1" enabled="1">
   <parameter name="clockFrequency" value="50000000" />
+  <parameter name="clockFrequencyKnown" value="true" />
+  <parameter name="inputClockFrequency" value="0" />
+  <parameter name="resetSynchronousEdges" value="NONE" />
+ </module>
+ <module name="clk_ftdi" kind="clock_source" version="18.1" enabled="1">
+  <parameter name="clockFrequency" value="100000000" />
   <parameter name="clockFrequencyKnown" value="true" />
   <parameter name="inputClockFrequency" value="0" />
   <parameter name="resetSynchronousEdges" value="NONE" />
@@ -1206,9 +2688,9 @@
   <parameter name="ACTIVE_LOW_WAITREQUEST" value="0" />
   <parameter name="ACTIVE_LOW_WRITE" value="1" />
   <parameter name="ACTIVE_LOW_WRITEBYTEENABLE" value="0" />
-  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="3" />
-  <parameter name="AUTO_CLK_RESET_DOMAIN" value="3" />
-  <parameter name="AUTO_DEVICE" value="EP4SGX530KH40C2" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="6" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="6" />
+  <parameter name="AUTO_DEVICE" value="EP4SGX230KF40C2" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Stratix IV" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <parameter name="CHIPSELECT_THROUGH_READLATENCY" value="0" />
@@ -1246,7 +2728,7 @@
   <parameter name="USE_WRITEDATA" value="1" />
  </module>
  <module
-   name="jtag_uart"
+   name="jtag_uart_0"
    kind="altera_avalon_jtag_uart"
    version="18.1"
    enabled="1">
@@ -1265,7 +2747,7 @@
   <parameter name="writeIRQThreshold" value="8" />
  </module>
  <module
-   name="m0_ddr3_i2c_scl"
+   name="m1_ddr2_i2c_scl"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1283,7 +2765,7 @@
   <parameter name="width" value="1" />
  </module>
  <module
-   name="m0_ddr3_i2c_sda"
+   name="m1_ddr2_i2c_sda"
    kind="altera_avalon_pio"
    version="18.1"
    enabled="1">
@@ -1301,7 +2783,7 @@
   <parameter name="width" value="1" />
  </module>
  <module
-   name="m0_ddr3_memory"
+   name="mem_if_ddr3_emif_0"
    kind="altera_mem_if_ddr3_emif"
    version="18.1"
    enabled="1">
@@ -1320,7 +2802,7 @@
   <parameter name="ALTMEMPHY_COMPATIBLE_MODE" value="false" />
   <parameter name="AP_MODE" value="false" />
   <parameter name="AP_MODE_EN" value="0" />
-  <parameter name="AUTO_DEVICE" value="EP4SGX530KH40C2" />
+  <parameter name="AUTO_DEVICE" value="EP4SGX230KF40C2" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <parameter name="AUTO_PD_CYCLES" value="0" />
   <parameter name="AUTO_POWERDN_EN" value="false" />
@@ -1614,7 +3096,7 @@
   <parameter name="TRACKING_WATCH_TEST" value="false" />
   <parameter name="TREFI" value="35100" />
   <parameter name="TRFC" value="350" />
-  <parameter name="USER_DEBUG_LEVEL" value="0" />
+  <parameter name="USER_DEBUG_LEVEL" value="1" />
   <parameter name="USE_AXI_ADAPTOR" value="false" />
   <parameter name="USE_FAKE_PHY" value="false" />
   <parameter name="USE_MEM_CLK_FREQ" value="false" />
@@ -1628,9 +3110,9 @@
    kind="altera_nios2_gen2"
    version="18.1"
    enabled="1">
-  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="3" />
-  <parameter name="AUTO_CLK_RESET_DOMAIN" value="3" />
-  <parameter name="AUTO_DEVICE" value="EP4SGX530KH40C2" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="6" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="6" />
+  <parameter name="AUTO_DEVICE" value="EP4SGX230KF40C2" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <parameter name="bht_ramBlockType" value="Automatic" />
   <parameter name="breakOffset" value="32" />
@@ -1647,7 +3129,7 @@
   <parameter name="dataAddrWidth" value="32" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='ddr2_address_span_extender.windowed_slave' start='0x0' end='0x80000000' type='altera_address_span_extender.windowed_slave' /><slave name='rst_controller.avalon_rst_controller_slave' start='0x80000800' end='0x80000840' type='rst_controller.avalon_rst_controller_slave' /><slave name='timer_1us.s1' start='0x80000860' end='0x80000880' type='altera_avalon_timer.s1' /><slave name='timer_1ms.s1' start='0x80000880' end='0x800008A0' type='altera_avalon_timer.s1' /><slave name='csense_adc_fo.s1' start='0x80000910' end='0x80000920' type='altera_avalon_pio.s1' /><slave name='csense_cs_n.s1' start='0x80000920' end='0x80000930' type='altera_avalon_pio.s1' /><slave name='csense_sck.s1' start='0x80000930' end='0x80000940' type='altera_avalon_pio.s1' /><slave name='csense_sdi.s1' start='0x80000940' end='0x80000950' type='altera_avalon_pio.s1' /><slave name='csense_sdo.s1' start='0x80000950' end='0x80000960' type='altera_avalon_pio.s1' /><slave name='m0_ddr3_i2c_scl.s1' start='0x80000960' end='0x80000970' type='altera_avalon_pio.s1' /><slave name='m0_ddr3_i2c_sda.s1' start='0x80000970' end='0x80000980' type='altera_avalon_pio.s1' /><slave name='temp_sda.s1' start='0x80000980' end='0x80000990' type='altera_avalon_pio.s1' /><slave name='temp_scl.s1' start='0x80000990' end='0x800009A0' type='altera_avalon_pio.s1' /><slave name='sd_card_wp_n.s1' start='0x800009A0' end='0x800009B0' type='altera_avalon_pio.s1' /><slave name='button.s1' start='0x80000A60' end='0x80000A70' type='altera_avalon_pio.s1' /><slave name='slide_sw.s1' start='0x80000A70' end='0x80000A80' type='altera_avalon_pio.s1' /><slave name='board_led.s1' start='0x80000A80' end='0x80000A90' type='altera_avalon_pio.s1' /><slave name='ddr2_address_span_extender.cntl' start='0x8101E000' end='0x8101E008' type='altera_address_span_extender.cntl' /><slave name='onchip_memory.s1' start='0x81100000' end='0x811C0000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x81218800' end='0x81219000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sysid_qsys.control_slave' start='0x8121AF40' end='0x8121AF48' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart.avalon_jtag_slave' start='0x8121AF50' end='0x8121AF58' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='Memory_Filler.avalon_slave_config' start='0x82000000' end='0x82000400' type='Memory_Filler.avalon_slave_config' /><slave name='ext_flash.uas' start='0x84000000' end='0x88000000' type='altera_generic_tristate_controller.uas' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='ddr2_address_span_extender.windowed_slave' start='0x0' end='0x80000000' type='altera_address_span_extender.windowed_slave' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x80000000' end='0x80000800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='uart_module_top_0.avalon_slave_uart' start='0x80000800' end='0x80000C00' type='uart_module_top.avalon_slave_uart' /><slave name='Dumb_Communication_Module_v2_Timer.avalon_slave_dcom' start='0x80000C00' end='0x80001000' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_2.avalon_slave_dcom' start='0x80001000' end='0x80001400' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_3.avalon_slave_dcom' start='0x80001400' end='0x80001800' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_4.avalon_slave_dcom' start='0x80001800' end='0x80001C00' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_5.avalon_slave_dcom' start='0x80001C00' end='0x80002000' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_6.avalon_slave_dcom' start='0x80002000' end='0x80002400' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_7.avalon_slave_dcom' start='0x80002400' end='0x80002800' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='Dumb_Communication_Module_v2_8.avalon_slave_dcom' start='0x80002800' end='0x80002C00' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='ddr2_address_span_extender.cntl' start='0x80002C00' end='0x80002C08' type='altera_address_span_extender.cntl' /><slave name='sysid_qsys.control_slave' start='0x80002C80' end='0x80002C88' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x80002C90' end='0x80002C98' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='Dumb_Communication_Module_v2_1.avalon_slave_dcom' start='0x80003000' end='0x80003400' type='Dumb_Communication_Module_v2.avalon_slave_dcom' /><slave name='RMAP_Memory_Subunit_Area_8.avalon_rmap_slave_0' start='0x80004000' end='0x80008000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_7.avalon_rmap_slave_0' start='0x80008000' end='0x8000C000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_6.avalon_rmap_slave_0' start='0x8000C000' end='0x80010000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_5.avalon_rmap_slave_0' start='0x80010000' end='0x80014000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_4.avalon_rmap_slave_0' start='0x80014000' end='0x80018000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_3.avalon_rmap_slave_0' start='0x80018000' end='0x8001C000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_2.avalon_rmap_slave_0' start='0x8001C000' end='0x80020000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='RMAP_Memory_Subunit_Area_1.avalon_rmap_slave_0' start='0x80020000' end='0x80024000' type='RMAP_Memory_Subunit_Area.avalon_rmap_slave_0' /><slave name='onchip_memory.s1' start='0x80200000' end='0x802B0000' type='altera_avalon_onchip_memory2.s1' /><slave name='Altera_UP_SD_Card_Avalon_Interface_0.avalon_sdcard_slave' start='0x82000000' end='0x82000400' type='Altera_UP_SD_Card_Avalon_Interface.avalon_sdcard_slave' /><slave name='sync.avalon_mm_slave' start='0x82000400' end='0x82000800' type='Sync.avalon_mm_slave' /><slave name='rst_controller.avalon_rst_controller_slave' start='0x82000800' end='0x82000840' type='rst_controller.avalon_rst_controller_slave' /><slave name='timer_1us.s1' start='0x82000840' end='0x82000860' type='altera_avalon_timer.s1' /><slave name='timer_1ms.s1' start='0x82000860' end='0x82000880' type='altera_avalon_timer.s1' /><slave name='pio_spw_mux_ch_h_select.s1' start='0x82000880' end='0x82000890' type='altera_avalon_pio.s1' /><slave name='pio_RST_ETH.s1' start='0x82000890' end='0x820008A0' type='altera_avalon_pio.s1' /><slave name='pio_ctrl_io_lvds.s1' start='0x820008A0' end='0x820008B0' type='altera_avalon_pio.s1' /><slave name='rtcc_cs_n.s1' start='0x820008B0' end='0x820008C0' type='altera_avalon_pio.s1' /><slave name='rtcc_sck.s1' start='0x820008C0' end='0x820008D0' type='altera_avalon_pio.s1' /><slave name='rtcc_sdi.s1' start='0x820008D0' end='0x820008E0' type='altera_avalon_pio.s1' /><slave name='rtcc_sdo.s1' start='0x820008E0' end='0x820008F0' type='altera_avalon_pio.s1' /><slave name='rtcc_alarm.s1' start='0x820008F0' end='0x82000900' type='altera_avalon_pio.s1' /><slave name='pio_LED_painel.s1' start='0x82000900' end='0x82000910' type='altera_avalon_pio.s1' /><slave name='csense_adc_fo.s1' start='0x82000910' end='0x82000920' type='altera_avalon_pio.s1' /><slave name='csense_cs_n.s1' start='0x82000920' end='0x82000930' type='altera_avalon_pio.s1' /><slave name='csense_sck.s1' start='0x82000930' end='0x82000940' type='altera_avalon_pio.s1' /><slave name='csense_sdi.s1' start='0x82000940' end='0x82000950' type='altera_avalon_pio.s1' /><slave name='csense_sdo.s1' start='0x82000950' end='0x82000960' type='altera_avalon_pio.s1' /><slave name='temp_sda.s1' start='0x82000980' end='0x82000990' type='altera_avalon_pio.s1' /><slave name='temp_scl.s1' start='0x82000990' end='0x820009A0' type='altera_avalon_pio.s1' /><slave name='sd_card_wp_n.s1' start='0x820009A0' end='0x820009B0' type='altera_avalon_pio.s1' /><slave name='pio_EXT.s1' start='0x820009B0' end='0x820009C0' type='altera_avalon_pio.s1' /><slave name='pio_DIP.s1' start='0x820009C0' end='0x820009D0' type='altera_avalon_pio.s1' /><slave name='pio_LED.s1' start='0x820009D0' end='0x820009E0' type='altera_avalon_pio.s1' /><slave name='pio_BUTTON.s1' start='0x820009E0' end='0x820009F0' type='altera_avalon_pio.s1' /><slave name='m1_ddr2_i2c_scl.s1' start='0x820009F0' end='0x82000A00' type='altera_avalon_pio.s1' /><slave name='m1_ddr2_i2c_sda.s1' start='0x82000A00' end='0x82000A10' type='altera_avalon_pio.s1' /><slave name='SEVEN_SEGMENT_CONTROLLER_0.SSDP_avalon_slave' start='0x82000A10' end='0x82000A18' type='SEVEN_SEGMENT_CONTROLLER.SSDP_avalon_slave' /><slave name='pio_ftdi_umft601a_module_reset.s1' start='0x82000B00' end='0x82000B10' type='altera_avalon_pio.s1' /><slave name='pio_iso_logic_signal_enable.s1' start='0x82000B10' end='0x82000B20' type='altera_avalon_pio.s1' /><slave name='pio_rmap_echoing_module_reset.s1' start='0x82000C00' end='0x82000C10' type='altera_avalon_pio.s1' /><slave name='ext_flash.uas' start='0x84000000' end='0x88000000' type='altera_generic_tristate_controller.uas' /><slave name='Memory_Filler.avalon_slave_config' start='0x8A000000' end='0x8A000400' type='Memory_Filler.avalon_slave_config' /><slave name='FTDI_UMFT601A_Module.avalon_slave_config' start='0x8A001000' end='0x8A001400' type='FTDI_UMFT601A_Module.avalon_slave_config' /></address-map>]]></parameter>
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -1686,14 +3168,14 @@
   <parameter name="icache_tagramBlockType" value="Automatic" />
   <parameter name="impl" value="Fast" />
   <parameter name="instAddrWidth" value="32" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory.s1' start='0x81100000' end='0x811C0000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x81218800' end='0x81219000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='ext_flash.uas' start='0x84000000' end='0x88000000' type='altera_generic_tristate_controller.uas' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='nios2_gen2_0.debug_mem_slave' start='0x80000000' end='0x80000800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='onchip_memory.s1' start='0x80200000' end='0x802B0000' type='altera_avalon_onchip_memory2.s1' /><slave name='ext_flash.uas' start='0x84000000' end='0x88000000' type='altera_generic_tristate_controller.uas' /></address-map>]]></parameter>
   <parameter name="instructionMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="instructionMasterHighPerformanceMapParam" value="" />
   <parameter name="instruction_master_high_performance_paddr_base" value="0" />
   <parameter name="instruction_master_high_performance_paddr_size" value="0" />
   <parameter name="instruction_master_paddr_base" value="0" />
   <parameter name="instruction_master_paddr_size" value="0" />
-  <parameter name="internalIrqMaskSystemInfo" value="16387" />
+  <parameter name="internalIrqMaskSystemInfo" value="66977791" />
   <parameter name="io_regionbase" value="0" />
   <parameter name="io_regionsize" value="0" />
   <parameter name="master_addr_map" value="false" />
@@ -1825,7 +3307,7 @@
   <parameter name="initMemContent" value="false" />
   <parameter name="initializationFileName" value="onchip_mem.hex" />
   <parameter name="instanceID" value="NONE" />
-  <parameter name="memorySize" value="786432" />
+  <parameter name="memorySize" value="720896" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />
   <parameter name="resetrequest_enabled" value="true" />
   <parameter name="simAllowMRAMContentsFile" value="false" />
@@ -1837,7 +3319,279 @@
   <parameter name="useShallowMemBlocks" value="false" />
   <parameter name="writable" value="true" />
  </module>
+ <module name="pio_BUTTON" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="4" />
+ </module>
+ <module name="pio_DIP" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
+ </module>
+ <module name="pio_EXT" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="true" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="pio_LED" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
+ </module>
+ <module
+   name="pio_LED_painel"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="65536" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="21" />
+ </module>
+ <module
+   name="pio_RST_ETH"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module
+   name="pio_ctrl_io_lvds"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="4" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="4" />
+ </module>
+ <module
+   name="pio_ftdi_umft601a_module_reset"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module
+   name="pio_iso_logic_signal_enable"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module
+   name="pio_rmap_echoing_module_reset"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module
+   name="pio_spw_mux_ch_h_select"
+   kind="altera_avalon_pio"
+   version="18.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="3" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="2" />
+ </module>
+ <module
+   name="rs232_uart"
+   kind="altera_avalon_uart"
+   version="18.1"
+   enabled="1">
+  <parameter name="baud" value="115200" />
+  <parameter name="clockRate" value="133333300" />
+  <parameter name="dataBits" value="8" />
+  <parameter name="fixedBaud" value="false" />
+  <parameter name="parity" value="NONE" />
+  <parameter name="simCharStream" value="" />
+  <parameter name="simInteractiveInputEnable" value="false" />
+  <parameter name="simInteractiveOutputEnable" value="false" />
+  <parameter name="simTrueBaud" value="false" />
+  <parameter name="stopBits" value="1" />
+  <parameter name="syncRegDepth" value="2" />
+  <parameter name="useCtsRts" value="false" />
+  <parameter name="useEopRegister" value="false" />
+  <parameter name="useRelativePathForSimFile" value="false" />
+ </module>
  <module name="rst_controller" kind="rst_controller" version="1.6" enabled="1" />
+ <module name="rtcc_alarm" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="rtcc_cs_n" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="rtcc_sck" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="rtcc_sdi" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="rtcc_sdo" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
  <module
    name="sd_card_wp_n"
    kind="altera_avalon_pio"
@@ -1856,19 +3610,9 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="1" />
  </module>
- <module name="slide_sw" kind="altera_avalon_pio" version="18.1" enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="4" />
+ <module name="sync" kind="Sync" version="1.8" enabled="1">
+  <parameter name="g_PRE_SYNC_IRQ_NUMBER" value="16" />
+  <parameter name="g_SYNC_IRQ_NUMBER" value="2" />
  </module>
  <module
    name="sysid_qsys"
@@ -1944,11 +3688,16 @@
    enabled="1">
   <parameter name="INTERFACE_INFO"><![CDATA[<info><slave name="tcs"><master name="ext_flash.tcm"><pin role="write_n" width="1" type="Output" output_name="tcm_write_n_out" output_enable_name="" input_name="" /><pin role="read_n" width="1" type="Output" output_name="tcm_read_n_out" output_enable_name="" input_name="" /><pin role="chipselect_n" width="1" type="Output" output_name="tcm_chipselect_n_out" output_enable_name="" input_name="" /><pin role="" width="1" type="Invalid" output_name="" output_enable_name="" input_name="" /><pin role="address" width="26" type="Output" output_name="tcm_address_out" output_enable_name="" input_name="" /><pin role="data" width="16" type="Bidirectional" output_name="tcm_data_out" output_enable_name="tcm_data_outen" input_name="tcm_data_in" /></master></slave></info>]]></parameter>
  </module>
+ <module
+   name="uart_module_top_0"
+   kind="uart_module_top"
+   version="1.2"
+   enabled="1" />
  <connection
    kind="avalon"
    version="18.1"
-   start="Memory_Filler.avalon_master_data"
-   end="m0_ddr3_memory.avl">
+   start="uart_module_top_0.avalon_master_rs232"
+   end="rs232_uart.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
@@ -1957,9 +3706,81 @@
    kind="avalon"
    version="18.1"
    start="nios2_gen2_0.data_master"
-   end="jtag_uart.avalon_jtag_slave">
+   end="jtag_uart_0.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x8121af50" />
+  <parameter name="baseAddress" value="0x80002c90" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_1.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80020000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_2.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x8001c000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_3.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80018000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_4.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80014000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_5.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_6.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x8000c000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_7.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80008000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="RMAP_Memory_Subunit_Area_8.avalon_rmap_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80004000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1968,7 +3789,106 @@
    start="nios2_gen2_0.data_master"
    end="Memory_Filler.avalon_slave_config">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x82000000" />
+  <parameter name="baseAddress" value="0x8a000000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="FTDI_UMFT601A_Module.avalon_slave_config">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x8a001000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_1.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80003000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_8.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80002800" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_7.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80002400" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_6.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80002000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_5.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80001c00" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_4.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80001800" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_3.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80001400" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_2.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80001000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Dumb_Communication_Module_v2_Timer.avalon_slave_dcom">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80000c00" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="uart_module_top_0.avalon_slave_uart">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x80000800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1977,7 +3897,7 @@
    start="nios2_gen2_0.data_master"
    end="ddr2_address_span_extender.cntl">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x8101e000" />
+  <parameter name="baseAddress" value="0x80002c00" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1986,7 +3906,7 @@
    start="nios2_gen2_0.data_master"
    end="sysid_qsys.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x8121af40" />
+  <parameter name="baseAddress" value="0x80002c80" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1995,7 +3915,7 @@
    start="nios2_gen2_0.data_master"
    end="nios2_gen2_0.debug_mem_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x81218800" />
+  <parameter name="baseAddress" value="0x80000000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2004,7 +3924,7 @@
    start="nios2_gen2_0.data_master"
    end="clock_bridge_afi_50.s0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x80000000" />
+  <parameter name="baseAddress" value="0x82000000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2013,7 +3933,7 @@
    start="nios2_gen2_0.data_master"
    end="onchip_memory.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x81100000" />
+  <parameter name="baseAddress" value="0x80200000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2037,19 +3957,10 @@
  <connection
    kind="avalon"
    version="18.1"
-   start="ddr2_address_span_extender.expanded_master"
-   end="m0_ddr3_memory.avl">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
    start="nios2_gen2_0.instruction_master"
    end="nios2_gen2_0.debug_mem_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x81218800" />
+  <parameter name="baseAddress" value="0x80000000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2058,7 +3969,7 @@
    start="nios2_gen2_0.instruction_master"
    end="onchip_memory.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x81100000" />
+  <parameter name="baseAddress" value="0x80200000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2074,6 +3985,24 @@
    kind="avalon"
    version="18.1"
    start="clock_bridge_afi_50.m0"
+   end="SEVEN_SEGMENT_CONTROLLER_0.SSDP_avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0a10" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="sync.avalon_mm_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0400" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
    end="rst_controller.avalon_rst_controller_slave">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0800" />
@@ -2083,9 +4012,63 @@
    kind="avalon"
    version="18.1"
    start="clock_bridge_afi_50.m0"
+   end="Altera_UP_SD_Card_Avalon_Interface_0.avalon_sdcard_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="m1_ddr2_i2c_sda.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0a00" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="m1_ddr2_i2c_scl.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x09f0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_BUTTON.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x09e0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_LED.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x09d0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
    end="timer_1ms.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0880" />
+  <parameter name="baseAddress" value="0x0860" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_DIP.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x09c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2094,7 +4077,16 @@
    start="clock_bridge_afi_50.m0"
    end="timer_1us.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0860" />
+  <parameter name="baseAddress" value="0x0840" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_EXT.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x09b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2122,24 +4114,6 @@
    end="temp_sda.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0980" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="clock_bridge_afi_50.m0"
-   end="m0_ddr3_i2c_sda.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0970" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="clock_bridge_afi_50.m0"
-   end="m0_ddr3_i2c_scl.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0960" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2191,54 +4165,145 @@
    kind="avalon"
    version="18.1"
    start="clock_bridge_afi_50.m0"
-   end="button.s1">
+   end="pio_LED_painel.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0a60" />
+  <parameter name="baseAddress" value="0x0900" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="clock_bridge_afi_50.m0"
-   end="slide_sw.s1">
+   end="rtcc_alarm.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0a70" />
+  <parameter name="baseAddress" value="0x08f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="clock_bridge_afi_50.m0"
-   end="board_led.s1">
+   end="rtcc_sdo.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0a80" />
+  <parameter name="baseAddress" value="0x08e0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="rtcc_sdi.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08d0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="rtcc_sck.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08c0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="rtcc_cs_n.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08b0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_ctrl_io_lvds.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08a0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_RST_ETH.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0890" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_spw_mux_ch_h_select.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0880" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_ftdi_umft601a_module_reset.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0b00" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_iso_logic_signal_enable.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0b10" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="clock_bridge_afi_50.m0"
+   end="pio_rmap_echoing_module_reset.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0c00" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="clock"
    version="18.1"
-   start="m0_ddr3_memory.afi_clk"
-   end="clk_200.clk_in" />
+   start="mem_if_ddr3_emif_0.afi_clk"
+   end="altpll_0.inclk_interface" />
  <connection
    kind="clock"
    version="18.1"
-   start="m0_ddr3_memory.afi_half_clk"
+   start="mem_if_ddr3_emif_0.afi_half_clk"
    end="clk_100.clk_in" />
+ <connection kind="clock" version="18.1" start="altpll_0.c0" end="clk_200.clk_in" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="SEVEN_SEGMENT_CONTROLLER_0.SSDP_CLK" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="m1_ddr2_i2c_scl.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="m1_ddr2_i2c_sda.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="pio_BUTTON.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="pio_LED.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="timer_1ms.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="sd_card_wp_n.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="timer_1us.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="pio_EXT.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="pio_DIP.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="temp_scl.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="temp_sda.clk" />
- <connection
-   kind="clock"
-   version="18.1"
-   start="clk_50.clk"
-   end="m0_ddr3_i2c_scl.clk" />
- <connection
-   kind="clock"
-   version="18.1"
-   start="clk_50.clk"
-   end="m0_ddr3_i2c_sda.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="csense_sdo.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="csense_sdi.clk" />
  <connection kind="clock" version="18.1" start="clk_50.clk" end="csense_sck.clk" />
@@ -2251,6 +4316,26 @@
  <connection
    kind="clock"
    version="18.1"
+   start="clk_50.clk"
+   end="pio_LED_painel.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="rtcc_alarm.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="rtcc_cs_n.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="rtcc_sck.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="rtcc_sdi.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="rtcc_sdo.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="Altera_UP_SD_Card_Avalon_Interface_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="pio_ctrl_io_lvds.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
    start="clk_100.clk"
    end="nios2_gen2_0.clk" />
  <connection kind="clock" version="18.1" start="clk_100.clk" end="ext_flash.clk" />
@@ -2260,15 +4345,35 @@
    start="clk_100.clk"
    end="tristate_conduit_bridge_0.clk" />
  <connection kind="clock" version="18.1" start="clk_100.clk" end="sysid_qsys.clk" />
- <connection kind="clock" version="18.1" start="clk_100.clk" end="jtag_uart.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="button.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="slide_sw.clk" />
- <connection kind="clock" version="18.1" start="clk_50.clk" end="board_led.clk" />
+ <connection kind="clock" version="18.1" start="clk_100.clk" end="jtag_uart_0.clk" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="pio_RST_ETH.clk" />
+ <connection kind="clock" version="18.1" start="clk_100.clk" end="rs232_uart.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="pio_spw_mux_ch_h_select.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="pio_ftdi_umft601a_module_reset.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="pio_iso_logic_signal_enable.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="pio_rmap_echoing_module_reset.clk" />
  <connection
    kind="clock"
    version="18.1"
    start="clk_100.clk"
    end="onchip_memory.clk1" />
+ <connection kind="clock" version="18.1" start="clk_50.clk" end="sync.clock" />
  <connection
    kind="clock"
    version="18.1"
@@ -2283,7 +4388,202 @@
    kind="clock"
    version="18.1"
    start="clk_100.clk"
+   end="SpaceWire_Mux_Ch_H.clock_sink" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="FTDI_UMFT601A_Module.clock_sink" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
    end="Memory_Filler.clock_sink" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_1.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_8.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_7.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_6.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_5.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_4.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_3.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_2.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="Dumb_Communication_Module_v2_Timer.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="uart_module_top_0.clock_sink_100" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_A.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_1.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_8.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_H.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_7.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_G.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_6.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_F.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_5.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_E.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_4.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_D.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_3.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_C.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Memory_Subunit_Area_2.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="SpaceWire_Channel_B.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_100.clk"
+   end="RMAP_Echoing.clock_sink_100mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_A.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_H.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_G.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_F.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_E.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_D.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_C.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="SpaceWire_Channel_B.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_200.clk"
+   end="Sync_Signal_Filter_Latch_0.clock_sink_200mhz" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_50.clk"
+   end="Sync_Signal_Filter_Latch_0.clock_sink_50mhz" />
  <connection
    kind="clock"
    version="18.1"
@@ -2293,33 +4593,560 @@
    kind="clock"
    version="18.1"
    start="clk_50.clk"
-   end="m0_ddr3_memory.pll_ref_clk" />
+   end="mem_if_ddr3_emif_0.pll_ref_clk" />
  <connection
    kind="clock"
    version="18.1"
    start="clk_100.clk"
    end="clock_bridge_afi_50.s0_clk" />
  <connection
+   kind="clock"
+   version="18.1"
+   start="clk_ftdi.clk"
+   end="FTDI_UMFT601A_Module.umft601a_clock_sink" />
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Echoing.conduit_end_rmap_echo_0_in"
+   end="Dumb_Communication_Module_v2_1.conduit_end_rmap_echo_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Echoing.conduit_end_rmap_echo_2_in"
+   end="Dumb_Communication_Module_v2_3.conduit_end_rmap_echo_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Echoing.conduit_end_rmap_echo_4_in"
+   end="Dumb_Communication_Module_v2_5.conduit_end_rmap_echo_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Echoing.conduit_end_rmap_echo_6_in"
+   end="Dumb_Communication_Module_v2_7.conduit_end_rmap_echo_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_2.conduit_end_rmap_echo_out"
+   end="RMAP_Echoing.conduit_end_rmap_echo_1_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_4.conduit_end_rmap_echo_out"
+   end="RMAP_Echoing.conduit_end_rmap_echo_3_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_6.conduit_end_rmap_echo_out"
+   end="RMAP_Echoing.conduit_end_rmap_echo_5_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_2.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_2.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_3.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_3.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_4.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_4.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_5.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_5.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_6.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_6.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_7.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_7.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_8.conduit_end_rmap_master_codec"
+   end="RMAP_Memory_Subunit_Area_8.conduit_end_subunit_rmap_slave_0">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Memory_Subunit_Area_2.conduit_end_rmap_mem_configs_in"
+   end="Dumb_Communication_Module_v2_2.conduit_end_rmap_mem_configs_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Memory_Subunit_Area_5.conduit_end_rmap_mem_configs_in"
+   end="Dumb_Communication_Module_v2_5.conduit_end_rmap_mem_configs_out">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_1.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_1.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_3.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_3.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_4.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_4.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_6.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_6.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_7.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_7.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="Dumb_Communication_Module_v2_8.conduit_end_rmap_mem_configs_out"
+   end="RMAP_Memory_Subunit_Area_8.conduit_end_rmap_mem_configs_in">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_A.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_1.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_B.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_2.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_C.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_3.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_D.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_4.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_E.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_5.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_F.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_6.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_G.conduit_end_spacewire_channel"
+   end="Dumb_Communication_Module_v2_7.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Channel_H.conduit_end_spacewire_channel"
+   end="SpaceWire_Mux_Ch_H.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Mux_Ch_H.conduit_end_spacewire_channel_0"
+   end="Dumb_Communication_Module_v2_8.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SpaceWire_Mux_Ch_H.conduit_end_spacewire_channel_1"
+   end="RMAP_Echoing.conduit_end_spacewire_controller">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="RMAP_Memory_Subunit_Area_1.conduit_end_subunit_rmap_slave_0"
+   end="Dumb_Communication_Module_v2_1.conduit_end_rmap_master_codec">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
    kind="interrupt"
    version="18.1"
    start="nios2_gen2_0.irq"
-   end="jtag_uart.irq">
-  <parameter name="irqNumber" value="14" />
+   end="jtag_uart_0.irq">
+  <parameter name="irqNumber" value="3" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="nios2_gen2_0.irq"
    end="timer_1ms.irq">
-  <parameter name="irqNumber" value="0" />
+  <parameter name="irqNumber" value="4" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="nios2_gen2_0.irq"
    end="timer_1us.irq">
+  <parameter name="irqNumber" value="5" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="pio_EXT.irq">
+  <parameter name="irqNumber" value="6" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="rs232_uart.irq">
+  <parameter name="irqNumber" value="7" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="sync.pre_sync_interrupt_sender">
+  <parameter name="irqNumber" value="16" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_1.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="18" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_2.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="19" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_3.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="20" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_4.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="21" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_5.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="22" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_6.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="23" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_8.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="25" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_7.rprt_interrupt_sender">
+  <parameter name="irqNumber" value="24" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="FTDI_UMFT601A_Module.rx_interrupt_sender">
+  <parameter name="irqNumber" value="0" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="sync.sync_interrupt_sender">
+  <parameter name="irqNumber" value="2" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_1.tx_interrupt_sender">
+  <parameter name="irqNumber" value="8" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_8.tx_interrupt_sender">
+  <parameter name="irqNumber" value="15" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_7.tx_interrupt_sender">
+  <parameter name="irqNumber" value="14" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_6.tx_interrupt_sender">
+  <parameter name="irqNumber" value="13" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_5.tx_interrupt_sender">
+  <parameter name="irqNumber" value="12" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_4.tx_interrupt_sender">
+  <parameter name="irqNumber" value="11" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_3.tx_interrupt_sender">
+  <parameter name="irqNumber" value="10" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="Dumb_Communication_Module_v2_2.tx_interrupt_sender">
+  <parameter name="irqNumber" value="9" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="18.1"
+   start="nios2_gen2_0.irq"
+   end="FTDI_UMFT601A_Module.tx_interrupt_sender">
   <parameter name="irqNumber" value="1" />
  </connection>
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SEVEN_SEGMENT_CONTROLLER_0.SSDP_RST" />
  <connection
    kind="reset"
    version="18.1"
@@ -2334,7 +5161,17 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="m0_ddr3_memory.global_reset" />
+   end="clk_ftdi.clk_in_reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="mem_if_ddr3_emif_0.global_reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_200.clk_reset"
+   end="altpll_0.inclk_interface_reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -2354,7 +5191,27 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="jtag_uart.reset" />
+   end="m1_ddr2_i2c_scl.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="m1_ddr2_i2c_sda.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="jtag_uart_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_BUTTON.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_LED.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -2379,12 +5236,22 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
+   end="pio_DIP.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
    end="sd_card_wp_n.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
    end="timer_1us.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_EXT.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -2400,16 +5267,6 @@
    version="18.1"
    start="clk_200.clk_reset"
    end="nios2_gen2_0.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="clk_50.clk_reset"
-   end="m0_ddr3_i2c_scl.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="clk_50.clk_reset"
-   end="m0_ddr3_i2c_sda.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -2439,22 +5296,78 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
+   end="pio_LED_painel.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rtcc_sdo.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rtcc_sdi.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rtcc_sck.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rtcc_cs_n.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rtcc_alarm.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_ctrl_io_lvds.reset" />
+ <connection kind="reset" version="18.1" start="clk_50.clk_reset" end="sync.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="rs232_uart.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Altera_UP_SD_Card_Avalon_Interface_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
    end="ddr2_address_span_extender.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="button.reset" />
+   end="pio_RST_ETH.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="slide_sw.reset" />
+   end="pio_spw_mux_ch_h_select.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="board_led.reset" />
+   end="pio_iso_logic_signal_enable.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_ftdi_umft601a_module_reset.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="pio_rmap_echoing_module_reset.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -2469,7 +5382,157 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
+   end="uart_module_top_0.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_1.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_A.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_1.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_8.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_8.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_H.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_7.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_7.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_G.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_6.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_6.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_F.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_5.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_5.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_E.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_4.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_4.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_D.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_3.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_3.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_C.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Memory_Subunit_Area_2.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_2.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Channel_B.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Dumb_Communication_Module_v2_Timer.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="SpaceWire_Mux_Ch_H.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="RMAP_Echoing.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="FTDI_UMFT601A_Module.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
    end="Memory_Filler.reset_sink" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_50.clk_reset"
+   end="Sync_Signal_Filter_Latch_0.reset_sink" />
  <connection
    kind="reset"
    version="18.1"
@@ -2479,7 +5542,7 @@
    kind="reset"
    version="18.1"
    start="clk_50.clk_reset"
-   end="m0_ddr3_memory.soft_reset" />
+   end="mem_if_ddr3_emif_0.soft_reset" />
  <connection
    kind="tristate_conduit"
    version="18.1"

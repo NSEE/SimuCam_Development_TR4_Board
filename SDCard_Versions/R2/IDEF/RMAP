@@ -1,0 +1,91 @@
+'RMAP configuration'
+'==================== Subunit 1 ===================='
+'Subunit 1 RMAP Logical Address [decimal] (default = 0x20)'
+L1=32;
+'Subunit 1 RMAP Key [decimal] (default = 0x00)'
+K1=0;
+'Subunit 1 RMAP Address Offset [decimal] (default = 0xA0000000)'
+A1=2684354560;
+'Subunit 1 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U1=0;
+'Subunit 1 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W1=2;
+'==================== Subunit 2 ===================='
+'Subunit 2 RMAP Logical Address [decimal] (default = 0x20)'
+L2=32;
+'Subunit 2 RMAP Key [decimal] (default = 0x00)'
+K2=0;
+'Subunit 2 RMAP Address Offset [decimal] (default = 0xA0001000)'
+A2=2684358656;
+'Subunit 2 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U2=0;
+'Subunit 2 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W2=2;
+'==================== Subunit 3 ===================='
+'Subunit 3 RMAP Logical Address [decimal] (default = 0x20)'
+L3=32;
+'Subunit 3 RMAP Key [decimal] (default = 0x00)'
+K3=0;
+'Subunit 3 RMAP Address Offset [decimal] (default = 0xA0002000)'
+A3=2684362752;
+'Subunit 3 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U3=0;
+'Subunit 3 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W3=2;
+'==================== Subunit 4 ===================='
+'Subunit 4 RMAP Logical Address [decimal] (default = 0x20)'
+L4=32;
+'Subunit 4 RMAP Key [decimal] (default = 0x00)'
+K4=0;
+'Subunit 4 RMAP Address Offset [decimal] (default = 0xA0003000)'
+A4=2684366848;
+'Subunit 4 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U4=0;
+'Subunit 4 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W4=2;
+'==================== Subunit 5 ===================='
+'Subunit 5 RMAP Logical Address [decimal] (default = 0x20)'
+L5=32;
+'Subunit 5 RMAP Key [decimal] (default = 0x00)'
+K5=0;
+'Subunit 5 RMAP Address Offset [decimal] (default = 0xA0004000)'
+A5=2684370944;
+'Subunit 5 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U5=0;
+'Subunit 5 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W5=2;
+'==================== Subunit 6 ===================='
+'Subunit 6 RMAP Logical Address [decimal] (default = 0x20)'
+L6=32;
+'Subunit 6 RMAP Key [decimal] (default = 0x00)'
+K6=0;
+'Subunit 6 RMAP Address Offset [decimal] (default = 0xA0005000)'
+A6=2684375040;
+'Subunit 6 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U6=0;
+'Subunit 6 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W6=2;
+'==================== Subunit 7 ===================='
+'Subunit 7 RMAP Logical Address [decimal] (default = 0x20)'
+L7=32;
+'Subunit 7 RMAP Key [decimal] (default = 0x00)'
+K7=0;
+'Subunit 7 RMAP Address Offset [decimal] (default = 0xA0006000)'
+A7=2684379136;
+'Subunit 7 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U7=0;
+'Subunit 7 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W7=2;
+'==================== Subunit 8 ===================='
+'Subunit 8 RMAP Logical Address [decimal] (default = 0x20)'
+L8=32;
+'Subunit 8 RMAP Key [decimal] (default = 0x00)'
+K8=0;
+'Subunit 8 RMAP Address Offset [decimal] (default = 0xA0007000)'
+A8=2684383232;
+'Subunit 8 RMAP Unaligned Memory access enable [boolean] (default = 0)'
+U8=0;
+'Subunit 8 RMAP Word Width in bits (RMAP Word Size in Bytes will be 2**(Word Width in bits)) (Range of 0 to 7 bits) [decimal] (default = 2)'
+W8=2;
+<<
+'Keep the "less than" (<) caracter, this is used in the parser'

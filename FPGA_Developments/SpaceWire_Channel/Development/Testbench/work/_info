@@ -1,0 +1,2200 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/UART_Module/Development/Testbench
+Econfig_avs_stimuli
+Z0 w1607084436
+Z1 DPx4 work 6 spwpkg 0 22 a5Agjb>z@D5bUGlcjJGE70
+Z2 DPx4 work 14 spwc_codec_pkg 0 22 KM8d9fViX`c_Rz8>?zAn<0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench
+Z7 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_avs_stimuli.vhd
+Z8 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_avs_stimuli.vhd
+l0
+L7
+V__;OgmV=KhMC`i;dnJoCo3
+!s100 e1;0MOoZb58P_GB3]`iV20
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1620848596
+!i10b 1
+Z11 !s108 1620848595.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_avs_stimuli.vhd|
+Z13 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_avs_stimuli.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 18 config_avs_stimuli 0 22 __;OgmV=KhMC`i;dnJoCo3
+l27
+L23
+VaX7<KJ[:XQhc;f3?dF6Kz2
+!s100 LPLhmdX]=b0@K`l5zV1@J1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Econfig_spw_stimuli
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_spw_stimuli.vhd
+Z18 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_spw_stimuli.vhd
+l0
+L7
+VO:hL0Fi7AX1LLo4g9hHM51
+!s100 W6PEP5BDAlGeLXj>SoeR80
+R9
+32
+R10
+!i10b 1
+Z19 !s108 1620848596.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_spw_stimuli.vhd|
+Z21 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/config_spw_stimuli.vhd|
+!i113 1
+R14
+R15
+Artl
+R1
+R2
+R3
+R4
+R5
+Z22 DEx4 work 18 config_spw_stimuli 0 22 O:hL0Fi7AX1LLo4g9hHM51
+l27
+L23
+VIPYKDRMVb[>?@D;eG4;<53
+!s100 hCoT;mlYCB@@=X3TeEbNz2
+R9
+32
+R10
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R14
+R15
+Espacewire_channel_top
+Z23 w1576892574
+Z24 DPx4 work 6 spwpkg 0 22 X0V^]0k6^b0BBTEk>VVP>0
+Z25 DPx4 work 13 spw_codec_pkg 0 22 8cXa^iN6WLUHQT46aNPhO1
+R3
+R4
+R5
+Z26 dD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench
+Z27 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spacewire_channel_top.vhd
+Z28 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spacewire_channel_top.vhd
+l0
+L17
+Vjc>QJE`MUfOG0lg1HK;M^1
+!s100 8IPYRR?zK=dULkCaFPheE3
+R9
+32
+Z29 !s110 1576894148
+!i10b 1
+Z30 !s108 1576894148.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spacewire_channel_top.vhd|
+Z32 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spacewire_channel_top.vhd|
+!i113 1
+R14
+R15
+Artl
+Z33 DEx4 work 13 spw_codec_ent 0 22 ][UJS<NXF5KjFA[JI5<bd2
+Z34 DEx4 work 27 spw_clk_synchronization_ent 0 22 ?BG_W1GmBIJ`9NQE2b3WL1
+R24
+R25
+R3
+R4
+R5
+DEx4 work 21 spacewire_channel_top 0 22 jc>QJE`MUfOG0lg1HK;M^1
+l80
+L56
+V[kE7XIZoUFCoZl?>ff7Yh0
+!s100 W5]]fJ]eb:k54nhc1gfYf2
+R9
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R14
+R15
+Espw_clk_synchronization_ent
+Z35 w1565836471
+R24
+R25
+R3
+R4
+R5
+R26
+Z36 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spw_clk_synchronization_ent.vhd
+Z37 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spw_clk_synchronization_ent.vhd
+l0
+L7
+V?BG_W1GmBIJ`9NQE2b3WL1
+!s100 I7aTln>4TM^FcL8HK>BX[1
+R9
+32
+R29
+!i10b 1
+R30
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spw_clk_synchronization_ent.vhd|
+Z39 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spw_clk_synchronization_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+Z40 DEx4 work 20 spw_timecode_dc_fifo 0 22 G>XDQFiRglK[KUzK5SMGb0
+Z41 DEx4 work 16 spw_data_dc_fifo 0 22 I<6zf3<^8n7:`Kbadk85z3
+R24
+R25
+R3
+R4
+R5
+R34
+l91
+L33
+VKXkEN@ZOi6RmfC6?41K?O2
+!s100 hR4m^E5[?=Sd`Rln6O`m61
+R9
+32
+R29
+!i10b 1
+R30
+R38
+R39
+!i113 1
+R14
+R15
+Espw_codec_ent
+Z42 w1550897189
+R25
+R24
+R3
+R4
+R5
+R26
+Z43 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec.vhd
+Z44 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec.vhd
+l0
+L8
+V][UJS<NXF5KjFA[JI5<bd2
+!s100 aD5^biCRN@?4_a0mScUOi2
+R9
+32
+Z45 !s110 1576894147
+!i10b 1
+Z46 !s108 1576894147.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec.vhd|
+Z48 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec.vhd|
+!i113 1
+R14
+R15
+Artl
+DEx4 work 9 spwstream 0 22 QCaVQ_FYNZUeIUKT3GSc90
+R25
+R24
+R3
+R4
+R5
+R33
+l28
+L26
+Vei>bCdd9EY>Z<NAP93a>O2
+!s100 Bh?1i:AmId3dj0dK9fz=k2
+R9
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R14
+R15
+Pspw_codec_pkg
+R24
+R3
+R4
+R5
+R42
+R26
+8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec_pkg.vhd
+FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec_pkg.vhd
+l0
+L7
+V8cXa^iN6WLUHQT46aNPhO1
+!s100 ]:kiVoGH?3nJ`9IaciU_Q1
+R9
+32
+R45
+!i10b 1
+R46
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec_pkg.vhd|
+!s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spw_codec_pkg.vhd|
+!i113 1
+R14
+R15
+Espw_data_dc_fifo
+Z49 w1574393811
+R4
+R5
+R26
+Z50 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_data_dc_fifo/spw_data_dc_fifo.vhd
+Z51 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_data_dc_fifo/spw_data_dc_fifo.vhd
+l0
+L42
+VI<6zf3<^8n7:`Kbadk85z3
+!s100 RP3OUQ^5Rgb[2g6[olbW`3
+R9
+32
+R45
+!i10b 1
+R46
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_data_dc_fifo/spw_data_dc_fifo.vhd|
+Z53 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_data_dc_fifo/spw_data_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R41
+l101
+L60
+VAjGhRN_WQG>jDEa0YBUcK2
+!s100 ^[GUkD9caOW]H`dCjbjLV2
+R9
+32
+R45
+!i10b 1
+R46
+R52
+R53
+!i113 1
+R14
+R15
+Espw_timecode_dc_fifo
+R49
+R4
+R5
+R26
+Z54 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_timecode_dc_fifo/spw_timecode_dc_fifo.vhd
+Z55 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_timecode_dc_fifo/spw_timecode_dc_fifo.vhd
+l0
+L42
+VG>XDQFiRglK[KUzK5SMGb0
+!s100 8FW;7V79ICVJ5W[PW77i>2
+R9
+32
+R29
+!i10b 1
+R46
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_timecode_dc_fifo/spw_timecode_dc_fifo.vhd|
+Z57 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spw_timecode_dc_fifo/spw_timecode_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R40
+l101
+L60
+V_R8TJm::g06W6A2BhUlzJ0
+!s100 L@l7SL8>jTVPRUlYXHK1U0
+R9
+32
+R29
+!i10b 1
+R46
+R56
+R57
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_commands_ent
+R0
+R1
+R2
+Z58 DPx4 work 15 spwc_errinj_pkg 0 22 1LThXcof0?3N85O2SGL4`3
+R3
+R4
+R5
+R6
+Z59 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_commands_ent.vhd
+Z60 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_commands_ent.vhd
+l0
+L8
+VzB>kba=1>]MZ@[HA^m^aG3
+!s100 V9cmIS3hz2nZHCdW:G>Y>0
+R9
+32
+Z61 !s110 1620848594
+!i10b 1
+Z62 !s108 1620848594.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_commands_ent.vhd|
+Z64 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_commands_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+Z65 DEx4 work 20 spwc_command_dc_fifo 0 22 IzK9kh0?m26[[BoNmRiaN1
+R1
+R2
+R58
+R3
+R4
+R5
+Z66 DEx4 work 37 spwc_clk_synchronization_commands_ent 0 22 zB>kba=1>]MZ@[HA^m^aG3
+l39
+L20
+VPG0;Xzz31m;MD`eQ_n`I?2
+!s100 5AEDDTRGUNDR@b`GMW_[Q1
+R9
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_ent
+Z67 w1592287558
+R24
+Z68 DPx4 work 14 spwc_codec_pkg 0 22 ?ef1B>21aYHNN`n8<3?:a2
+R3
+R4
+R5
+R26
+Z69 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_ent.vhd
+Z70 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_ent.vhd
+l0
+L7
+VZOKa`PWc<<Kb^80I@8m^?1
+!s100 1Z]cP:nXHPIkljG:IMBlf3
+R9
+32
+Z71 !s110 1593311517
+!i10b 1
+Z72 !s108 1593311517.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_ent.vhd|
+Z74 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+DEx4 work 19 spwc_status_dc_fifo 0 22 [nVGgz_9aBWW^AW[HEmLd2
+Z75 DEx4 work 21 spwc_timecode_dc_fifo 0 22 iOi?ojzi1BKbfkff@eI5l0
+Z76 DEx4 work 17 spwc_data_dc_fifo 0 22 MRNhgaTjkQ0Dj]oTS=5Dh2
+DEx4 work 20 spwc_command_dc_fifo 0 22 QUai`z87>e9<Q`kQehice0
+R24
+R68
+R3
+R4
+R5
+DEx4 work 28 spwc_clk_synchronization_ent 0 22 ZOKa`PWc<<Kb^80I@8m^?1
+l103
+L33
+VmDW58oolj6C]gL4jYCbN>1
+!s100 cFjQBLS0LK]_l09;j`ag`3
+R9
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_rx_data_ent
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+Z77 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_data_ent.vhd
+Z78 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_data_ent.vhd
+l0
+L7
+V`k]D^N2fgMQ7>EIz90[`43
+!s100 _AZo0M]>=JBK1TP4bAEPD0
+R9
+32
+R61
+!i10b 1
+R62
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_data_ent.vhd|
+Z80 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_data_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R76
+R1
+R2
+R3
+R4
+R5
+Z81 DEx4 work 36 spwc_clk_synchronization_rx_data_ent 0 22 `k]D^N2fgMQ7>EIz90[`43
+l31
+L19
+VPMXz2m]e>F^m>d9LWnKU71
+!s100 9Wj9CXTVGO_LNe5zT:K<81
+R9
+32
+R61
+!i10b 1
+R62
+R79
+R80
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_rx_timecode_ent
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+Z82 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_timecode_ent.vhd
+Z83 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_timecode_ent.vhd
+l0
+L7
+VolSmF]2bbK^;;?IcWol>>1
+!s100 :SgfJA0iXLQa5^d@5mc9k2
+R9
+32
+R61
+!i10b 1
+Z84 !s108 1620848593.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_timecode_ent.vhd|
+Z86 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_rx_timecode_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R75
+R1
+R2
+R3
+R4
+R5
+Z87 DEx4 work 40 spwc_clk_synchronization_rx_timecode_ent 0 22 olSmF]2bbK^;;?IcWol>>1
+l26
+L17
+VQ3KDiA;dz<5^WTPee?6?43
+!s100 `6:Pm<LT8XEX=m]3WZMFh0
+R9
+32
+R61
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_status_ent
+R0
+R58
+R1
+R2
+R3
+R4
+R5
+R6
+Z88 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_status_ent.vhd
+Z89 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_status_ent.vhd
+l0
+L8
+Vn0F]6=YPoRnFfn@VSm@c72
+!s100 Zb_`AOGO60Lb9n2gfYc]f2
+R9
+32
+R61
+!i10b 1
+R62
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_status_ent.vhd|
+Z91 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_status_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+Z92 DEx4 work 19 spwc_status_dc_fifo 0 22 n`S6`CAmhK:8OToaB;d8:1
+R58
+R1
+R2
+R3
+R4
+R5
+Z93 DEx4 work 35 spwc_clk_synchronization_status_ent 0 22 n0F]6=YPoRnFfn@VSm@c72
+l43
+L22
+VgF<[E0VIOW3fh3SeAHZYZ0
+!s100 9g=`I7gz>>fHzI:Oh7Mel1
+R9
+32
+R61
+!i10b 1
+R62
+R90
+R91
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_top
+R0
+R58
+R1
+R2
+R3
+R4
+R5
+R6
+Z94 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_top.vhd
+Z95 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_top.vhd
+l0
+L8
+VaW48BD>M7LM2lcn=cZ;JJ3
+!s100 hE:3nQeELcCT8oX@ALAN53
+R9
+32
+Z96 !s110 1620848595
+!i10b 1
+R62
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_top.vhd|
+Z98 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_top.vhd|
+!i113 1
+R14
+R15
+Artl
+R87
+Z99 DEx4 work 40 spwc_clk_synchronization_tx_timecode_ent 0 22 cYEIf`gG<]0nRhaPMaEB03
+R81
+Z100 DEx4 work 36 spwc_clk_synchronization_tx_data_ent 0 22 DkYU832QjJ@e:cGf8S6`P1
+R93
+R66
+R58
+R1
+R2
+R3
+R4
+R5
+Z101 DEx4 work 28 spwc_clk_synchronization_top 0 22 aW48BD>M7LM2lcn=cZ;JJ3
+l40
+L38
+VXgJnMiPdP>;OenVBGf=Y:3
+!s100 5NW:ZNVKz`o0<2D?9ALmM2
+R9
+32
+R96
+!i10b 1
+R62
+R97
+R98
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_tx_data_ent
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+Z102 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_data_ent.vhd
+Z103 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_data_ent.vhd
+l0
+L7
+VDkYU832QjJ@e:cGf8S6`P1
+!s100 8<96>gzoIdU;ThzZ8^nH:3
+R9
+32
+R61
+!i10b 1
+R62
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_data_ent.vhd|
+Z105 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_data_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R76
+R1
+R2
+R3
+R4
+R5
+R100
+l31
+L19
+VX6a0>V><:YMQXNVgco^h?1
+!s100 gGYej6[iQ65DbKiMFoFQO1
+R9
+32
+R61
+!i10b 1
+R62
+R104
+R105
+!i113 1
+R14
+R15
+Espwc_clk_synchronization_tx_timecode_ent
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+Z106 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_timecode_ent.vhd
+Z107 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_timecode_ent.vhd
+l0
+L7
+VcYEIf`gG<]0nRhaPMaEB03
+!s100 NVRgE[leVoa_ek8UN`[W>1
+R9
+32
+Z108 !s110 1620848593
+!i10b 1
+R84
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_timecode_ent.vhd|
+Z110 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/spwc_clk_synchronization_tx_timecode_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R75
+R1
+R2
+R3
+R4
+R5
+R99
+l26
+L17
+Vg>2H3j8__cPLfD??OQ?UT3
+!s100 P@2ab5KQE4boB5?RS7f[e0
+R9
+32
+R108
+!i10b 1
+R84
+R109
+R110
+!i113 1
+R14
+R15
+Espwc_codec_ent
+R0
+R2
+R1
+R3
+R4
+R5
+R6
+Z111 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec.vhd
+Z112 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec.vhd
+l0
+L8
+VZ8c9Bb>:8jfPzUAPmKX<C3
+!s100 zZPNheJhDGcnzTMMZKVB;2
+R9
+32
+Z113 !s110 1620848592
+!i10b 1
+Z114 !s108 1620848592.000000
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec.vhd|
+Z116 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec.vhd|
+!i113 1
+R14
+R15
+Artl
+Z117 DEx4 work 9 spwstream 0 22 4QMMVh2BkQEZn`Vd9lYo51
+R2
+R1
+R3
+R4
+R5
+Z118 DEx4 work 14 spwc_codec_ent 0 22 Z8c9Bb>:8jfPzUAPmKX<C3
+l30
+L28
+VS:ImAS=QJ0TD2XJ7EP3ML2
+!s100 QKMg5ihYejJ_AA8>n@Rdh1
+R9
+32
+R113
+!i10b 1
+R114
+R115
+R116
+!i113 1
+R14
+R15
+Pspwc_codec_pkg
+R1
+R3
+R4
+R5
+R0
+R6
+8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec_pkg.vhd
+FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec_pkg.vhd
+l0
+L7
+VKM8d9fViX`c_Rz8>?zAn<0
+!s100 Z?bzX42IUkhghmKEDl4nP1
+R9
+32
+R113
+!i10b 1
+R114
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec_pkg.vhd|
+!s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spwc_codec_pkg.vhd|
+!i113 1
+R14
+R15
+Espwc_command_dc_fifo
+R0
+R4
+R5
+R6
+Z119 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_command_dc_fifo/spwc_command_dc_fifo.vhd
+Z120 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_command_dc_fifo/spwc_command_dc_fifo.vhd
+l0
+L42
+VIzK9kh0?m26[[BoNmRiaN1
+!s100 ?:LTGHoVS:S0fQNaA_@TP0
+R9
+32
+R113
+!i10b 1
+R114
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_command_dc_fifo/spwc_command_dc_fifo.vhd|
+Z122 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_command_dc_fifo/spwc_command_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R65
+l102
+L60
+VggBb0Q7e^KJQJ`PAZ>ko91
+!s100 N^onJI2A21=El]_JS5?cE1
+R9
+32
+R113
+!i10b 1
+R114
+R121
+R122
+!i113 1
+R14
+R15
+Espwc_data_dc_fifo
+R0
+R4
+R5
+R6
+Z123 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_data_dc_fifo/spwc_data_dc_fifo.vhd
+Z124 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_data_dc_fifo/spwc_data_dc_fifo.vhd
+l0
+L42
+VMRNhgaTjkQ0Dj]oTS=5Dh2
+!s100 SbIfMBAaG4gihOQD1jzl70
+R9
+32
+R108
+!i10b 1
+R84
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_data_dc_fifo/spwc_data_dc_fifo.vhd|
+Z126 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_data_dc_fifo/spwc_data_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R76
+l102
+L60
+VKV=M`d0GX@OXZ[XN8fU5T1
+!s100 `=BaZ3K7Io[OXVN@9iza41
+R9
+32
+R108
+!i10b 1
+R84
+R125
+R126
+!i113 1
+R14
+R15
+Espwc_errinj_controller_ent
+R0
+R1
+R2
+R58
+R3
+R4
+R5
+R6
+Z127 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_controller_ent.vhd
+Z128 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_controller_ent.vhd
+l0
+L9
+VDCkmidiH]Z]R5ID?hieY63
+!s100 ^=dVK]NSnAkGb_ad3oHU13
+R9
+32
+Z129 !s110 1620848591
+!i10b 1
+Z130 !s108 1620848591.000000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_controller_ent.vhd|
+Z132 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_controller_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R1
+R2
+R58
+R3
+R4
+R5
+Z133 DEx4 work 26 spwc_errinj_controller_ent 0 22 DCkmidiH]Z]R5ID?hieY63
+l36
+L21
+V<UT]4Bd9cXk:7V>>`3NeG3
+!s100 5`ThNfn1zB;ICFJAeiFDZ2
+R9
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 1
+R14
+R15
+Pspwc_errinj_pkg
+R3
+R4
+R5
+R0
+R6
+Z134 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_pkg.vhd
+Z135 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_pkg.vhd
+l0
+L5
+V1LThXcof0?3N85O2SGL4`3
+!s100 Z4Uo1oU8V2NoggnBDb2nC1
+R9
+32
+R129
+!i10b 1
+R130
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_pkg.vhd|
+Z137 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_ERRINJ/spwc_errinj_pkg.vhd|
+!i113 1
+R14
+R15
+Bbody
+R58
+R3
+R4
+R5
+l0
+L43
+V:EXe`Lj;gln8kn=Vi7^752
+!s100 z;=O8Piz0eVT@mLi@>KKS1
+R9
+32
+R129
+!i10b 1
+R130
+R136
+R137
+!i113 1
+R14
+R15
+Espwc_leds_controller_ent
+R0
+Z138 DPx4 work 24 spwc_leds_controller_pkg 0 22 hnh<9?gCbR4YCfmnE5KJ@0
+R3
+R4
+R5
+R6
+Z139 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_ent.vhd
+Z140 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_ent.vhd
+l0
+L7
+V[PG3_z0B5m8aQlFNA6aOS3
+!s100 jWR43I[;kEMkgmOXX9R3B3
+R9
+32
+R96
+!i10b 1
+R11
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_ent.vhd|
+Z142 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R138
+R3
+R4
+R5
+Z143 DEx4 work 24 spwc_leds_controller_ent 0 22 [PG3_z0B5m8aQlFNA6aOS3
+l18
+L16
+V8m`D7T:6EXEOJbV7>fW]03
+!s100 bD]YhX7@_PO487S]@[R?S0
+R9
+32
+R96
+!i10b 1
+R11
+R141
+R142
+!i113 1
+R14
+R15
+Pspwc_leds_controller_pkg
+R3
+R4
+R5
+R0
+R6
+Z144 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_pkg.vhd
+Z145 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_pkg.vhd
+l0
+L5
+Vhnh<9?gCbR4YCfmnE5KJ@0
+!s100 M`4GmJ8UI^@U8JJE[=RmB3
+R9
+32
+R96
+!i10b 1
+R11
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_pkg.vhd|
+Z147 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_leds_controller_pkg.vhd|
+!i113 1
+R14
+R15
+Bbody
+R138
+R3
+R4
+R5
+l0
+L26
+V6TRc[3b:=E1V?9bY2E1U91
+!s100 DImS1hb^7oePh^MUDZ3Qi0
+R9
+32
+R96
+!i10b 1
+R11
+R146
+R147
+!i113 1
+R14
+R15
+Espwc_leds_out_altiobuf
+R0
+R4
+R5
+R6
+Z148 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/altera_ip/altiobuf/spwc_leds_out_altiobuf/spwc_leds_out_altiobuf.vhd
+Z149 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/altera_ip/altiobuf/spwc_leds_out_altiobuf/spwc_leds_out_altiobuf.vhd
+l0
+L107
+V7<<b7mjlz4?;7Ibj@B7;^2
+!s100 U=Na9mPFFTijBPEK9a:Zi1
+R9
+32
+R96
+!i10b 1
+R11
+Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/altera_ip/altiobuf/spwc_leds_out_altiobuf/spwc_leds_out_altiobuf.vhd|
+Z151 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/altera_ip/altiobuf/spwc_leds_out_altiobuf/spwc_leds_out_altiobuf.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+Z152 DEx4 work 22 spwc_leds_out_altiobuf 0 22 7<<b7mjlz4?;7Ibj@B7;^2
+l129
+L116
+VELkMK]I;^4ZVR9^^;dZ753
+!s100 7fLTa>U7m7:OYeS00QL>22
+R9
+32
+R96
+!i10b 1
+R11
+R150
+R151
+!i113 1
+R14
+R15
+Espwc_leds_out_altiobuf_iobuf_out_2ts
+R0
+R4
+R5
+R6
+R148
+R149
+l0
+L46
+VhHNZffojdNc6DTS`PhoX52
+!s100 kn@Y>`DiAE]7h2_CJ@WVR3
+R9
+32
+R96
+!i10b 1
+R11
+R150
+R151
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 36 spwc_leds_out_altiobuf_iobuf_out_2ts 0 22 hHNZffojdNc6DTS`PhoX52
+l80
+L54
+VN:B>0Wk5liO^lQJ3`5?Gf1
+!s100 ija1ddAN[4G[L1Q6m6Wg;3
+R9
+32
+R96
+!i10b 1
+R11
+R150
+R151
+!i113 1
+R14
+R15
+Espwc_spacewire_channel_top
+Z153 w1620848557
+R138
+R58
+R1
+R2
+R3
+R4
+R5
+R6
+Z154 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spwc_spacewire_channel_top.vhd
+Z155 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spwc_spacewire_channel_top.vhd
+l0
+L19
+V[M[NJe6GAC[GC`_X:6m1V1
+!s100 OHKMSn;Z3aXIFJhfD<QCc2
+R9
+32
+R96
+!i10b 1
+R11
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spwc_spacewire_channel_top.vhd|
+Z157 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/spwc_spacewire_channel_top.vhd|
+!i113 1
+R14
+R15
+Artl
+R152
+R143
+Z158 DEx4 work 20 spwc_spw_tx_altiobuf 0 22 K?EBVAJM[2`XAJikbFoJ62
+Z159 DEx4 work 20 spwc_spw_rx_altiobuf 0 22 ige=^?=mmdLiha:hoE[5o3
+R118
+R133
+R101
+R138
+R58
+R1
+R2
+R3
+R4
+R5
+Z160 DEx4 work 26 spwc_spacewire_channel_top 0 22 [M[NJe6GAC[GC`_X:6m1V1
+l118
+L75
+VOoXO>XIdaD[<zkh<k6ijG0
+!s100 a1K6`]Z854OJU1KijC[aC3
+R9
+32
+R96
+!i10b 1
+R11
+R156
+R157
+!i113 1
+R14
+R15
+Espwc_spw_leds_controller_ent
+R67
+Z161 DPx4 work 24 spwc_leds_controller_pkg 0 22 7EDoR65aJ@7iW0=;@>^3n0
+R3
+R4
+R5
+R26
+Z162 8D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_spw_leds_controller_ent.vhd
+Z163 FD:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_spw_leds_controller_ent.vhd
+l0
+L7
+VzAQ[EMPS0lY<8[j=Mjb?D1
+!s100 4?h<7YGeGHIC]E4h8FL@;2
+R9
+32
+Z164 !s110 1593312547
+!i10b 1
+Z165 !s108 1593312547.000000
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_spw_leds_controller_ent.vhd|
+Z167 !s107 D:/rfranca/Development/GitHub/SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_LEDS_CONTROLLER/spwc_spw_leds_controller_ent.vhd|
+!i113 1
+R14
+R15
+Artl
+R161
+R3
+R4
+R5
+DEx4 work 28 spwc_spw_leds_controller_ent 0 22 zAQ[EMPS0lY<8[j=Mjb?D1
+l18
+L16
+VBI>92_jo6dMicMhDn1ggi1
+!s100 ;:Al`miRVYzM;mh;H17F83
+R9
+32
+R164
+!i10b 1
+R165
+R166
+R167
+!i113 1
+R14
+R15
+Espwc_spw_rx_altiobuf
+R0
+R4
+R5
+R6
+Z168 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_rx_altiobuf/spwc_spw_rx_altiobuf.vhd
+Z169 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_rx_altiobuf/spwc_spw_rx_altiobuf.vhd
+l0
+L101
+Vige=^?=mmdLiha:hoE[5o3
+!s100 3V1[h^l9ojCnPMTa`E=Z21
+R9
+32
+R113
+!i10b 1
+R114
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_rx_altiobuf/spwc_spw_rx_altiobuf.vhd|
+Z171 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_rx_altiobuf/spwc_spw_rx_altiobuf.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+R159
+l125
+L111
+V?T1QWiFXh6[LDmn88N`^j2
+!s100 ;Uj[]SJmIgfRYOIlMG9c]2
+R9
+32
+R113
+!i10b 1
+R114
+R170
+R171
+!i113 1
+R14
+R15
+Espwc_spw_rx_altiobuf_iobuf_in_iti
+R0
+R4
+R5
+R6
+R168
+R169
+l0
+L46
+VSdTbW5GdjCeRhg2jUAH762
+!s100 EaGzQUXeAnbIVehd<nc591
+R9
+32
+R113
+!i10b 1
+R114
+R170
+R171
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 33 spwc_spw_rx_altiobuf_iobuf_in_iti 0 22 SdTbW5GdjCeRhg2jUAH762
+l76
+L55
+VEU@X==F3gC5:A0JPCCao?1
+!s100 b;E1`1<G6]^`h<lLJeIDH2
+R9
+32
+R113
+!i10b 1
+R114
+R170
+R171
+!i113 1
+R14
+R15
+Espwc_spw_rx_altlvds_rx
+Z172 w1593538366
+R4
+R5
+Z173 dD:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/Testbench
+Z174 8D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_rx/spwc_spw_rx_altlvds_rx/spwc_spw_rx_altlvds_rx.vhd
+Z175 FD:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_rx/spwc_spw_rx_altlvds_rx/spwc_spw_rx_altlvds_rx.vhd
+l0
+L42
+V@fF4j6Wfmf^O@:CbE7W9L1
+!s100 Iih0G3=F<djPE7j<@n[n53
+R9
+32
+Z176 !s110 1593631848
+!i10b 1
+Z177 !s108 1593631848.000000
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_rx/spwc_spw_rx_altlvds_rx/spwc_spw_rx_altlvds_rx.vhd|
+Z179 !s107 D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_rx/spwc_spw_rx_altlvds_rx/spwc_spw_rx_altlvds_rx.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+DEx4 work 22 spwc_spw_rx_altlvds_rx 0 22 @fF4j6Wfmf^O@:CbE7W9L1
+l113
+L51
+VQCQ?2KS8N8n;6BS8ZcX9o2
+!s100 Zzl011KoFD^[<leIl6o:G0
+R9
+32
+R176
+!i10b 1
+R177
+R178
+R179
+!i113 1
+R14
+R15
+Espwc_spw_tx_altiobuf
+R0
+R4
+R5
+R6
+Z180 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd
+Z181 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd
+l0
+L111
+VK?EBVAJM[2`XAJikbFoJ62
+!s100 UM=9<zXjAn27bSm_T1kSX3
+R9
+32
+R113
+!i10b 1
+R114
+Z182 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd|
+Z183 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+R158
+l136
+L121
+VVSInjTambBz]N;CAkJ`cl0
+!s100 >T9XgeUm=9BA<9GbXc57^2
+R9
+32
+R113
+!i10b 1
+R114
+R182
+R183
+!i113 1
+R14
+R15
+Espwc_spw_tx_altiobuf_iobuf_out_apt
+R0
+R4
+R5
+R6
+R180
+R181
+l0
+L46
+ViKHf;XaoTnc4lf:4R;:451
+!s100 [F7:h78@ZQm5znAzAgBE^2
+R9
+32
+R113
+!i10b 1
+R114
+R182
+R183
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 34 spwc_spw_tx_altiobuf_iobuf_out_apt 0 22 iKHf;XaoTnc4lf:4R;:451
+l82
+L55
+VieU@k`SiUoH7eMAhl;CJ=0
+!s100 VF8kWkgSh1ed9Hng6kH6R0
+R9
+32
+R113
+!i10b 1
+R114
+R182
+R183
+!i113 1
+R14
+R15
+Espwc_spw_tx_altiobuf_iobuf_out_vmt
+Z184 w1593538196
+R4
+R5
+R173
+Z185 8D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd
+Z186 FD:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd
+l0
+L46
+VO]?W[?L19IF]XeaF0if4P1
+!s100 J`1?AKNbca[>KC@2e<;GQ1
+R9
+32
+Z187 !s110 1593631972
+!i10b 1
+Z188 !s108 1593631972.000000
+Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd|
+Z190 !s107 D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altiobuf/spwc_spw_tx_altiobuf/spwc_spw_tx_altiobuf.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 34 spwc_spw_tx_altiobuf_iobuf_out_vmt 0 22 O]?W[?L19IF]XeaF0if4P1
+l94
+L55
+V8zR;cNOF@:MO9=`f8HhgB1
+!s100 QSCmYTPaC2neBz8>PV[YI1
+R9
+32
+R187
+!i10b 1
+R188
+R189
+R190
+!i113 1
+R14
+R15
+Espwc_spw_tx_altlvds_tx
+Z191 w1593538270
+R4
+R5
+R173
+Z192 8D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_tx/spwc_spw_tx_altlvds_tx/spwc_spw_tx_altlvds_tx.vhd
+Z193 FD:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_tx/spwc_spw_tx_altlvds_tx/spwc_spw_tx_altlvds_tx.vhd
+l0
+L42
+VMF[J]^N8nA6ja[WK6TSf:1
+!s100 [0I_iR9CddR6mT6PRdH;g3
+R9
+32
+R176
+!i10b 1
+R177
+Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_tx/spwc_spw_tx_altlvds_tx/spwc_spw_tx_altlvds_tx.vhd|
+Z195 !s107 D:/rfranca/Development/GitHub/SimuCam_Development3/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/altera_ip/altlvds_tx/spwc_spw_tx_altlvds_tx/spwc_spw_tx_altlvds_tx.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+DEx4 work 22 spwc_spw_tx_altlvds_tx 0 22 MF[J]^N8nA6ja[WK6TSf:1
+l99
+L51
+VVHT3gm[TfW8>:C^@jED1B1
+!s100 NLiTdTBa>LWIc4MBmina>0
+R9
+32
+R176
+!i10b 1
+R177
+R194
+R195
+!i113 1
+R14
+R15
+Espwc_status_dc_fifo
+R0
+R4
+R5
+R6
+Z196 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_status_dc_fifo/spwc_status_dc_fifo.vhd
+Z197 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_status_dc_fifo/spwc_status_dc_fifo.vhd
+l0
+L42
+Vn`S6`CAmhK:8OToaB;d8:1
+!s100 26nL824hNj4FCzf:iD8LA3
+R9
+32
+R108
+!i10b 1
+R84
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_status_dc_fifo/spwc_status_dc_fifo.vhd|
+Z199 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_status_dc_fifo/spwc_status_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R92
+l102
+L60
+V=SDWcjIz7ZdFG@i[dfQd80
+!s100 Z0j]DHk3f:zV`<`QCfN[j2
+R9
+32
+R108
+!i10b 1
+R84
+R198
+R199
+!i113 1
+R14
+R15
+Espwc_timecode_dc_fifo
+R0
+R4
+R5
+R6
+Z200 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_timecode_dc_fifo/spwc_timecode_dc_fifo.vhd
+Z201 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_timecode_dc_fifo/spwc_timecode_dc_fifo.vhd
+l0
+L42
+ViOi?ojzi1BKbfkff@eI5l0
+!s100 O]hJ9MYofe17`4nEOzDVO2
+R9
+32
+R108
+!i10b 1
+R84
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_timecode_dc_fifo/spwc_timecode_dc_fifo.vhd|
+Z203 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CLK_SYNCHRONIZATION/altera_ipcore/dcfifo/spwc_timecode_dc_fifo/spwc_timecode_dc_fifo.vhd|
+!i113 1
+R14
+R15
+Asyn
+R4
+R5
+R75
+l102
+L60
+VO822Qo41QR1FjKh?5_=nB3
+!s100 IXL:30BR4VD91T@N`zSzE0
+R9
+32
+R108
+!i10b 1
+R84
+R202
+R203
+!i113 1
+R14
+R15
+Espwerr
+Z204 w1620698079
+R1
+Z205 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R3
+R4
+R5
+R6
+Z206 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwerr.vhd
+Z207 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwerr.vhd
+l0
+L17
+VO7PI=de<<0EG?V0=CGd=I3
+!s100 `TZPGzXLbnWeF6D4aFcX50
+R9
+32
+Z208 !s110 1620848589
+!i10b 1
+Z209 !s108 1620848589.000000
+Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwerr.vhd|
+Z211 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwerr.vhd|
+!i113 1
+R14
+R15
+Aspwerr_arch
+R1
+R205
+R3
+R4
+R5
+DEx4 work 6 spwerr 0 22 O7PI=de<<0EG?V0=CGd=I3
+l89
+L36
+V0RhP;@:=E[FmfjSgFlfOD1
+!s100 nhfd3>@dJ`@HY1JCLn8S30
+R9
+32
+R208
+!i10b 1
+R209
+R210
+R211
+!i113 1
+R14
+R15
+Espwerr_old
+Z212 w1619639168
+Z213 DPx4 work 6 spwpkg 0 22 `Z443Q00J38VTS96N;::b1
+R3
+R4
+R5
+R6
+Z214 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/spwerr_old.vhd
+Z215 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/spwerr_old.vhd
+l0
+L16
+V>EeH0L4:9Q[HoP>;9>5Ge0
+!s100 z6zNS4]W4ECMCZ8kK91KT2
+R9
+32
+Z216 !s110 1619639253
+!i10b 1
+Z217 !s108 1619639253.000000
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/spwerr_old.vhd|
+Z219 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/spwerr_old.vhd|
+!i113 1
+R14
+R15
+Aspwerr_arch
+R213
+R3
+R4
+R5
+DEx4 work 10 spwerr_old 0 22 >EeH0L4:9Q[HoP>;9>5Ge0
+l82
+L35
+VK^1B<d1@oej_]E7g0fH7@0
+!s100 M4U1CEX;j_z_68_HQ;h[43
+R9
+32
+R216
+!i10b 1
+R217
+R218
+R219
+!i113 1
+R14
+R15
+Espwlink
+Z220 w1620696820
+R1
+R3
+R4
+R5
+R6
+Z221 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwlink.vhd
+Z222 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwlink.vhd
+l0
+L13
+VW_?GD0mjL<:4]8E^hEElQ1
+!s100 n:JhnN4jV^Sb@z4fS?gcg2
+R9
+32
+R208
+!i10b 1
+R209
+Z223 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwlink.vhd|
+Z224 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwlink.vhd|
+!i113 1
+R14
+R15
+Aspwlink_arch
+R1
+R3
+R4
+R5
+DEx4 work 7 spwlink 0 22 W_?GD0mjL<:4]8E^hEElQ1
+l86
+L44
+Vd814ME2POcaYXd3Od6mAW2
+!s100 P<9XALM4NId;LEN0DiV@g1
+R9
+32
+R208
+!i10b 1
+R209
+R223
+R224
+!i113 1
+R14
+R15
+Pspwpkg
+R4
+R5
+w1620844917
+R6
+8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwpkg.vhd
+FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwpkg.vhd
+l0
+L8
+Va5Agjb>z@D5bUGlcjJGE70
+!s100 ?@6mjB>ZUkUMzhN;JJeL50
+R9
+32
+R208
+!i10b 1
+R209
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwpkg.vhd|
+!s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwpkg.vhd|
+!i113 1
+R14
+R15
+Espwram
+Z225 w1620696986
+R3
+R4
+R5
+R6
+Z226 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwram.vhd
+Z227 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwram.vhd
+l0
+L10
+VVaWgfTL]S[_^lRAKm;F1o1
+!s100 GGF9naSBASYh4BMcACh[I1
+R9
+32
+R208
+!i10b 1
+R209
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwram.vhd|
+Z229 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwram.vhd|
+!i113 1
+R14
+R15
+Aspwram_arch
+R3
+R4
+R5
+DEx4 work 6 spwram 0 22 VaWgfTL]S[_^lRAKm;F1o1
+l34
+L28
+VX=aJ53Fg]kioz][H56`iA0
+!s100 SC^=[a;9^LoK@7[Bez4b<3
+R9
+32
+R208
+!i10b 1
+R209
+R228
+R229
+!i113 1
+R14
+R15
+Espwrecv
+Z230 w1620845154
+R1
+R3
+R4
+R5
+R6
+Z231 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecv.vhd
+Z232 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecv.vhd
+l0
+L16
+V0N=^61_TNdo@c5QEZAOLV3
+!s100 z7b;ma8?[V@[6[1NGhjT31
+R9
+32
+Z233 !s110 1620848590
+!i10b 1
+R209
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecv.vhd|
+Z235 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecv.vhd|
+!i113 1
+R14
+R15
+Aspwrecv_arch
+R1
+R3
+R4
+R5
+DEx4 work 7 spwrecv 0 22 0N=^61_TNdo@c5QEZAOLV3
+l97
+L45
+VP1:Jg<<6_2h1`VVT6[d>X3
+!s100 ;ab<AJOT`2L]Y0T1K^2Ql3
+R9
+32
+R233
+!i10b 1
+R209
+R234
+R235
+!i113 1
+R14
+R15
+Espwrecvfront_fast
+Z236 w1620696981
+R1
+R3
+R4
+R5
+R6
+Z237 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_fast.vhd
+Z238 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_fast.vhd
+l0
+L70
+V3@LOQ_f^NBASG?oJI6[]k2
+!s100 6A=SSe=GaD6@VT[bYEXVn1
+R9
+32
+R233
+!i10b 1
+Z239 !s108 1620848590.000000
+Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_fast.vhd|
+Z241 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_fast.vhd|
+!i113 1
+R14
+R15
+Aspwrecvfront_arch
+R1
+R3
+R4
+R5
+DEx4 work 17 spwrecvfront_fast 0 22 3@LOQ_f^NBASG?oJI6[]k2
+l192
+L103
+VYZlJ<oPdmClFegQIUz3FI3
+!s100 I<K<@RFnKn8^bk>@]O:kT0
+R9
+32
+R233
+!i10b 1
+R239
+R240
+R241
+!i113 1
+R14
+R15
+Espwrecvfront_generic
+Z242 w1620845105
+R3
+R4
+R5
+R6
+Z243 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_generic.vhd
+Z244 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_generic.vhd
+l0
+L16
+VaJl;8`RJcz=A<VcXIZ4Oa2
+!s100 VEQUGlG4fgUAPT0>K^]fK2
+R9
+32
+R233
+!i10b 1
+R239
+Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_generic.vhd|
+Z246 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwrecvfront_generic.vhd|
+!i113 1
+R14
+R15
+Aspwrecvfront_arch
+R3
+R4
+R5
+DEx4 work 20 spwrecvfront_generic 0 22 aJl;8`RJcz=A<VcXIZ4Oa2
+l58
+L40
+VGLjncYZ_0KRWXhJHOF]in1
+!s100 :OMP4EJ5<3I0[;2EFbaY_2
+R9
+32
+R233
+!i10b 1
+R239
+R245
+R246
+!i113 1
+R14
+R15
+Espwstream
+Z247 w1620845081
+R1
+R3
+R4
+R5
+R6
+Z248 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwstream.vhd
+Z249 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwstream.vhd
+l0
+L23
+V4QMMVh2BkQEZn`Vd9lYo51
+!s100 61X<;AMNGUCnLcC:kLB_=2
+R9
+32
+R233
+!i10b 1
+R239
+Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwstream.vhd|
+Z251 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwstream.vhd|
+!i113 1
+R14
+R15
+Aspwstream_arch
+R1
+R3
+R4
+R5
+R117
+l240
+L155
+VW`B?aCa>Oc@Gh]7]d?njM3
+!s100 7VYlfT2l^T47<]G>zY?FA1
+R9
+32
+R233
+!i10b 1
+R239
+R250
+R251
+!i113 1
+R14
+R15
+Espwxmit
+Z252 w1620696971
+R1
+R3
+R4
+R5
+R6
+Z253 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit.vhd
+Z254 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit.vhd
+l0
+L13
+V63YFE3Lz@S@Y1@i_YH3Nk1
+!s100 2F:VP];z`G]DWH5j>HSD71
+R9
+32
+R233
+!i10b 1
+R239
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit.vhd|
+Z256 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit.vhd|
+!i113 1
+R14
+R15
+Aspwxmit_arch
+R1
+R3
+R4
+R5
+DEx4 work 7 spwxmit 0 22 63YFE3Lz@S@Y1@i_YH3Nk1
+l82
+L37
+VS@^Dfl7ZFmf1:jYQWdSl23
+!s100 VcRk<]dEFLdlXHHNjagRI3
+R9
+32
+R233
+!i10b 1
+R239
+R255
+R256
+!i113 1
+R14
+R15
+Espwxmit_fast
+Z257 w1620696974
+R1
+R3
+R4
+R5
+R6
+Z258 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit_fast.vhd
+Z259 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit_fast.vhd
+l0
+L150
+VNSOP9H:mn:z6eh7C0Q6B^1
+!s100 =>Zz9^okI>8b<0?;XTKKl2
+R9
+32
+R129
+!i10b 1
+R239
+Z260 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit_fast.vhd|
+Z261 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/spwxmit_fast.vhd|
+!i113 1
+R14
+R15
+Aspwxmit_fast_arch
+R1
+R3
+R4
+R5
+DEx4 work 12 spwxmit_fast 0 22 NSOP9H:mn:z6eh7C0Q6B^1
+l321
+L181
+ViT9B`kEHe3BZm`=jjSjhc1
+!s100 RaQ16TdH9m9QK0PS4PTSN0
+R9
+32
+R129
+!i10b 1
+R239
+R260
+R261
+!i113 1
+R14
+R15
+Estreamtest
+Z262 w1620696968
+R1
+R3
+R4
+R5
+R6
+Z263 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/streamtest.vhd
+Z264 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/streamtest.vhd
+l0
+L28
+V6Zf9k4zBC@AHeFG]1lD<91
+!s100 @FfFFLXEoK@7kHRbWgFZd2
+R9
+32
+R129
+!i10b 1
+R130
+Z265 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/streamtest.vhd|
+Z266 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/streamtest.vhd|
+!i113 1
+R14
+R15
+Astreamtest_arch
+R1
+R3
+R4
+R5
+DEx4 work 10 streamtest 0 22 6Zf9k4zBC@AHeFG]1lD<91
+l185
+L91
+Vo_m:lXOf?>bA;m471R]]G1
+!s100 RNQ>^;RmkmVMJ88^UP]jh2
+R9
+32
+R129
+!i10b 1
+R130
+R265
+R266
+!i113 1
+R14
+R15
+Esyncdff
+Z267 w1620696965
+R4
+R5
+R6
+Z268 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/syncdff.vhd
+Z269 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/syncdff.vhd
+l0
+L16
+VD4EjVH7bbYJlSAWfhYhEj0
+!s100 ^I[[E=Sb9X2AZgad8fD7m2
+R9
+32
+R129
+!i10b 1
+R130
+Z270 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/syncdff.vhd|
+Z271 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/SpaceWire_Channel/SPW_CODEC/spacewire_light_codec_err/syncdff.vhd|
+!i113 1
+R14
+R15
+Asyncdff_arch
+R4
+R5
+DEx4 work 7 syncdff 0 22 D4EjVH7bbYJlSAWfhYhEj0
+l52
+L31
+V;m:V]]z^:oWZQ9]6_MTEN0
+!s100 i<S0>W][95Z1Y46V4X0?i2
+R9
+32
+R129
+!i10b 1
+R130
+R270
+R271
+!i113 1
+R14
+R15
+Etestbench_synchronization_top
+R0
+R58
+R2
+R1
+R3
+R4
+R5
+R6
+Z272 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_synchronization_top.vhd
+Z273 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_synchronization_top.vhd
+l0
+L9
+VJbl79EUlZHM@Gg?J`h[M<2
+!s100 ]jFJ>JdKa2KMeLkb8ni4]1
+R9
+32
+R10
+!i10b 1
+R19
+Z274 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_synchronization_top.vhd|
+Z275 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_synchronization_top.vhd|
+!i113 1
+R14
+R15
+Artl
+R101
+R16
+R22
+R58
+R2
+R1
+R3
+R4
+R5
+DEx4 work 29 testbench_synchronization_top 0 22 Jbl79EUlZHM@Gg?J`h[M<2
+l40
+L12
+VJ6NDaYm[9B=D7gEPjaacl2
+!s100 [ob2nG2zZNGzbo>5cY`a81
+R9
+32
+R10
+!i10b 1
+R19
+R274
+R275
+!i113 1
+R14
+R15
+Etestbench_top
+Z276 w1620845173
+R58
+R1
+R3
+R4
+R5
+R6
+Z277 8D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_top.vhd
+Z278 FD:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_top.vhd
+l0
+L8
+VQ79b=g>OPnQ>U_0@zceW;1
+!s100 9796^EP`05J<^TlW52dEH0
+R9
+32
+R10
+!i10b 1
+R19
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_top.vhd|
+Z280 !s107 D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/SpaceWire_Channel/Development/Testbench/testbench_top.vhd|
+!i113 1
+R14
+R15
+Artl
+R117
+R138
+R2
+R160
+R58
+R1
+R3
+R4
+R5
+Z281 DEx4 work 13 testbench_top 0 22 Q79b=g>OPnQ>U_0@zceW;1
+l67
+L11
+Z282 VI[VIK_CQK:[TG05ABW`X;1
+Z283 !s100 BiJbYO5A@>R0<dc@^SCN30
+R9
+32
+R10
+!i10b 1
+R19
+R279
+R280
+!i113 1
+R14
+R15

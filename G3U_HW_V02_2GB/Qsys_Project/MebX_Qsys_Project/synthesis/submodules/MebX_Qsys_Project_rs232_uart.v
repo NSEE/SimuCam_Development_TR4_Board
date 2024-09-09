@@ -1,4 +1,4 @@
-//Legal Notice: (C)2023 Altera Corporation. All rights reserved.  Your
+//Legal Notice: (C)2024 Altera Corporation. All rights reserved.  Your
 //use of Altera Corporation's design tools, logic functions and other
 //software and tools, and its AMPP partner logic functions, and any
 //output files any of the foregoing (including device programming or
@@ -787,7 +787,7 @@ ie_parity_error} = control_reg;
 
 //synthesis translate_on
 //synthesis read_comments_as_HDL on
-//  assign divisor_constant = 434;
+//  assign divisor_constant = 1157;
 //synthesis read_comments_as_HDL off
 
 endmodule

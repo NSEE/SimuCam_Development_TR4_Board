@@ -1,0 +1,74 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile D:/rfranca/Development/GitHub/IWF_SimuCam_Development/FPGA_Developments/Avalon_MM_Master_Arbiter/Development/Testbench/Avalon_MM_Master_Arbiter_tb.mpf
+# Loading project Avalon_MM_Master_Arbiter_tb
+# Compile of avma_avm_arbiter_pkg.vhd was successful.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd failed with 8 errors.
+# Compile of avalon_slave_stimulli_pkg.vhd was successful.
+# Compile of testbench_top.vhd was successful.
+# 4 compiles, 1 failed with 8 errors.
+# Compile of avma_avm_arbiter_pkg.vhd was successful.
+# Compile of avma_avm_arbiter_ent.vhd was successful.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd failed with 5 errors.
+# Compile of avalon_master_0_stimuli.vhd was successful.
+# Compile of avalon_master_1_stimuli.vhd was successful.
+# Compile of avalon_master_2_stimuli.vhd was successful.
+# Compile of avalon_master_3_stimuli.vhd was successful.
+# Compile of avalon_master_4_stimuli.vhd was successful.
+# Compile of avalon_master_5_stimuli.vhd was successful.
+# Compile of avalon_master_6_stimuli.vhd was successful.
+# Compile of avalon_master_7_stimuli.vhd was successful.
+# Compile of avalon_slave_stimulli_pkg.vhd was successful.
+# Compile of avalon_slave_stimulli_write.vhd was successful.
+# Compile of avalon_slave_stimulli_read.vhd was successful.
+# Compile of testbench_top.vhd was successful.
+# 15 compiles, 1 failed with 5 errors.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd failed with 2 errors.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd failed with 2 errors.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd was successful.
+vsim work.testbench_top
+# vsim work.testbench_top 
+# Start time: 23:12:20 on Nov 02,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.avma_avm_arbiter_pkg(body)
+# Loading work.avalon_slave_stimulli_pkg
+# Loading ieee.math_real(body)
+# Loading work.testbench_top(rtl)
+# Loading work.avma_avalon_mm_master_arbiter_top(rtl)
+# Loading work.avma_avm_arbiter_ent(rtl)
+# Loading work.avalon_master_0_stimuli(rtl)
+# Loading work.avalon_master_1_stimuli(rtl)
+# Loading work.avalon_master_2_stimuli(rtl)
+# Loading work.avalon_master_3_stimuli(rtl)
+# Loading work.avalon_master_4_stimuli(rtl)
+# Loading work.avalon_master_5_stimuli(rtl)
+# Loading work.avalon_master_6_stimuli(rtl)
+# Loading work.avalon_master_7_stimuli(rtl)
+# Loading work.avalon_slave_stimulli_read(rtl)
+# Loading work.avalon_slave_stimulli_write(rtl)
+run
+# Compile of avma_avalon_mm_master_arbiter_top.vhd was successful.
+add wave -position insertpoint sim:/testbench_top/avma_avalon_mm_master_arbiter_top_inst/*
+restart
+# Loading work.avma_avalon_mm_master_arbiter_top(rtl)
+run
+# Compile of avma_avm_arbiter_pkg.vhd was successful.
+# Compile of avma_avm_arbiter_ent.vhd was successful.
+# Compile of avma_avalon_mm_master_arbiter_top.vhd was successful.
+# Compile of avalon_master_0_stimuli.vhd was successful.
+# Compile of avalon_master_1_stimuli.vhd was successful.
+# Compile of avalon_master_2_stimuli.vhd was successful.
+# Compile of avalon_master_3_stimuli.vhd was successful.
+# Compile of avalon_master_4_stimuli.vhd was successful.
+# Compile of avalon_master_5_stimuli.vhd was successful.
+# Compile of avalon_master_6_stimuli.vhd was successful.
+# Compile of avalon_master_7_stimuli.vhd was successful.
+# Compile of avalon_slave_stimulli_pkg.vhd was successful.
+# Compile of avalon_slave_stimulli_write.vhd was successful.
+# Compile of avalon_slave_stimulli_read.vhd was successful.
+# Compile of testbench_top.vhd was successful.
+# 15 compiles, 0 failed with no errors.
+# End time: 23:16:47 on Nov 02,2021, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 0
