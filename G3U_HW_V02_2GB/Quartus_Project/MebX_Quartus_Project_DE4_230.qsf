@@ -2213,6 +2213,26 @@ set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to SOPC_INST|m0_d
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_clk[0]
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR2_clk[0]
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_clk[1]
+set_location_assignment PIN_AN30 -to FTDI_SIWU_N
+set_location_assignment PIN_AF34 -to LED_PAINEL_LED_1G
+set_location_assignment PIN_AE35 -to LED_PAINEL_LED_1R
+set_location_assignment PIN_AC31 -to LED_PAINEL_LED_2G
+set_location_assignment PIN_AC32 -to LED_PAINEL_LED_2R
+set_location_assignment PIN_AH34 -to LED_PAINEL_LED_3G
+set_location_assignment PIN_AH35 -to LED_PAINEL_LED_3R
+set_location_assignment PIN_AK34 -to LED_PAINEL_LED_4G
+set_location_assignment PIN_AK35 -to LED_PAINEL_LED_4R
+set_location_assignment PIN_AM35 -to LED_PAINEL_LED_5R
+set_location_assignment PIN_AJ32 -to LED_PAINEL_LED_5G
+set_location_assignment PIN_AK33 -to LED_PAINEL_LED_6R
+set_location_assignment PIN_AF25 -to LED_PAINEL_LED_7G
+set_location_assignment PIN_AG25 -to LED_PAINEL_LED_7R
+set_location_assignment PIN_AV32 -to LED_PAINEL_LED_8G
+set_location_assignment PIN_AW32 -to LED_PAINEL_LED_POWER
+set_location_assignment PIN_AV28 -to LED_PAINEL_LED_ST1
+set_location_assignment PIN_AW29 -to LED_PAINEL_LED_ST2
+set_location_assignment PIN_AG34 -to LED_PAINEL_LED_ST3
+set_location_assignment PIN_AG35 -to LED_PAINEL_LED_ST4
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

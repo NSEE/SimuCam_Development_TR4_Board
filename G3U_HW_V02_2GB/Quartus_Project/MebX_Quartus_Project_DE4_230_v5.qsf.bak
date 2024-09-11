@@ -340,10 +340,10 @@ set_global_assignment -name UNIPHY_TEMP_VER_CODE 1949761625
 
 set_location_assignment PIN_AF34 -to LED_PAINEL_LED_1G
 set_location_assignment PIN_AE35 -to LED_PAINEL_LED_1R
-set_location_assignment PIN_AC31 -to LED_PAINEL_LED_2G
-set_location_assignment PIN_AC32 -to LED_PAINEL_LED_2R
-set_location_assignment PIN_AH34 -to LED_PAINEL_LED_3G
-set_location_assignment PIN_AH35 -to LED_PAINEL_LED_3R
+set_location_assignment PIN_AC32 -to LED_PAINEL_LED_2G
+set_location_assignment PIN_AC31 -to LED_PAINEL_LED_2R
+set_location_assignment PIN_AC32 -to LED_PAINEL_LED_3G
+set_location_assignment PIN_AH34 -to LED_PAINEL_LED_3R
 set_location_assignment PIN_AK34 -to LED_PAINEL_LED_4G
 set_location_assignment PIN_AK35 -to LED_PAINEL_LED_4R
 set_location_assignment PIN_AM34 -to LED_PAINEL_LED_5R
@@ -359,7 +359,26 @@ set_location_assignment PIN_AW29 -to LED_PAINEL_LED_ST2
 set_location_assignment PIN_AG34 -to LED_PAINEL_LED_ST3
 set_location_assignment PIN_AG35 -to LED_PAINEL_LED_ST4
 
-
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_1G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_1R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_2G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_2R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_3G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_3R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_4G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_4R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_5R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_5R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_5G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_6R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_7G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_7R
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_8G
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_POWER
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_ST1
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_ST2
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_ST3
+set_location_assignment -name IO_STANDARD 1.5V -to LED_PAINEL_LED_ST4
 
 #============================================================
 # HSMA

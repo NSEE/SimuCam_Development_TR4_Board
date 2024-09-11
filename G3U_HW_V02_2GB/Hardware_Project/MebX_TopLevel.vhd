@@ -48,27 +48,27 @@ entity MebX_TopLevel is
         -- LEDs
        -- LED_DE4                : out   std_logic_vector(7 downto 0);
         -- painel GPIO1
-    --    LED_PAINEL_LED_1G      : out   std_logic;
-    --    LED_PAINEL_LED_1R      : out   std_logic;
-    --    LED_PAINEL_LED_2G      : out   std_logic;
-    --    LED_PAINEL_LED_2R      : out   std_logic;
-    --    LED_PAINEL_LED_3G      : out   std_logic;
-    --    LED_PAINEL_LED_3R      : out   std_logic;
-    --    LED_PAINEL_LED_4G      : out   std_logic;
-    --    LED_PAINEL_LED_4R      : out   std_logic;
-    --    LED_PAINEL_LED_5G      : out   std_logic;
-    --    LED_PAINEL_LED_5R      : out   std_logic;
-    --    LED_PAINEL_LED_6G      : out   std_logic;
-    --    LED_PAINEL_LED_6R      : out   std_logic;
-    --    LED_PAINEL_LED_7G      : out   std_logic;
-    --    LED_PAINEL_LED_7R      : out   std_logic;
-    --    LED_PAINEL_LED_8G      : out   std_logic;
-    --    LED_PAINEL_LED_8R      : out   std_logic;
-    --    LED_PAINEL_LED_POWER   : out   std_logic;
-    --    LED_PAINEL_LED_ST1     : out   std_logic;
-    --    LED_PAINEL_LED_ST2     : out   std_logic;
-    --    LED_PAINEL_LED_ST3     : out   std_logic;
-    --    LED_PAINEL_LED_ST4     : out   std_logic;
+      LED_PAINEL_LED_1G      : out   std_logic;
+      LED_PAINEL_LED_1R      : out   std_logic;
+      LED_PAINEL_LED_2G      : out   std_logic;
+      LED_PAINEL_LED_2R      : out   std_logic;
+      LED_PAINEL_LED_3G      : out   std_logic;
+      LED_PAINEL_LED_3R      : out   std_logic;
+      LED_PAINEL_LED_4G      : out   std_logic;
+      LED_PAINEL_LED_4R      : out   std_logic;
+      LED_PAINEL_LED_5G      : out   std_logic;
+      LED_PAINEL_LED_5R      : out   std_logic;
+      LED_PAINEL_LED_6G      : out   std_logic;
+      LED_PAINEL_LED_6R      : out   std_logic;
+      LED_PAINEL_LED_7G      : out   std_logic;
+      LED_PAINEL_LED_7R      : out   std_logic;
+      LED_PAINEL_LED_8G      : out   std_logic;
+      LED_PAINEL_LED_8R      : out   std_logic;
+      LED_PAINEL_LED_POWER   : out   std_logic;
+      LED_PAINEL_LED_ST1     : out   std_logic;
+      LED_PAINEL_LED_ST2     : out   std_logic;
+      LED_PAINEL_LED_ST3     : out   std_logic;
+      LED_PAINEL_LED_ST4     : out   std_logic;
     --    -- Seven Segment Display
     --    SEVEN_SEG_HEX1         : out   std_logic_vector(7 downto 0);
     --    SEVEN_SEG_HEX0         : out   std_logic_vector(7 downto 0);
@@ -88,25 +88,25 @@ entity MebX_TopLevel is
         --		ETH_RX_p               : in    std_logic_vector(3 downto 0);
         --		ETH_TX_p               : out   std_logic_vector(3 downto 0);
         -- DDR2 DIM2
-     --  M2_DDR2_addr           : out   std_logic_vector(13 downto 0);
-     --  M2_DDR2_ba             : out   std_logic_vector(2 downto 0);
-     --  M2_DDR2_clk            : inout std_logic_vector(1 downto 0);
-     --  M2_DDR2_clk_n          : inout std_logic_vector(1 downto 0);
-     --  M2_DDR2_cke            : out   std_logic_vector(1 downto 0);
-     --  M2_DDR2_cs_n           : out   std_logic_vector(1 downto 0);
-     --  M2_DDR2_dm             : out   std_logic_vector(7 downto 0);
-     --  M2_DDR2_ras_n          : out   std_logic_vector(0 downto 0);
-     --  M2_DDR2_cas_n          : out   std_logic_vector(0 downto 0);
-     --  M2_DDR2_we_n           : out   std_logic_vector(0 downto 0);
-     --  M2_DDR2_dq             : inout std_logic_vector(63 downto 0);
-     --  M2_DDR2_dqs            : inout std_logic_vector(7 downto 0);
-     --  M2_DDR2_dqsn           : inout std_logic_vector(7 downto 0);
-     --  M2_DDR2_odt            : out   std_logic_vector(1 downto 0);
-     --  M2_DDR2_oct_rdn        : in    std_logic;
-     --  M2_DDR2_oct_rup        : in    std_logic;
-     --  M2_DDR2_SCL            : out   std_logic;
-     --  M2_DDR2_SDA            : inout std_logic;
-     --  M2_DDR2_SA             : out   std_logic_vector(1 downto 0);
+     --  M2_DDR3_addr           : out   std_logic_vector(13 downto 0);
+     --  M2_DDR3_ba             : out   std_logic_vector(2 downto 0);
+     --  M2_DDR3_clk            : inout std_logic_vector(1 downto 0);
+     --  M2_DDR3_clk_n          : inout std_logic_vector(1 downto 0);
+     --  M2_DDR3_cke            : out   std_logic_vector(1 downto 0);
+     --  M2_DDR3_cs_n           : out   std_logic_vector(1 downto 0);
+     --  M2_DDR3_dm             : out   std_logic_vector(7 downto 0);
+     --  M2_DDR3_ras_n          : out   std_logic_vector(0 downto 0);
+     --  M2_DDR3_cas_n          : out   std_logic_vector(0 downto 0);
+     --  M2_DDR3_we_n           : out   std_logic_vector(0 downto 0);
+     --  M2_DDR3_dq             : inout std_logic_vector(63 downto 0);
+     --  M2_DDR3_dqs            : inout std_logic_vector(7 downto 0);
+     --  M2_DDR3_dqsn           : inout std_logic_vector(7 downto 0);
+     --  M2_DDR3_odt            : out   std_logic_vector(1 downto 0);
+     --  M2_DDR3_oct_rdn        : in    std_logic;
+     --  M2_DDR3_oct_rup        : in    std_logic;
+     --  M2_DDR3_SCL            : out   std_logic;
+     --  M2_DDR3_SDA            : inout std_logic;
+     --  M2_DDR3_SA             : out   std_logic_vector(1 downto 0);
         -- DDR2 DIM2
         M1_DDR2_addr           : out   std_logic_vector(14 downto 0);
         M1_DDR2_ba             : out   std_logic_vector(2 downto 0);
@@ -350,7 +350,7 @@ architecture bhv of MebX_TopLevel is
             rst_controller_conduit_simucam_reset_t_simucam_reset_signal : out   std_logic; --                                     -- t_simucam_reset_signal
             --
             --
-            -- m1_ddr2_memory_pll_ref_clk_clk                              : in    std_logic                     := 'X'; -- clk
+            -- m1_ddr3_memory_pll_ref_clk_clk                              : in    std_logic                     := 'X'; -- clk
             memory_mem_a                                        : out   std_logic_vector(14 downto 0);
             memory_mem_ba                                       : out   std_logic_vector(2 downto 0);
             memory_mem_ck                                       : out   std_logic_vector(1 downto 0);
@@ -392,8 +392,8 @@ architecture bhv of MebX_TopLevel is
             m1_ddr2_i2c_scl_export                                      : out   std_logic;
             m1_ddr2_i2c_sda_export                                      : inout std_logic;
           --
-          --  m2_ddr2_i2c_scl_export                                      : out   std_logic;
-          --  m2_ddr2_i2c_sda_export                                      : inout std_logic;
+          --  m2_ddr3_i2c_scl_export                                      : out   std_logic;
+          --  m2_ddr3_i2c_sda_export                                      : inout std_logic;
           --
             spwc_a_lvds_spw_lvds_p_data_in_signal                       : in    std_logic                     := 'X'; -- spw_lvds_p_data_in_signal
             spwc_a_lvds_spw_lvds_n_data_in_signal                       : in    std_logic                     := 'X'; -- spw_lvds_n_data_in_signal
@@ -631,7 +631,7 @@ begin
            -- tristate_conduit_tcm_read_n_out                             => FLASH_OE_n,
            -- tristate_conduit_tcm_write_n_out                            => FLASH_WE_n, 
            --
-           -- m1_ddr2_memory_pll_ref_clk_clk                              => OSC_50_Bank3,
+           -- m1_ddr3_memory_pll_ref_clk_clk                              => OSC_50_Bank3,
             memory_mem_a                                        => M1_DDR2_addr,
             memory_mem_ba                                       => M1_DDR2_ba,
             memory_mem_ck                                       => M1_DDR2_clk,
@@ -649,8 +649,9 @@ begin
             oct_rdn                                             => M1_DDR2_oct_rdn,
             oct_rup                                             => M1_DDR2_oct_rup,
             --
-    
-            --
+            m1_ddr2_i2c_scl_export                              =>M1_DDR2_SCL,
+            m1_ddr2_i2c_sda_export                              =>M1_DDR2_SDA, 
+				
             spwc_a_lvds_spw_lvds_p_data_in_signal                       => HSMA_LVDS_RX_SPWA_DI_P, --                        spwc_a_lvds.spw_lvds_p_data_in_signal
             spwc_a_lvds_spw_lvds_n_data_in_signal                       => HSMA_LVDS_RX_SPWA_DI_N, --                                   .spw_lvds_n_data_in_signal
             spwc_a_lvds_spw_lvds_p_strobe_in_signal                     => HSMA_LVDS_RX_SPWA_SI_P, --                                   .spw_lvds_p_strobe_in_signal
@@ -887,27 +888,27 @@ begin
   --  LED_DE4(6) <= ('1') when (rst_n = '0') else (leds_b(6));
   --  LED_DE4(7) <= ('1') when (rst_n = '0') else (leds_b(7));
   --
-  --  LED_PAINEL_LED_1G    <= ('1') when (rst_n = '0') else (leds_p(0) or spw_a_green_led);
-  --  LED_PAINEL_LED_1R    <= ('1') when (rst_n = '0') else (leds_p(1) or spw_a_red_led);
-  --  LED_PAINEL_LED_2G    <= ('1') when (rst_n = '0') else (leds_p(2) or spw_b_green_led);
-  --  LED_PAINEL_LED_2R    <= ('1') when (rst_n = '0') else (leds_p(3) or spw_b_red_led);
-  --  LED_PAINEL_LED_3G    <= ('1') when (rst_n = '0') else (leds_p(4) or spw_c_green_led);
-  --  LED_PAINEL_LED_3R    <= ('1') when (rst_n = '0') else (leds_p(5) or spw_c_red_led);
-  --  LED_PAINEL_LED_4G    <= ('1') when (rst_n = '0') else (leds_p(6) or spw_d_green_led);
-  --  LED_PAINEL_LED_4R    <= ('1') when (rst_n = '0') else (leds_p(7) or spw_d_red_led);
-  --  LED_PAINEL_LED_5G    <= ('1') when (rst_n = '0') else (leds_p(8) or spw_e_green_led);
-  --  LED_PAINEL_LED_5R    <= ('1') when (rst_n = '0') else (leds_p(9) or spw_e_red_led);
-  --  LED_PAINEL_LED_6G    <= ('1') when (rst_n = '0') else (leds_p(10) or spw_f_green_led);
-  --  LED_PAINEL_LED_6R    <= ('1') when (rst_n = '0') else (leds_p(11) or spw_f_red_led);
-  --  LED_PAINEL_LED_7G    <= ('1') when (rst_n = '0') else (leds_p(12) or spw_g_green_led);
-  --  LED_PAINEL_LED_7R    <= ('1') when (rst_n = '0') else (leds_p(13) or spw_g_red_led);
-  --  LED_PAINEL_LED_8G    <= ('1') when (rst_n = '0') else (leds_p(14) or spw_h_green_led);
-  --  LED_PAINEL_LED_8R    <= ('1') when (rst_n = '0') else (leds_p(15) or spw_h_red_led);
-  --  LED_PAINEL_LED_POWER <= ('1') when (rst_n = '0') else (leds_p(16));
-  --  LED_PAINEL_LED_ST1   <= ('1') when (rst_n = '0') else (leds_p(17));
-  --  LED_PAINEL_LED_ST2   <= ('1') when (rst_n = '0') else (leds_p(18));
-  --  LED_PAINEL_LED_ST3   <= ('1') when (rst_n = '0') else (leds_p(19));
-  --  LED_PAINEL_LED_ST4   <= ('1') when (rst_n = '0') else (leds_p(20));
+   LED_PAINEL_LED_1G    <= ('1') when (rst_n = '0') else (leds_p(0) or spw_a_green_led);
+   LED_PAINEL_LED_1R    <= ('1') when (rst_n = '0') else (leds_p(1) or spw_a_red_led);
+   LED_PAINEL_LED_2G    <= ('1') when (rst_n = '0') else (leds_p(2) or spw_b_green_led);
+   LED_PAINEL_LED_2R    <= ('1') when (rst_n = '0') else (leds_p(3) or spw_b_red_led);
+   LED_PAINEL_LED_3G    <= ('1') when (rst_n = '0') else (leds_p(4) or spw_c_green_led);
+   LED_PAINEL_LED_3R    <= ('1') when (rst_n = '0') else (leds_p(5) or spw_c_red_led);
+   LED_PAINEL_LED_4G    <= ('1') when (rst_n = '0') else (leds_p(6) or spw_d_green_led);
+   LED_PAINEL_LED_4R    <= ('1') when (rst_n = '0') else (leds_p(7) or spw_d_red_led);
+   LED_PAINEL_LED_5G    <= ('1') when (rst_n = '0') else (leds_p(8) or spw_e_green_led);
+   LED_PAINEL_LED_5R    <= ('1') when (rst_n = '0') else (leds_p(9) or spw_e_red_led);
+   LED_PAINEL_LED_6G    <= ('1') when (rst_n = '0') else (leds_p(10) or spw_f_green_led);
+   LED_PAINEL_LED_6R    <= ('1') when (rst_n = '0') else (leds_p(11) or spw_f_red_led);
+   LED_PAINEL_LED_7G    <= ('1') when (rst_n = '0') else (leds_p(12) or spw_g_green_led);
+   LED_PAINEL_LED_7R    <= ('1') when (rst_n = '0') else (leds_p(13) or spw_g_red_led);
+   LED_PAINEL_LED_8G    <= ('1') when (rst_n = '0') else (leds_p(14) or spw_h_green_led);
+   LED_PAINEL_LED_8R    <= ('1') when (rst_n = '0') else (leds_p(15) or spw_h_red_led);
+   LED_PAINEL_LED_POWER <= ('1') when (rst_n = '0') else (leds_p(16));
+   LED_PAINEL_LED_ST1   <= ('1') when (rst_n = '0') else (leds_p(17));
+   LED_PAINEL_LED_ST2   <= ('1') when (rst_n = '0') else (leds_p(18));
+   LED_PAINEL_LED_ST3   <= ('1') when (rst_n = '0') else (leds_p(19));
+   LED_PAINEL_LED_ST4   <= ('1') when (rst_n = '0') else (leds_p(20));
 
     --==========--
     -- eth
