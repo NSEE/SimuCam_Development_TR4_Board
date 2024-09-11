@@ -360,26 +360,79 @@ set_location_assignment PIN_AG34 -to LED_PAINEL_LED_ST3
 set_location_assignment PIN_AG35 -to LED_PAINEL_LED_ST4
 
 
+set_location_assignment PIN_AH33 -to FAN_CTLR
+set_location_assignment PIN_AJ34 -to FLASH_CE_n
+set_location_assignment PIN_AJ35 -to FLASH_CLK
+set_location_assignment PIN_AL34 -to FLASH_OE_n
+set_location_assignment PIN_AN34 -to FLASH_RESET_n 
+set_location_assignment PIN_AL35 -to FLASH_RYBY_n
+set_location_assignment PIN_AN35 -to FLASH_WE_n
 
-#============================================================
-# HSMA
-#============================================================
 
-set_location_assignment PIN_V12 -to HSMA_BUFFER_PEM0
-set_location_assignment PIN_V11 -to HSMA_BUFFER_PEM1
-set_location_assignment PIN_AN5 -to HSMA_LVDS_RX_SPWA_DI_N
-set_location_assignment PIN_AM5 -to HSMA_LVDS_RX_SPWA_SI_N
-set_location_assignment PIN_C9 -to HSMA_LVDS_RX_SPWF_DI_N
-set_location_assignment PIN_F6 -to HSMA_LVDS_RX_SPWF_SI_N
-set_location_assignment PIN_F5 -to HSMA_LVDS_RX_SPWG_DI_N
-set_location_assignment PIN_E7 -to HSMA_LVDS_RX_SPWG_SI_N
-set_location_assignment PIN_C8 -to HSMA_LVDS_RX_SPWH_DI_N
-set_location_assignment PIN_C5 -to HSMA_LVDS_RX_SPWH_SI_N
-set_location_assignment PIN_C7 -to HSMA_BUFFER_PWDN_N
-set_location_assignment PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
-set_location_assignment PIN_AK5 -to HSMA_LVDS_RX_SPWB_SI_N
-set_location_assignment PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
-set_location_assignment PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
+set_location_assignment PIN_AP28 -to O_RS232_UART_TXD
+set_location_assignment PIN_AR28 -to I_RS232_UART_RXD
+
+
+set_location_assignment PIN_AB27 -to FSM_D[0]
+set_location_assignment PIN_AB28 -to FSM_D[1]
+set_location_assignment PIN_AP27 -to FSM_D[2]
+set_location_assignment PIN_AN16 -to FSM_D[3]
+set_location_assignment PIN_AL25 -to FSM_D[4]
+set_location_assignment PIN_AP26 -to FSM_D[5]
+set_location_assignment PIN_AE28 -to FSM_D[6]
+set_location_assignment PIN_AV31 -to FSM_D[7]
+set_location_assignment PIN_AL27 -to FSM_D[8]
+set_location_assignment PIN_AH26 -to FSM_D[9]
+set_location_assignment PIN_AK27 -to FSM_D[10]
+set_location_assignment PIN_AE24 -to FSM_D[11]
+set_location_assignment PIN_AB30 -to FSM_D[12]
+set_location_assignment PIN_AB31 -to FSM_D[13]
+set_location_assignment PIN_AG31 -to FSM_D[14]
+set_location_assignment PIN_AG32 -to FSM_D[15]
+
+
+
+
+
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AF34 -to LED_PAINEL_LED_1G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AE35 -to LED_PAINEL_LED_1R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AC31 -to LED_PAINEL_LED_2G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AC32 -to LED_PAINEL_LED_2R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AH34 -to LED_PAINEL_LED_3G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AH35 -to LED_PAINEL_LED_3R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AK34 -to LED_PAINEL_LED_4G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AK35 -to LED_PAINEL_LED_4R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AM34 -to LED_PAINEL_LED_5R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AM35 -to LED_PAINEL_LED_5R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AJ32 -to LED_PAINEL_LED_5G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AK33 -to LED_PAINEL_LED_6R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AF25 -to LED_PAINEL_LED_7G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AG25 -to LED_PAINEL_LED_7R
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AV32 -to LED_PAINEL_LED_8G
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AW32 -to LED_PAINEL_LED_POWER
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AV28 -to LED_PAINEL_LED_ST1
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AW29 -to LED_PAINEL_LED_ST2
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AG34 -to LED_PAINEL_LED_ST3
+set_instance_assignment -name IO_STANDARD 1.5V PIN_AG35 -to LED_PAINEL_LED_ST4
+======================================
+
+======================================
+
+ PIN_V12 -to HSMA_BUFFER_PEM0
+ PIN_V11 -to HSMA_BUFFER_PEM1
+ PIN_AN5 -to HSMA_LVDS_RX_SPWA_DI_N
+ PIN_AM5 -to HSMA_LVDS_RX_SPWA_SI_N
+ PIN_C9 -to HSMA_LVDS_RX_SPWF_DI_N
+ PIN_F6 -to HSMA_LVDS_RX_SPWF_SI_N
+ PIN_F5 -to HSMA_LVDS_RX_SPWG_DI_N
+ PIN_E7 -to HSMA_LVDS_RX_SPWG_SI_N
+ PIN_C8 -to HSMA_LVDS_RX_SPWH_DI_N
+ PIN_C5 -to HSMA_LVDS_RX_SPWH_SI_N
+ PIN_C7 -to HSMA_BUFFER_PWDN_N
+ PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
+ PIN_AK5 -to HSMA_LVDS_RX_SPWB_SI_N
+ PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
+ PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
 
 set_location_assignment PIN_AH5 -to HSMA_LVDS_RX_SPWC_SI_N
 set_location_assignment PIN_AG5 -to HSMA_LVDS_RX_SPWD_DI_N

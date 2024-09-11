@@ -73,7 +73,7 @@ entity MebX_TopLevel is
     --    SEVEN_SEG_HEX1         : out   std_logic_vector(7 downto 0);
     --    SEVEN_SEG_HEX0         : out   std_logic_vector(7 downto 0);
         -- FANs
-    --    FAN_CTRL               : out   std_logic;
+        FAN_CTRL               : out   std_logic;
     --    -- SD CARD
     --    I_SD_CARD_WP_n         : in    std_logic;
     --    B_SD_CARD_CMD          : inout std_logic;
@@ -129,15 +129,15 @@ entity MebX_TopLevel is
         M1_DDR2_SA             : out   std_logic_vector(1 downto 0);
         -- Memory acess
         FSM_A                  : out   std_logic_vector(25 downto 0);
-       -- FSM_D                  : inout std_logic_vector(15 downto 0);
+        FSM_D                  : inout std_logic_vector(15 downto 0);
         -- Flash control
          FLASH_ADV_n            : out   std_logic;
-       -- FLASH_CE_n             : out   std_logic_vector(0 downto 0);
-       -- FLASH_CLK              : out   std_logic;
-       -- FLASH_OE_n             : out   std_logic_vector(0 downto 0);
-       -- FLASH_RESET_n          : out   std_logic;
-       -- FLASH_RYBY_n           : in    std_logic;
-       -- FLASH_WE_n             : out   std_logic_vector(0 downto 0);
+       FLASH_CE_n             : out   std_logic_vector(0 downto 0);
+       FLASH_CLK              : out   std_logic;
+       FLASH_OE_n             : out   std_logic_vector(0 downto 0);
+       FLASH_RESET_n          : out   std_logic;
+       FLASH_RYBY_n           : in    std_logic;
+       FLASH_WE_n             : out   std_logic_vector(0 downto 0);
         -- Sinais de controle - placa isoladora - habilitacao dos transmissores SpW e Sinc_out
         EN_ISO_DRIVERS         : out   std_logic;
         -- Sinais externos LVDS HSMC-B
@@ -237,15 +237,15 @@ entity MebX_TopLevel is
         SYNC_IN                : in    std_logic;
         SYNC_OUT               : out   std_logic;
         -- RS232 UART	 
-      --  O_RS232_UART_TXD       : out   std_logic;
-      --	 O_RS232_UART_CTS       : out   std_logic;
-      --  I_RS232_UART_RXD       : in    std_logic;
-      --  I_RS232_UART_RTS       : in    std_logic;
+        O_RS232_UART_TXD       : out   std_logic;
+        O_RS232_UART_CTS       : out   std_logic;
+        I_RS232_UART_RXD       : in    std_logic;
+        I_RS232_UART_RTS       : in    std_logic;
       
 		 -- FTDI UMFT601A Module Pins
         FTDI_DATA              : inout std_logic_vector(31 downto 0);
         FTDI_BE                : inout std_logic_vector(3 downto 0);
-       -- FTDI_RESET_N           : out   std_logic;
+        FTDI_RESET_N           : out   std_logic;
         FTDI_WAKEUP_N          : inout std_logic;
         FTDI_CLOCK             : in    std_logic;
         FTDI_RXF_N             : in    std_logic;
@@ -391,10 +391,8 @@ architecture bhv of MebX_TopLevel is
             --
             m1_ddr2_i2c_scl_export                                      : out   std_logic;
             m1_ddr2_i2c_sda_export                                      : inout std_logic;
-          --
-          --  m2_ddr3_i2c_scl_export                                      : out   std_logic;
-          --  m2_ddr3_i2c_sda_export                                      : inout std_logic;
-          --
+
+          
             spwc_a_lvds_spw_lvds_p_data_in_signal                       : in    std_logic                     := 'X'; -- spw_lvds_p_data_in_signal
             spwc_a_lvds_spw_lvds_n_data_in_signal                       : in    std_logic                     := 'X'; -- spw_lvds_n_data_in_signal
             spwc_a_lvds_spw_lvds_p_strobe_in_signal                     : in    std_logic                     := 'X'; -- spw_lvds_p_strobe_in_signal
@@ -625,11 +623,11 @@ begin
             ctrl_io_lvds_export                                         => ctrl_io_lvds,
             pio_iso_logic_signal_enable_export                          => iso_logic_enable, --                                  pio_iso_logic_signal_enable.export
             --
-            tristate_conduit_tcm_address_out                            => FSM_A,
-           -- tristate_conduit_tcm_data_out                               => FSM_D,
-           -- tristate_conduit_tcm_chipselect_n_out                       => FLASH_CE_n,
-           -- tristate_conduit_tcm_read_n_out                             => FLASH_OE_n,
-           -- tristate_conduit_tcm_write_n_out                            => FLASH_WE_n, 
+           tristate_conduit_tcm_address_out                            => FSM_A,
+           tristate_conduit_tcm_data_out                               => FSM_D,
+           tristate_conduit_tcm_chipselect_n_out                       => FLASH_CE_n,
+           tristate_conduit_tcm_read_n_out                             => FLASH_OE_n,
+           tristate_conduit_tcm_write_n_out                            => FLASH_WE_n, 
            --
            -- m1_ddr3_memory_pll_ref_clk_clk                              => OSC_50_Bank3,
             memory_mem_a                                        => M1_DDR2_addr,
@@ -863,7 +861,7 @@ begin
 
     rst_ctrl_input <= not (BUTTON(0) and RESET_PAINEL_n);
     rst_n          <= not (simucam_rst);
-  -- FTDI_RESET_N   <= (rst_n) and (not (ftdi_rst));
+    FTDI_RESET_N   <= (rst_n) and (not (ftdi_rst));
 
     --==========--
     -- I/Os
@@ -875,7 +873,7 @@ begin
    -- s_sync_in_unfiltered <= SYNC_IN;
 
     -- Ativa ventoinha
-   -- FAN_CTRL <= '1';
+   FAN_CTRL <= '1';
 
     -- LEDs assumem estado diferente no rst.
 
@@ -948,8 +946,8 @@ begin
     -- Flash
     --==========--
 
-   -- FLASH_RESET_n <= rst_n;
-   -- FLASH_CLK     <= '0';
+    FLASH_RESET_n <= rst_n;
+    FLASH_CLK     <= '0';
     FLASH_ADV_n   <= '0';
 
     --==========--
