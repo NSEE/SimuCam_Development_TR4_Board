@@ -108,30 +108,30 @@ entity MebX_TopLevel is
      --  M2_DDR3_SDA            : inout std_logic;
      --  M2_DDR3_SA             : out   std_logic_vector(1 downto 0);
         -- DDR2 DIM2
-        M1_DDR2_addr           : out   std_logic_vector(14 downto 0);
-        M1_DDR2_ba             : out   std_logic_vector(2 downto 0);
-        M1_DDR2_clk            : inout std_logic_vector(1 downto 0);
-        M1_DDR2_clk_n          : inout std_logic_vector(1 downto 0);
-        M1_DDR2_cke            : out   std_logic_vector(1 downto 0);
-        M1_DDR2_cs_n           : out   std_logic_vector(1 downto 0);
-        M1_DDR2_dm             : out   std_logic_vector(7 downto 0);
-        M1_DDR2_ras_n          : out   std_logic_vector(0 downto 0);
-        M1_DDR2_cas_n          : out   std_logic_vector(0 downto 0);
-        M1_DDR2_we_n           : out   std_logic_vector(0 downto 0);
-        M1_DDR2_dq             : inout std_logic_vector(63 downto 0);
-        M1_DDR2_dqs            : inout std_logic_vector(7 downto 0);
-        M1_DDR2_dqs_n          : inout std_logic_vector(7 downto 0);
-        M1_DDR2_odt            : out   std_logic_vector(1 downto 0);
-        M1_DDR2_oct_rdn        : in    std_logic;
-        M1_DDR2_oct_rup        : in    std_logic;
-        M1_DDR2_SCL            : out   std_logic;
-        M1_DDR2_SDA            : inout std_logic;
-        M1_DDR2_SA             : out   std_logic_vector(1 downto 0);
+        M1_DDR3_addr           : out   std_logic_vector(14 downto 0);
+        M1_DDR3_ba             : out   std_logic_vector(2 downto 0);
+        M1_DDR3_clk            : inout std_logic_vector(1 downto 0);
+        M1_DDR3_clk_n          : inout std_logic_vector(1 downto 0);
+        M1_DDR3_cke            : out   std_logic_vector(1 downto 0);
+        M1_DDR3_cs_n           : out   std_logic_vector(1 downto 0);
+        M1_DDR3_dm             : out   std_logic_vector(7 downto 0);
+        M1_DDR3_ras_n          : out   std_logic_vector(0 downto 0);
+        M1_DDR3_cas_n          : out   std_logic_vector(0 downto 0);
+        M1_DDR3_we_n           : out   std_logic_vector(0 downto 0);
+        M1_DDR3_dq             : inout std_logic_vector(63 downto 0);
+        M1_DDR3_dqs            : inout std_logic_vector(7 downto 0);
+        M1_DDR3_dqs_n          : inout std_logic_vector(7 downto 0);
+        M1_DDR3_odt            : out   std_logic_vector(1 downto 0);
+        M1_DDR3_oct_rdn        : in    std_logic;
+        M1_DDR3_oct_rup        : in    std_logic;
+        M1_DDR3_SCL            : out   std_logic;
+        M1_DDR3_SDA            : inout std_logic;
+        M1_DDR3_SA             : out   std_logic_vector(1 downto 0);
         -- Memory acess
         FSM_A                  : out   std_logic_vector(25 downto 0);
         FSM_D                  : inout std_logic_vector(15 downto 0);
         -- Flash control
-         FLASH_ADV_n            : out   std_logic;
+       FLASH_ADV_n            : out   std_logic;
        FLASH_CE_n             : out   std_logic_vector(0 downto 0);
        FLASH_CLK              : out   std_logic;
        FLASH_OE_n             : out   std_logic_vector(0 downto 0);
@@ -630,25 +630,25 @@ begin
            tristate_conduit_tcm_write_n_out                            => FLASH_WE_n, 
            --
            -- m1_ddr3_memory_pll_ref_clk_clk                              => OSC_50_Bank3,
-            memory_mem_a                                        => M1_DDR2_addr,
-            memory_mem_ba                                       => M1_DDR2_ba,
-            memory_mem_ck                                       => M1_DDR2_clk,
-            memory_mem_ck_n                                     => M1_DDR2_clk_n,
-            memory_mem_cke                                      => M1_DDR2_cke,
-            memory_mem_cs_n                                     => M1_DDR2_cs_n,
-            memory_mem_dm                                       => M1_DDR2_dm,
-            memory_mem_ras_n                                    => M1_DDR2_ras_n,
-            memory_mem_cas_n                                    => M1_DDR2_cas_n,
-            memory_mem_we_n                                     => M1_DDR2_we_n,
-            memory_mem_dq                                       => M1_DDR2_dq,
-            memory_mem_dqs                                      => M1_DDR2_dqs,
-            memory_mem_dqs_n                                    => M1_DDR2_dqs_n,
-            memory_mem_odt                                      => M1_DDR2_odt,
-            oct_rdn                                             => M1_DDR2_oct_rdn,
-            oct_rup                                             => M1_DDR2_oct_rup,
+            memory_mem_a                                        => M1_DDR3_addr,
+            memory_mem_ba                                       => M1_DDR3_ba,
+            memory_mem_ck                                       => M1_DDR3_clk,
+            memory_mem_ck_n                                     => M1_DDR3_clk_n,
+            memory_mem_cke                                      => M1_DDR3_cke,
+            memory_mem_cs_n                                     => M1_DDR3_cs_n,
+            memory_mem_dm                                       => M1_DDR3_dm,
+            memory_mem_ras_n                                    => M1_DDR3_ras_n,
+            memory_mem_cas_n                                    => M1_DDR3_cas_n,
+            memory_mem_we_n                                     => M1_DDR3_we_n,
+            memory_mem_dq                                       => M1_DDR3_dq,
+            memory_mem_dqs                                      => M1_DDR3_dqs,
+            memory_mem_dqs_n                                    => M1_DDR3_dqs_n,
+            memory_mem_odt                                      => M1_DDR3_odt,
+            oct_rdn                                             => M1_DDR3_oct_rdn,
+            oct_rup                                             => M1_DDR3_oct_rup,
             --
-            m1_ddr2_i2c_scl_export                              =>M1_DDR2_SCL,
-            m1_ddr2_i2c_sda_export                              =>M1_DDR2_SDA, 
+            m1_ddr2_i2c_scl_export                              =>M1_DDR3_SCL,
+            m1_ddr2_i2c_sda_export                              =>M1_DDR3_SDA, 
 				
             spwc_a_lvds_spw_lvds_p_data_in_signal                       => HSMA_LVDS_RX_SPWA_DI_P, --                        spwc_a_lvds.spw_lvds_p_data_in_signal
             spwc_a_lvds_spw_lvds_n_data_in_signal                       => HSMA_LVDS_RX_SPWA_DI_N, --                                   .spw_lvds_n_data_in_signal
@@ -816,8 +816,8 @@ begin
           --  sd_card_ip_b_SD_dat3                                        => B_SD_CARD_DAT3, --   --                                      .b_SD_dat3
           --  sd_card_ip_o_SD_clock                                       => O_SD_CARD_CLOCK, --  --                                      .o_SD_clock
             --
-          --  rs232_uart_rxd                                              => I_RS232_UART_RXD, -- --                            rs232_uart.rxd
-          --  rs232_uart_txd                                              => O_RS232_UART_TXD, -- --                                      .txd
+            rs232_uart_rxd                                              => I_RS232_UART_RXD, -- --                            rs232_uart.rxd
+            rs232_uart_txd                                              => O_RS232_UART_TXD, -- --                                      .txd
             --            rs232_uart_cts_n                                                        => I_RS232_UART_RTS,                                                        --                                                            .cts_n
             --            rs232_uart_rts_n                                                        => O_RS232_UART_CTS,                                                        --                                                            .rts_n
 

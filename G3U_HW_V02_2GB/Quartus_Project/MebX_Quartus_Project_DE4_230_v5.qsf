@@ -210,130 +210,130 @@ set_location_assignment PIN_L20 -to LOOP_CLKOUT1
 set_location_assignment PIN_D20 -to MAX2_CS_n
 set_location_assignment PIN_C20 -to MAX2_I2C_SCL
 set_location_assignment PIN_A17 -to MAX2_I2C_SDA
-set_location_assignment PIN_N23 -to M1_DDR2_addr[0]
-set_location_assignment PIN_C22 -to M1_DDR2_addr[1]
-set_location_assignment PIN_M22 -to M1_DDR2_addr[2]
-set_location_assignment PIN_D21 -to M1_DDR2_addr[3]
-set_location_assignment PIN_P24 -to M1_DDR2_addr[4]
-set_location_assignment PIN_A24 -to M1_DDR2_addr[5]
-set_location_assignment PIN_M21 -to M1_DDR2_addr[6]
-set_location_assignment PIN_D17 -to M1_DDR2_addr[7]
-set_location_assignment PIN_A25 -to M1_DDR2_addr[8]
-set_location_assignment PIN_N25 -to M1_DDR2_addr[9]
-set_location_assignment PIN_C24 -to M1_DDR2_addr[10]
-set_location_assignment PIN_N21 -to M1_DDR2_addr[11]
-set_location_assignment PIN_M25 -to M1_DDR2_addr[12]
-set_location_assignment PIN_K26 -to M1_DDR2_addr[13]
-set_location_assignment PIN_F16 -to M1_DDR2_addr[14]
-set_location_assignment PIN_R20 -to M1_DDR2_addr[15]
-set_location_assignment PIN_B26 -to M1_DDR2_ba[0]
-set_location_assignment PIN_A29 -to M1_DDR2_ba[1]
-set_location_assignment PIN_R24 -to M1_DDR2_ba[2]
-set_location_assignment PIN_L26 -to M1_DDR2_cas[0]
-set_location_assignment PIN_P25 -to M1_DDR2_cke[0]
-set_location_assignment PIN_M16 -to M1_DDR2_cke[1]
-set_location_assignment PIN_K27 -to M1_DDR2_ck[0]
-set_location_assignment PIN_L25 -to M1_DDR2_ck[1]
-set_location_assignment PIN_J27 -to M1_DDR2_ck_n[0]
-set_location_assignment PIN_K28 -to M1_DDR2_ck_n[1]
-set_location_assignment PIN_D23 -to M1_DDR2_cs_n[0]
-set_location_assignment PIN_G28 -to M1_DDR2_cs_n[1]
-set_location_assignment PIN_G16 -to M1_DDR2_dm[0]
-set_location_assignment PIN_N16 -to M1_DDR2_dm[1]
-set_location_assignment PIN_P23 -to M1_DDR2_dm[2]
-set_location_assignment PIN_B29 -to M1_DDR2_dm[3]
-set_location_assignment PIN_H28 -to M1_DDR2_dm[4]
-set_location_assignment PIN_E17 -to M1_DDR2_dm[5]
-set_location_assignment PIN_C26 -to M1_DDR2_dm[6]
-set_location_assignment PIN_E23 -to M1_DDR2_dm[7]
-set_location_assignment PIN_G15 -to M1_DDR2_dq[0]
-set_location_assignment PIN_F15 -to M1_DDR2_dq[1]
-set_location_assignment PIN_C16 -to M1_DDR2_dq[2]
-set_location_assignment PIN_B16 -to M1_DDR2_dq[3]
-set_location_assignment PIN_G17 -to M1_DDR2_dq[4]
-set_location_assignment PIN_A16 -to M1_DDR2_dq[5]
-set_location_assignment PIN_D16 -to M1_DDR2_dq[6]
-set_location_assignment PIN_E16 -to M1_DDR2_dq[7]
-set_location_assignment PIN_N17 -to M1_DDR2_dq[8]
-set_location_assignment PIN_M17 -to M1_DDR2_dq[9]
-set_location_assignment PIN_K17 -to M1_DDR2_dq[10]
-set_location_assignment PIN_L16 -to M1_DDR2_dq[11]
-set_location_assignment PIN_P16 -to M1_DDR2_dq[12]
-set_location_assignment PIN_P17 -to M1_DDR2_dq[13]
-set_location_assignment PIN_J17 -to M1_DDR2_dq[14]
-set_location_assignment PIN_H17 -to M1_DDR2_dq[15]
-set_location_assignment PIN_N22 -to M1_DDR2_dq[16]
-set_location_assignment PIN_M23 -to M1_DDR2_dq[17]
-set_location_assignment PIN_J25 -to M1_DDR2_dq[18]
-set_location_assignment PIN_M24 -to M1_DDR2_dq[19]
-set_location_assignment PIN_R22 -to M1_DDR2_dq[20]
-set_location_assignment PIN_P22 -to M1_DDR2_dq[21]
-set_location_assignment PIN_K24 -to M1_DDR2_dq[22]
-set_location_assignment PIN_J24 -to M1_DDR2_dq[23]
-set_location_assignment PIN_A27 -to M1_DDR2_dq[24]
-set_location_assignment PIN_A28 -to M1_DDR2_dq[25]
-set_location_assignment PIN_C29 -to M1_DDR2_dq[26]
-set_location_assignment PIN_C30 -to M1_DDR2_dq[27]
-set_location_assignment PIN_C27 -to M1_DDR2_dq[28]
-set_location_assignment PIN_D27 -to M1_DDR2_dq[29]
-set_location_assignment PIN_A31 -to M1_DDR2_dq[30]
-set_location_assignment PIN_B31 -to M1_DDR2_dq[31]
-set_location_assignment PIN_G27 -to M1_DDR2_dq[32]
-set_location_assignment PIN_G29 -to M1_DDR2_dq[33]
-set_location_assignment PIN_F28 -to M1_DDR2_dq[34]
-set_location_assignment PIN_F27 -to M1_DDR2_dq[35]
-set_location_assignment PIN_E28 -to M1_DDR2_dq[36]
-set_location_assignment PIN_D28 -to M1_DDR2_dq[37]
-set_location_assignment PIN_H26 -to M1_DDR2_dq[38]
-set_location_assignment PIN_J26 -to M1_DDR2_dq[39]
-set_location_assignment PIN_F19 -to M1_DDR2_dq[40]
-set_location_assignment PIN_G19 -to M1_DDR2_dq[41]
-set_location_assignment PIN_F20 -to M1_DDR2_dq[42]
-set_location_assignment PIN_G20 -to M1_DDR2_dq[43]
-set_location_assignment PIN_C17 -to M1_DDR2_dq[44]
-set_location_assignment PIN_F17 -to M1_DDR2_dq[45]
-set_location_assignment PIN_C18 -to M1_DDR2_dq[46]
-set_location_assignment PIN_D18 -to M1_DDR2_dq[47]
-set_location_assignment PIN_D25 -to M1_DDR2_dq[48]
-set_location_assignment PIN_C25 -to M1_DDR2_dq[49]
-set_location_assignment PIN_G24 -to M1_DDR2_dq[50]
-set_location_assignment PIN_G25 -to M1_DDR2_dq[51]
-set_location_assignment PIN_B25 -to M1_DDR2_dq[52]
-set_location_assignment PIN_A26 -to M1_DDR2_dq[53]
-set_location_assignment PIN_D26 -to M1_DDR2_dq[54]
-set_location_assignment PIN_F24 -to M1_DDR2_dq[55]
-set_location_assignment PIN_F23 -to M1_DDR2_dq[56]
-set_location_assignment PIN_G23 -to M1_DDR2_dq[57]
-set_location_assignment PIN_J22 -to M1_DDR2_dq[58]
-set_location_assignment PIN_H22 -to M1_DDR2_dq[59]
-set_location_assignment PIN_K22 -to M1_DDR2_dq[60]
-set_location_assignment PIN_D22 -to M1_DDR2_dq[61]
-set_location_assignment PIN_G22 -to M1_DDR2_dq[62]
-set_location_assignment PIN_E22 -to M1_DDR2_dq[63]
-set_location_assignment PIN_D15 -to M1_DDR2_dqs[0]
-set_location_assignment PIN_K16 -to M1_DDR2_dqs[1]
-set_location_assignment PIN_L23 -to M1_DDR2_dqs[2]
-set_location_assignment PIN_C28 -to M1_DDR2_dqs[3]
-set_location_assignment PIN_E29 -to M1_DDR2_dqs[4]
-set_location_assignment PIN_G18 -to M1_DDR2_dqs[5]
-set_location_assignment PIN_F25 -to M1_DDR2_dqs[6]
-set_location_assignment PIN_J23 -to M1_DDR2_dqs[7]
-set_location_assignment PIN_C15 -to M1_DDR2_dqs_n[0]
-set_location_assignment PIN_J16 -to M1_DDR2_dqs_n[1]
-set_location_assignment PIN_K23 -to M1_DDR2_dqs_n[2]
-set_location_assignment PIN_B28 -to M1_DDR2_dqs_n[3]
-set_location_assignment PIN_D29 -to M1_DDR2_dqs_n[4]
-set_location_assignment PIN_F18 -to M1_DDR2_dqs_n[5]
-set_location_assignment PIN_E25 -to M1_DDR2_dqs_n[6]
-set_location_assignment PIN_H23 -to M1_DDR2_dqs_n[7]
-set_location_assignment PIN_R18 -to M1_DDR2_event_n
-set_location_assignment PIN_F26 -to M1_DDR2_odt[0]
-set_location_assignment PIN_G26 -to M1_DDR2_odt[1]
-set_location_assignment PIN_D24 -to M1_DDR2_ras_n[0]
-set_location_assignment PIN_J18 -to M1_DDR2_reset_n
-set_location_assignment PIN_H19 -to M1_DDR2_scl
-set_location_assignment PIN_P18 -to M1_DDR2_sda
-set_location_assignment PIN_M27 -to M1_DDR2_we_n[0]
+set_location_assignment PIN_N23 -to M1_DDR3_addr[0]
+set_location_assignment PIN_C22 -to M1_DDR3_addr[1]
+set_location_assignment PIN_M22 -to M1_DDR3_addr[2]
+set_location_assignment PIN_D21 -to M1_DDR3_addr[3]
+set_location_assignment PIN_P24 -to M1_DDR3_addr[4]
+set_location_assignment PIN_A24 -to M1_DDR3_addr[5]
+set_location_assignment PIN_M21 -to M1_DDR3_addr[6]
+set_location_assignment PIN_D17 -to M1_DDR3_addr[7]
+set_location_assignment PIN_A25 -to M1_DDR3_addr[8]
+set_location_assignment PIN_N25 -to M1_DDR3_addr[9]
+set_location_assignment PIN_C24 -to M1_DDR3_addr[10]
+set_location_assignment PIN_N21 -to M1_DDR3_addr[11]
+set_location_assignment PIN_M25 -to M1_DDR3_addr[12]
+set_location_assignment PIN_K26 -to M1_DDR3_addr[13]
+set_location_assignment PIN_F16 -to M1_DDR3_addr[14]
+set_location_assignment PIN_R20 -to M1_DDR3_addr[15]
+set_location_assignment PIN_B26 -to M1_DDR3_ba[0]
+set_location_assignment PIN_A29 -to M1_DDR3_ba[1]
+set_location_assignment PIN_R24 -to M1_DDR3_ba[2]
+set_location_assignment PIN_L26 -to M1_DDR3_cas[0]
+set_location_assignment PIN_P25 -to M1_DDR3_cke[0]
+set_location_assignment PIN_M16 -to M1_DDR3_cke[1]
+set_location_assignment PIN_K27 -to M1_DDR3_ck[0]
+set_location_assignment PIN_L25 -to M1_DDR3_ck[1]
+set_location_assignment PIN_J27 -to M1_DDR3_ck_n[0]
+set_location_assignment PIN_K28 -to M1_DDR3_ck_n[1]
+set_location_assignment PIN_D23 -to M1_DDR3_cs_n[0]
+set_location_assignment PIN_G28 -to M1_DDR3_cs_n[1]
+set_location_assignment PIN_G16 -to M1_DDR3_dm[0]
+set_location_assignment PIN_N16 -to M1_DDR3_dm[1]
+set_location_assignment PIN_P23 -to M1_DDR3_dm[2]
+set_location_assignment PIN_B29 -to M1_DDR3_dm[3]
+set_location_assignment PIN_H28 -to M1_DDR3_dm[4]
+set_location_assignment PIN_E17 -to M1_DDR3_dm[5]
+set_location_assignment PIN_C26 -to M1_DDR3_dm[6]
+set_location_assignment PIN_E23 -to M1_DDR3_dm[7]
+set_location_assignment PIN_G15 -to M1_DDR3_dq[0]
+set_location_assignment PIN_F15 -to M1_DDR3_dq[1]
+set_location_assignment PIN_C16 -to M1_DDR3_dq[2]
+set_location_assignment PIN_B16 -to M1_DDR3_dq[3]
+set_location_assignment PIN_G17 -to M1_DDR3_dq[4]
+set_location_assignment PIN_A16 -to M1_DDR3_dq[5]
+set_location_assignment PIN_D16 -to M1_DDR3_dq[6]
+set_location_assignment PIN_E16 -to M1_DDR3_dq[7]
+set_location_assignment PIN_N17 -to M1_DDR3_dq[8]
+set_location_assignment PIN_M17 -to M1_DDR3_dq[9]
+set_location_assignment PIN_K17 -to M1_DDR3_dq[10]
+set_location_assignment PIN_L16 -to M1_DDR3_dq[11]
+set_location_assignment PIN_P16 -to M1_DDR3_dq[12]
+set_location_assignment PIN_P17 -to M1_DDR3_dq[13]
+set_location_assignment PIN_J17 -to M1_DDR3_dq[14]
+set_location_assignment PIN_H17 -to M1_DDR3_dq[15]
+set_location_assignment PIN_N22 -to M1_DDR3_dq[16]
+set_location_assignment PIN_M23 -to M1_DDR3_dq[17]
+set_location_assignment PIN_J25 -to M1_DDR3_dq[18]
+set_location_assignment PIN_M24 -to M1_DDR3_dq[19]
+set_location_assignment PIN_R22 -to M1_DDR3_dq[20]
+set_location_assignment PIN_P22 -to M1_DDR3_dq[21]
+set_location_assignment PIN_K24 -to M1_DDR3_dq[22]
+set_location_assignment PIN_J24 -to M1_DDR3_dq[23]
+set_location_assignment PIN_A27 -to M1_DDR3_dq[24]
+set_location_assignment PIN_A28 -to M1_DDR3_dq[25]
+set_location_assignment PIN_C29 -to M1_DDR3_dq[26]
+set_location_assignment PIN_C30 -to M1_DDR3_dq[27]
+set_location_assignment PIN_C27 -to M1_DDR3_dq[28]
+set_location_assignment PIN_D27 -to M1_DDR3_dq[29]
+set_location_assignment PIN_A31 -to M1_DDR3_dq[30]
+set_location_assignment PIN_B31 -to M1_DDR3_dq[31]
+set_location_assignment PIN_G27 -to M1_DDR3_dq[32]
+set_location_assignment PIN_G29 -to M1_DDR3_dq[33]
+set_location_assignment PIN_F28 -to M1_DDR3_dq[34]
+set_location_assignment PIN_F27 -to M1_DDR3_dq[35]
+set_location_assignment PIN_E28 -to M1_DDR3_dq[36]
+set_location_assignment PIN_D28 -to M1_DDR3_dq[37]
+set_location_assignment PIN_H26 -to M1_DDR3_dq[38]
+set_location_assignment PIN_J26 -to M1_DDR3_dq[39]
+set_location_assignment PIN_F19 -to M1_DDR3_dq[40]
+set_location_assignment PIN_G19 -to M1_DDR3_dq[41]
+set_location_assignment PIN_F20 -to M1_DDR3_dq[42]
+set_location_assignment PIN_G20 -to M1_DDR3_dq[43]
+set_location_assignment PIN_C17 -to M1_DDR3_dq[44]
+set_location_assignment PIN_F17 -to M1_DDR3_dq[45]
+set_location_assignment PIN_C18 -to M1_DDR3_dq[46]
+set_location_assignment PIN_D18 -to M1_DDR3_dq[47]
+set_location_assignment PIN_D25 -to M1_DDR3_dq[48]
+set_location_assignment PIN_C25 -to M1_DDR3_dq[49]
+set_location_assignment PIN_G24 -to M1_DDR3_dq[50]
+set_location_assignment PIN_G25 -to M1_DDR3_dq[51]
+set_location_assignment PIN_B25 -to M1_DDR3_dq[52]
+set_location_assignment PIN_A26 -to M1_DDR3_dq[53]
+set_location_assignment PIN_D26 -to M1_DDR3_dq[54]
+set_location_assignment PIN_F24 -to M1_DDR3_dq[55]
+set_location_assignment PIN_F23 -to M1_DDR3_dq[56]
+set_location_assignment PIN_G23 -to M1_DDR3_dq[57]
+set_location_assignment PIN_J22 -to M1_DDR3_dq[58]
+set_location_assignment PIN_H22 -to M1_DDR3_dq[59]
+set_location_assignment PIN_K22 -to M1_DDR3_dq[60]
+set_location_assignment PIN_D22 -to M1_DDR3_dq[61]
+set_location_assignment PIN_G22 -to M1_DDR3_dq[62]
+set_location_assignment PIN_E22 -to M1_DDR3_dq[63]
+set_location_assignment PIN_D15 -to M1_DDR3_dqs[0]
+set_location_assignment PIN_K16 -to M1_DDR3_dqs[1]
+set_location_assignment PIN_L23 -to M1_DDR3_dqs[2]
+set_location_assignment PIN_C28 -to M1_DDR3_dqs[3]
+set_location_assignment PIN_E29 -to M1_DDR3_dqs[4]
+set_location_assignment PIN_G18 -to M1_DDR3_dqs[5]
+set_location_assignment PIN_F25 -to M1_DDR3_dqs[6]
+set_location_assignment PIN_J23 -to M1_DDR3_dqs[7]
+set_location_assignment PIN_C15 -to M1_DDR3_dqs_n[0]
+set_location_assignment PIN_J16 -to M1_DDR3_dqs_n[1]
+set_location_assignment PIN_K23 -to M1_DDR3_dqs_n[2]
+set_location_assignment PIN_B28 -to M1_DDR3_dqs_n[3]
+set_location_assignment PIN_D29 -to M1_DDR3_dqs_n[4]
+set_location_assignment PIN_F18 -to M1_DDR3_dqs_n[5]
+set_location_assignment PIN_E25 -to M1_DDR3_dqs_n[6]
+set_location_assignment PIN_H23 -to M1_DDR3_dqs_n[7]
+set_location_assignment PIN_R18 -to M1_DDR3_event_n
+set_location_assignment PIN_F26 -to M1_DDR3_odt[0]
+set_location_assignment PIN_G26 -to M1_DDR3_odt[1]
+set_location_assignment PIN_D24 -to M1_DDR3_ras_n[0]
+set_location_assignment PIN_J18 -to M1_DDR3_reset_n
+set_location_assignment PIN_H19 -to M1_DDR3_scl
+set_location_assignment PIN_P18 -to M1_DDR3_sda
+set_location_assignment PIN_M27 -to M1_DDR3_we_n[0]
 set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name UNIPHY_TEMP_VER_CODE 1949761625
 
@@ -376,7 +376,7 @@ set_location_assignment PIN_AR28 -to I_RS232_UART_RXD
 set_location_assignment PIN_AB27 -to FSM_D[0]
 set_location_assignment PIN_AB28 -to FSM_D[1]
 set_location_assignment PIN_AP27 -to FSM_D[2]
-set_location_assignment PIN_AN16 -to FSM_D[3]
+set_location_assignment PIN_AN27 -to FSM_D[3]
 set_location_assignment PIN_AL25 -to FSM_D[4]
 set_location_assignment PIN_AP26 -to FSM_D[5]
 set_location_assignment PIN_AE28 -to FSM_D[6]
@@ -418,21 +418,6 @@ set_instance_assignment -name IO_STANDARD 1.5V PIN_AG35 -to LED_PAINEL_LED_ST4
 
 ======================================
 
- PIN_V12 -to HSMA_BUFFER_PEM0
- PIN_V11 -to HSMA_BUFFER_PEM1
- PIN_AN5 -to HSMA_LVDS_RX_SPWA_DI_N
- PIN_AM5 -to HSMA_LVDS_RX_SPWA_SI_N
- PIN_C9 -to HSMA_LVDS_RX_SPWF_DI_N
- PIN_F6 -to HSMA_LVDS_RX_SPWF_SI_N
- PIN_F5 -to HSMA_LVDS_RX_SPWG_DI_N
- PIN_E7 -to HSMA_LVDS_RX_SPWG_SI_N
- PIN_C8 -to HSMA_LVDS_RX_SPWH_DI_N
- PIN_C5 -to HSMA_LVDS_RX_SPWH_SI_N
- PIN_C7 -to HSMA_BUFFER_PWDN_N
- PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
- PIN_AK5 -to HSMA_LVDS_RX_SPWB_SI_N
- PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
- PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
 
 set_location_assignment PIN_AH5 -to HSMA_LVDS_RX_SPWC_SI_N
 set_location_assignment PIN_AG5 -to HSMA_LVDS_RX_SPWD_DI_N
@@ -516,53 +501,53 @@ set_instance_assignment -name IO_STANDARD 1.5V -to MAX2_I2C_SDA
 #============================================================
 # mem
 #============================================================
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[14]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[15]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_cke[1]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_cs_n[1]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR2_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_clk[1] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_event_n
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_odt[1]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR2_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR2_scl
-set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR2_sda
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[14]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[15]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cke[1]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cs_n[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[1] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_event_n
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_odt[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_scl
+set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_sda
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 #============================================================
 # OSC
 #============================================================
@@ -604,13 +589,13 @@ set_instance_assignment -name IO_STANDARD 2.5V -to PCIE1_WAKE_n
 #============================================================
 set_instance_assignment -name IO_STANDARD "1.4-V PCML" -to PGM_GXBCLK_p1
 #============================================================
-#  M1_DDR2_oct_rdn
+#  M1_DDR3_oct_rdn
 #============================================================
-set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR2_oct_rdn
+set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_oct_rdn
 #============================================================
-# M1_DDR2_oct_rup
+# M1_DDR3_oct_rup
 #============================================================
-set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR2_oct_rup
+set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_oct_rup
 #============================================================
 # SMA
 #============================================================
@@ -692,130 +677,130 @@ set_location_assignment PIN_L20 -to LOOP_CLKOUT1
 set_location_assignment PIN_D20 -to MAX2_CS_n
 set_location_assignment PIN_C20 -to MAX2_I2C_SCL
 set_location_assignment PIN_A17 -to MAX2_I2C_SDA
-set_location_assignment PIN_N23 -to M1_DDR2_addr[0]
-set_location_assignment PIN_C22 -to M1_DDR2_addr[1]
-set_location_assignment PIN_M22 -to M1_DDR2_addr[2]
-set_location_assignment PIN_D21 -to M1_DDR2_addr[3]
-set_location_assignment PIN_P24 -to M1_DDR2_addr[4]
-set_location_assignment PIN_A24 -to M1_DDR2_addr[5]
-set_location_assignment PIN_M21 -to M1_DDR2_addr[6]
-set_location_assignment PIN_D17 -to M1_DDR2_addr[7]
-set_location_assignment PIN_A25 -to M1_DDR2_addr[8]
-set_location_assignment PIN_N25 -to M1_DDR2_addr[9]
-set_location_assignment PIN_C24 -to M1_DDR2_addr[10]
-set_location_assignment PIN_N21 -to M1_DDR2_addr[11]
-set_location_assignment PIN_M25 -to M1_DDR2_addr[12]
-set_location_assignment PIN_K26 -to M1_DDR2_addr[13]
-set_location_assignment PIN_F16 -to M1_DDR2_addr[14]
-set_location_assignment PIN_R20 -to M1_DDR2_addr[15]
-set_location_assignment PIN_B26 -to M1_DDR2_ba[0]
-set_location_assignment PIN_A29 -to M1_DDR2_ba[1]
-set_location_assignment PIN_R24 -to M1_DDR2_ba[2]
-set_location_assignment PIN_L26 -to M1_DDR2_cas_n
-set_location_assignment PIN_P25 -to M1_DDR2_cke[0]
-set_location_assignment PIN_M16 -to M1_DDR2_cke[1]
-set_location_assignment PIN_K27 -to M1_DDR2_ck[0]
-set_location_assignment PIN_L25 -to M1_DDR2_ck[1]
-set_location_assignment PIN_J27 -to M1_DDR2_ck_n[0]
-set_location_assignment PIN_K28 -to M1_DDR2_ck_n[1]
-set_location_assignment PIN_D23 -to M1_DDR2_cs_n[0]
-set_location_assignment PIN_G28 -to M1_DDR2_cs_n[1]
-set_location_assignment PIN_G16 -to M1_DDR2_dm[0]
-set_location_assignment PIN_N16 -to M1_DDR2_dm[1]
-set_location_assignment PIN_P23 -to M1_DDR2_dm[2]
-set_location_assignment PIN_B29 -to M1_DDR2_dm[3]
-set_location_assignment PIN_H28 -to M1_DDR2_dm[4]
-set_location_assignment PIN_E17 -to M1_DDR2_dm[5]
-set_location_assignment PIN_C26 -to M1_DDR2_dm[6]
-set_location_assignment PIN_E23 -to M1_DDR2_dm[7]
-set_location_assignment PIN_G15 -to M1_DDR2_dq[0]
-set_location_assignment PIN_F15 -to M1_DDR2_dq[1]
-set_location_assignment PIN_C16 -to M1_DDR2_dq[2]
-set_location_assignment PIN_B16 -to M1_DDR2_dq[3]
-set_location_assignment PIN_G17 -to M1_DDR2_dq[4]
-set_location_assignment PIN_A16 -to M1_DDR2_dq[5]
-set_location_assignment PIN_D16 -to M1_DDR2_dq[6]
-set_location_assignment PIN_E16 -to M1_DDR2_dq[7]
-set_location_assignment PIN_N17 -to M1_DDR2_dq[8]
-set_location_assignment PIN_M17 -to M1_DDR2_dq[9]
-set_location_assignment PIN_K17 -to M1_DDR2_dq[10]
-set_location_assignment PIN_L16 -to M1_DDR2_dq[11]
-set_location_assignment PIN_P16 -to M1_DDR2_dq[12]
-set_location_assignment PIN_P17 -to M1_DDR2_dq[13]
-set_location_assignment PIN_J17 -to M1_DDR2_dq[14]
-set_location_assignment PIN_H17 -to M1_DDR2_dq[15]
-set_location_assignment PIN_N22 -to M1_DDR2_dq[16]
-set_location_assignment PIN_M23 -to M1_DDR2_dq[17]
-set_location_assignment PIN_J25 -to M1_DDR2_dq[18]
-set_location_assignment PIN_M24 -to M1_DDR2_dq[19]
-set_location_assignment PIN_R22 -to M1_DDR2_dq[20]
-set_location_assignment PIN_P22 -to M1_DDR2_dq[21]
-set_location_assignment PIN_K24 -to M1_DDR2_dq[22]
-set_location_assignment PIN_J24 -to M1_DDR2_dq[23]
-set_location_assignment PIN_A27 -to M1_DDR2_dq[24]
-set_location_assignment PIN_A28 -to M1_DDR2_dq[25]
-set_location_assignment PIN_C29 -to M1_DDR2_dq[26]
-set_location_assignment PIN_C30 -to M1_DDR2_dq[27]
-set_location_assignment PIN_C27 -to M1_DDR2_dq[28]
-set_location_assignment PIN_D27 -to M1_DDR2_dq[29]
-set_location_assignment PIN_A31 -to M1_DDR2_dq[30]
-set_location_assignment PIN_B31 -to M1_DDR2_dq[31]
-set_location_assignment PIN_G27 -to M1_DDR2_dq[32]
-set_location_assignment PIN_G29 -to M1_DDR2_dq[33]
-set_location_assignment PIN_F28 -to M1_DDR2_dq[34]
-set_location_assignment PIN_F27 -to M1_DDR2_dq[35]
-set_location_assignment PIN_E28 -to M1_DDR2_dq[36]
-set_location_assignment PIN_D28 -to M1_DDR2_dq[37]
-set_location_assignment PIN_H26 -to M1_DDR2_dq[38]
-set_location_assignment PIN_J26 -to M1_DDR2_dq[39]
-set_location_assignment PIN_F19 -to M1_DDR2_dq[40]
-set_location_assignment PIN_G19 -to M1_DDR2_dq[41]
-set_location_assignment PIN_F20 -to M1_DDR2_dq[42]
-set_location_assignment PIN_G20 -to M1_DDR2_dq[43]
-set_location_assignment PIN_C17 -to M1_DDR2_dq[44]
-set_location_assignment PIN_F17 -to M1_DDR2_dq[45]
-set_location_assignment PIN_C18 -to M1_DDR2_dq[46]
-set_location_assignment PIN_D18 -to M1_DDR2_dq[47]
-set_location_assignment PIN_D25 -to M1_DDR2_dq[48]
-set_location_assignment PIN_C25 -to M1_DDR2_dq[49]
-set_location_assignment PIN_G24 -to M1_DDR2_dq[50]
-set_location_assignment PIN_G25 -to M1_DDR2_dq[51]
-set_location_assignment PIN_B25 -to M1_DDR2_dq[52]
-set_location_assignment PIN_A26 -to M1_DDR2_dq[53]
-set_location_assignment PIN_D26 -to M1_DDR2_dq[54]
-set_location_assignment PIN_F24 -to M1_DDR2_dq[55]
-set_location_assignment PIN_F23 -to M1_DDR2_dq[56]
-set_location_assignment PIN_G23 -to M1_DDR2_dq[57]
-set_location_assignment PIN_J22 -to M1_DDR2_dq[58]
-set_location_assignment PIN_H22 -to M1_DDR2_dq[59]
-set_location_assignment PIN_K22 -to M1_DDR2_dq[60]
-set_location_assignment PIN_D22 -to M1_DDR2_dq[61]
-set_location_assignment PIN_G22 -to M1_DDR2_dq[62]
-set_location_assignment PIN_E22 -to M1_DDR2_dq[63]
-set_location_assignment PIN_D15 -to M1_DDR2_dqs[0]
-set_location_assignment PIN_K16 -to M1_DDR2_dqs[1]
-set_location_assignment PIN_L23 -to M1_DDR2_dqs[2]
-set_location_assignment PIN_C28 -to M1_DDR2_dqs[3]
-set_location_assignment PIN_E29 -to M1_DDR2_dqs[4]
-set_location_assignment PIN_G18 -to M1_DDR2_dqs[5]
-set_location_assignment PIN_F25 -to M1_DDR2_dqs[6]
-set_location_assignment PIN_J23 -to M1_DDR2_dqs[7]
-set_location_assignment PIN_C15 -to M1_DDR2_dqs_n[0]
-set_location_assignment PIN_J16 -to M1_DDR2_dqs_n[1]
-set_location_assignment PIN_K23 -to M1_DDR2_dqs_n[2]
-set_location_assignment PIN_B28 -to M1_DDR2_dqs_n[3]
-set_location_assignment PIN_D29 -to M1_DDR2_dqs_n[4]
-set_location_assignment PIN_F18 -to M1_DDR2_dqs_n[5]
-set_location_assignment PIN_E25 -to M1_DDR2_dqs_n[6]
-set_location_assignment PIN_H23 -to M1_DDR2_dqs_n[7]
-set_location_assignment PIN_R18 -to M1_DDR2_event_n
-set_location_assignment PIN_F26 -to M1_DDR2_odt[0]
-set_location_assignment PIN_G26 -to M1_DDR2_odt[1]
-set_location_assignment PIN_D24 -to M1_DDR2_ras_n
-set_location_assignment PIN_J18 -to M1_DDR2_reset_n
-set_location_assignment PIN_H19 -to M1_DDR2_scl
-set_location_assignment PIN_P18 -to M1_DDR2_sda
-set_location_assignment PIN_M27 -to M1_DDR2_we_n
+set_location_assignment PIN_N23 -to M1_DDR3_addr[0]
+set_location_assignment PIN_C22 -to M1_DDR3_addr[1]
+set_location_assignment PIN_M22 -to M1_DDR3_addr[2]
+set_location_assignment PIN_D21 -to M1_DDR3_addr[3]
+set_location_assignment PIN_P24 -to M1_DDR3_addr[4]
+set_location_assignment PIN_A24 -to M1_DDR3_addr[5]
+set_location_assignment PIN_M21 -to M1_DDR3_addr[6]
+set_location_assignment PIN_D17 -to M1_DDR3_addr[7]
+set_location_assignment PIN_A25 -to M1_DDR3_addr[8]
+set_location_assignment PIN_N25 -to M1_DDR3_addr[9]
+set_location_assignment PIN_C24 -to M1_DDR3_addr[10]
+set_location_assignment PIN_N21 -to M1_DDR3_addr[11]
+set_location_assignment PIN_M25 -to M1_DDR3_addr[12]
+set_location_assignment PIN_K26 -to M1_DDR3_addr[13]
+set_location_assignment PIN_F16 -to M1_DDR3_addr[14]
+set_location_assignment PIN_R20 -to M1_DDR3_addr[15]
+set_location_assignment PIN_B26 -to M1_DDR3_ba[0]
+set_location_assignment PIN_A29 -to M1_DDR3_ba[1]
+set_location_assignment PIN_R24 -to M1_DDR3_ba[2]
+set_location_assignment PIN_L26 -to M1_DDR3_cas_n
+set_location_assignment PIN_P25 -to M1_DDR3_cke[0]
+set_location_assignment PIN_M16 -to M1_DDR3_cke[1]
+set_location_assignment PIN_K27 -to M1_DDR3_ck[0]
+set_location_assignment PIN_L25 -to M1_DDR3_ck[1]
+set_location_assignment PIN_J27 -to M1_DDR3_ck_n[0]
+set_location_assignment PIN_K28 -to M1_DDR3_ck_n[1]
+set_location_assignment PIN_D23 -to M1_DDR3_cs_n[0]
+set_location_assignment PIN_G28 -to M1_DDR3_cs_n[1]
+set_location_assignment PIN_G16 -to M1_DDR3_dm[0]
+set_location_assignment PIN_N16 -to M1_DDR3_dm[1]
+set_location_assignment PIN_P23 -to M1_DDR3_dm[2]
+set_location_assignment PIN_B29 -to M1_DDR3_dm[3]
+set_location_assignment PIN_H28 -to M1_DDR3_dm[4]
+set_location_assignment PIN_E17 -to M1_DDR3_dm[5]
+set_location_assignment PIN_C26 -to M1_DDR3_dm[6]
+set_location_assignment PIN_E23 -to M1_DDR3_dm[7]
+set_location_assignment PIN_G15 -to M1_DDR3_dq[0]
+set_location_assignment PIN_F15 -to M1_DDR3_dq[1]
+set_location_assignment PIN_C16 -to M1_DDR3_dq[2]
+set_location_assignment PIN_B16 -to M1_DDR3_dq[3]
+set_location_assignment PIN_G17 -to M1_DDR3_dq[4]
+set_location_assignment PIN_A16 -to M1_DDR3_dq[5]
+set_location_assignment PIN_D16 -to M1_DDR3_dq[6]
+set_location_assignment PIN_E16 -to M1_DDR3_dq[7]
+set_location_assignment PIN_N17 -to M1_DDR3_dq[8]
+set_location_assignment PIN_M17 -to M1_DDR3_dq[9]
+set_location_assignment PIN_K17 -to M1_DDR3_dq[10]
+set_location_assignment PIN_L16 -to M1_DDR3_dq[11]
+set_location_assignment PIN_P16 -to M1_DDR3_dq[12]
+set_location_assignment PIN_P17 -to M1_DDR3_dq[13]
+set_location_assignment PIN_J17 -to M1_DDR3_dq[14]
+set_location_assignment PIN_H17 -to M1_DDR3_dq[15]
+set_location_assignment PIN_N22 -to M1_DDR3_dq[16]
+set_location_assignment PIN_M23 -to M1_DDR3_dq[17]
+set_location_assignment PIN_J25 -to M1_DDR3_dq[18]
+set_location_assignment PIN_M24 -to M1_DDR3_dq[19]
+set_location_assignment PIN_R22 -to M1_DDR3_dq[20]
+set_location_assignment PIN_P22 -to M1_DDR3_dq[21]
+set_location_assignment PIN_K24 -to M1_DDR3_dq[22]
+set_location_assignment PIN_J24 -to M1_DDR3_dq[23]
+set_location_assignment PIN_A27 -to M1_DDR3_dq[24]
+set_location_assignment PIN_A28 -to M1_DDR3_dq[25]
+set_location_assignment PIN_C29 -to M1_DDR3_dq[26]
+set_location_assignment PIN_C30 -to M1_DDR3_dq[27]
+set_location_assignment PIN_C27 -to M1_DDR3_dq[28]
+set_location_assignment PIN_D27 -to M1_DDR3_dq[29]
+set_location_assignment PIN_A31 -to M1_DDR3_dq[30]
+set_location_assignment PIN_B31 -to M1_DDR3_dq[31]
+set_location_assignment PIN_G27 -to M1_DDR3_dq[32]
+set_location_assignment PIN_G29 -to M1_DDR3_dq[33]
+set_location_assignment PIN_F28 -to M1_DDR3_dq[34]
+set_location_assignment PIN_F27 -to M1_DDR3_dq[35]
+set_location_assignment PIN_E28 -to M1_DDR3_dq[36]
+set_location_assignment PIN_D28 -to M1_DDR3_dq[37]
+set_location_assignment PIN_H26 -to M1_DDR3_dq[38]
+set_location_assignment PIN_J26 -to M1_DDR3_dq[39]
+set_location_assignment PIN_F19 -to M1_DDR3_dq[40]
+set_location_assignment PIN_G19 -to M1_DDR3_dq[41]
+set_location_assignment PIN_F20 -to M1_DDR3_dq[42]
+set_location_assignment PIN_G20 -to M1_DDR3_dq[43]
+set_location_assignment PIN_C17 -to M1_DDR3_dq[44]
+set_location_assignment PIN_F17 -to M1_DDR3_dq[45]
+set_location_assignment PIN_C18 -to M1_DDR3_dq[46]
+set_location_assignment PIN_D18 -to M1_DDR3_dq[47]
+set_location_assignment PIN_D25 -to M1_DDR3_dq[48]
+set_location_assignment PIN_C25 -to M1_DDR3_dq[49]
+set_location_assignment PIN_G24 -to M1_DDR3_dq[50]
+set_location_assignment PIN_G25 -to M1_DDR3_dq[51]
+set_location_assignment PIN_B25 -to M1_DDR3_dq[52]
+set_location_assignment PIN_A26 -to M1_DDR3_dq[53]
+set_location_assignment PIN_D26 -to M1_DDR3_dq[54]
+set_location_assignment PIN_F24 -to M1_DDR3_dq[55]
+set_location_assignment PIN_F23 -to M1_DDR3_dq[56]
+set_location_assignment PIN_G23 -to M1_DDR3_dq[57]
+set_location_assignment PIN_J22 -to M1_DDR3_dq[58]
+set_location_assignment PIN_H22 -to M1_DDR3_dq[59]
+set_location_assignment PIN_K22 -to M1_DDR3_dq[60]
+set_location_assignment PIN_D22 -to M1_DDR3_dq[61]
+set_location_assignment PIN_G22 -to M1_DDR3_dq[62]
+set_location_assignment PIN_E22 -to M1_DDR3_dq[63]
+set_location_assignment PIN_D15 -to M1_DDR3_dqs[0]
+set_location_assignment PIN_K16 -to M1_DDR3_dqs[1]
+set_location_assignment PIN_L23 -to M1_DDR3_dqs[2]
+set_location_assignment PIN_C28 -to M1_DDR3_dqs[3]
+set_location_assignment PIN_E29 -to M1_DDR3_dqs[4]
+set_location_assignment PIN_G18 -to M1_DDR3_dqs[5]
+set_location_assignment PIN_F25 -to M1_DDR3_dqs[6]
+set_location_assignment PIN_J23 -to M1_DDR3_dqs[7]
+set_location_assignment PIN_C15 -to M1_DDR3_dqs_n[0]
+set_location_assignment PIN_J16 -to M1_DDR3_dqs_n[1]
+set_location_assignment PIN_K23 -to M1_DDR3_dqs_n[2]
+set_location_assignment PIN_B28 -to M1_DDR3_dqs_n[3]
+set_location_assignment PIN_D29 -to M1_DDR3_dqs_n[4]
+set_location_assignment PIN_F18 -to M1_DDR3_dqs_n[5]
+set_location_assignment PIN_E25 -to M1_DDR3_dqs_n[6]
+set_location_assignment PIN_H23 -to M1_DDR3_dqs_n[7]
+set_location_assignment PIN_R18 -to M1_DDR3_event_n
+set_location_assignment PIN_F26 -to M1_DDR3_odt[0]
+set_location_assignment PIN_G26 -to M1_DDR3_odt[1]
+set_location_assignment PIN_D24 -to M1_DDR3_ras_n
+set_location_assignment PIN_J18 -to M1_DDR3_reset_n
+set_location_assignment PIN_H19 -to M1_DDR3_scl
+set_location_assignment PIN_P18 -to M1_DDR3_sda
+set_location_assignment PIN_M27 -to M1_DDR3_we_n
 set_location_assignment PIN_AB34 -to OSC_50_BANK1
 set_location_assignment PIN_AW22 -to OSC_50_BANK3
 set_location_assignment PIN_AV19 -to OSC_50_BANK4
@@ -844,8 +829,8 @@ set_location_assignment PIN_AH4 -to PCIE1_TX_p[2]
 set_location_assignment PIN_AF4 -to PCIE1_TX_p[3]
 set_location_assignment PIN_AE11 -to PCIE1_WAKE_n
 set_location_assignment PIN_J2 -to PGM_GXBCLK_p1
-set_location_assignment PIN_N26 -to M1_DDR2_oct_rdn
-set_location_assignment PIN_P26 -to M1_DDR2_oct_rup
+set_location_assignment PIN_N26 -to M1_DDR3_oct_rdn
+set_location_assignment PIN_P26 -to M1_DDR3_oct_rup
 set_location_assignment PIN_AW19 -to SMA_CLKIN
 set_location_assignment PIN_AN20 -to SMA_CLKOUT
 set_location_assignment PIN_AC10 -to SMA_CLKOUT_n
@@ -984,212 +969,6 @@ set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HSMA_LVDS_TX_SPWA_DO_P
 set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HSMA_LVDS_TX_SPWA_DO_N
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -1197,155 +976,155 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR2_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR2_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[0] -to M1_DDR2_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name M1_DDR2_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR2_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[0] -to M1_DDR3_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name M1_DDR3_INTERFACE_DELAY_CHAIN_CONFIG FLEXIBLE_TIMING -to M1_DDR3_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|wire_pll1_clk[1] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|wire_pll1_clk[2] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|wire_pll1_clk[3] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|wire_pll1_clk[5] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|upll_memphy|altpll_component|auto_generated|wire_pll1_clk[6] -tag __TR4_QSYS_uniphy_ddr3_p0
-set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|umemphy|ureset|phy_reset_M1_DDR2_stable_n -tag __TR4_QSYS_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|umemphy|ureset|phy_reset_M1_DDR3_stable_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|umemphy|ureset|phy_reset_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|umemphy|usequencer|sequencer_inst|sequencer_rw_mgr_inst|rw_mgr_inst|rw_mgr_core_inst|rw_soft_reset_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|controller_phy_inst|memphy_top_inst|umemphy|uread_datapath|reset_n_fifo_write_side[0] -tag __TR4_QSYS_uniphy_ddr3_p0
@@ -1383,7 +1162,7 @@ set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pl
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[3] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[5] -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[6] -tag __TR4_QSYS_uniphy_ddr3_p0
-set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|ureset|phy_reset_M1_DDR2_stable_n -tag __TR4_QSYS_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|ureset|phy_reset_M1_DDR3_stable_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|ureset|phy_reset_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|s0|sequencer_rw_mgr_inst|rw_mgr_inst|rw_mgr_core_inst|rw_soft_reset_n -tag __TR4_QSYS_uniphy_ddr3_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|uread_datapath|reset_n_fifo_write_side[0] -tag __TR4_QSYS_uniphy_ddr3_p0
@@ -1414,411 +1193,411 @@ set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL
 set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|pll1 -tag __TR4_QSYS_uniphy_ddr3_p0
 set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ba[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ba[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ba[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_cs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_we_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ras_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_cas_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_cke[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_odt[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ck[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ck_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -from u0|uniphy_ddr3|pll0|upll_memphy|auto_generated|clk[2] -to u0|uniphy_ddr3|dll0|dll_wys_m -tag __TR4_QSYS_uniphy_ddr3_p0
 set_global_assignment -name ECO_REGENERATE_REPORT ON
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR2_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR2_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR2_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR2_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[1] -to M1_DDR2_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[2] -to M1_DDR2_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[3] -to M1_DDR2_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[4] -to M1_DDR2_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[5] -to M1_DDR2_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[6] -to M1_DDR2_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name DQ_GROUP 9 -from M1_DDR2_dqs[7] -to M1_DDR2_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR2_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[1] -to M1_DDR3_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[2] -to M1_DDR3_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[3] -to M1_DDR3_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[4] -to M1_DDR3_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[5] -to M1_DDR3_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[6] -to M1_DDR3_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name DQ_GROUP 9 -from M1_DDR3_dqs[7] -to M1_DDR3_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[8] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[9] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[10] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[11] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[12] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[14] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[15] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[16] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[17] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[18] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[19] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[20] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[21] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[22] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[23] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[24] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[25] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[26] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[27] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[28] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[29] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[30] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[31] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[32] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[33] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[34] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[35] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[36] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[37] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[38] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[39] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[40] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[41] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[42] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[43] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[44] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[45] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[46] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[47] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[48] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[49] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[50] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[51] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[52] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[53] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[54] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[55] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[56] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[57] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[58] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[59] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[60] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[61] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[62] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dq[63] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dm[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[1] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[2] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[4] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[13] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_global_assignment -name SDC_FILE MebX_Quartus_Project.sdc
 set_global_assignment -name IPX_FILE user_components.ipx
 set_global_assignment -name QIP_FILE ../Qsys_Project/MebX_Qsys_Project/synthesis/MebX_Qsys_Project.qip
@@ -1828,7 +1607,7 @@ set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to SOPC_INST|m0_ddr3
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|clk[3] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|clk[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|clk[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|umemphy|ureset|phy_reset_M1_DDR2_stable_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|umemphy|ureset|phy_reset_M1_DDR3_stable_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|umemphy|ureset|phy_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|s0|sequencer_rw_mgr_inst|rw_mgr_inst|rw_mgr_core_inst|rw_soft_reset_n -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|umemphy|uread_datapath|reset_n_fifo_write_side[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
@@ -1858,7 +1637,7 @@ set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|
 set_instance_assignment -name GLOBAL_SIGNAL OFF -from SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|clk[2] -to SOPC_INST|m0_ddr3_memory|dll0|dll_wys_m -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to SOPC_INST|m0_ddr3_memory -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name PLL_ENFORCE_USER_PHASE_SHIFT ON -to SOPC_INST|m0_ddr3_memory|pll0|upll_memphy|auto_generated|pll1 -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to M1_DDR2_ck[1]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to M1_DDR3_ck[1]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 
 set_instance_assignment -name IO_STANDARD LVDS -to HSMA_LVDS_RX_SPWA_DI_N
