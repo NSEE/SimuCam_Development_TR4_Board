@@ -338,7 +338,7 @@ set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name UNIPHY_TEMP_VER_CODE 1949761625
 
 
-set_location_assignment PIN_AF34 -to LED_PAINEL_LED_1G
+set_location_assignment PIN_AF34 -to LED_PAINEL_LED_1G  
 set_location_assignment PIN_AE35 -to LED_PAINEL_LED_1R
 set_location_assignment PIN_AC31 -to LED_PAINEL_LED_2G
 set_location_assignment PIN_AC32 -to LED_PAINEL_LED_2R
@@ -373,24 +373,39 @@ set_location_assignment PIN_AP28 -to O_RS232_UART_TXD
 set_location_assignment PIN_AR28 -to I_RS232_UART_RXD
 
 
-set_location_assignment PIN_AB27 -to FSM_D[0]
-set_location_assignment PIN_AB28 -to FSM_D[1]
-set_location_assignment PIN_AP27 -to FSM_D[2]
-set_location_assignment PIN_AN27 -to FSM_D[3]
-set_location_assignment PIN_AL25 -to FSM_D[4]
-set_location_assignment PIN_AP26 -to FSM_D[5]
-set_location_assignment PIN_AE28 -to FSM_D[6]
-set_location_assignment PIN_AV31 -to FSM_D[7]
-set_location_assignment PIN_AL27 -to FSM_D[8]
-set_location_assignment PIN_AH26 -to FSM_D[9]
-set_location_assignment PIN_AK27 -to FSM_D[10]
-set_location_assignment PIN_AE24 -to FSM_D[11]
-set_location_assignment PIN_AB30 -to FSM_D[12]
-set_location_assignment PIN_AB31 -to FSM_D[13]
-set_location_assignment PIN_AG31 -to FSM_D[14]
-set_location_assignment PIN_AG32 -to FSM_D[15]
+set_location_assignment PIN_B32 -to FSM_D[0]
+set_location_assignment PIN_C32 -to FSM_D[1]
+set_location_assignment PIN_C31 -to FSM_D[2]
+set_location_assignment PIN_F32 -to FSM_D[3]
+set_location_assignment PIN_J30 -to FSM_D[4]
+set_location_assignment PIN_K29 -to FSM_D[5]
+set_location_assignment PIN_K30 -to FSM_D[6]
+set_location_assignment PIN_L29 -to FSM_D[7]
+set_location_assignment PIN_M29 -to FSM_D[8]
+set_location_assignment PIN_N29 -to FSM_D[9]
+set_location_assignment PIN_P29 -to FSM_D[10]
+set_location_assignment PIN_T27 -to FSM_D[11]
+set_location_assignment PIN_AM17 -to FSM_D[12]
+set_location_assignment PIN_AL17 -to FSM_D[13]
+set_location_assignment PIN_AK16 -to FSM_D[14]
+set_location_assignment PIN_AJ16 -to FSM_D[15]
 
-
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[0]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[1]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[2]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[3]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[4]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[5]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[6]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[7]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[8]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[9]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[10]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[11]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[12]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[13]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[14]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[15]
 
 
 
@@ -660,10 +675,13 @@ set_location_assignment PIN_J32 -to FSM_A[11]
 set_location_assignment PIN_J33 -to FSM_A[12]
 set_location_assignment PIN_K32 -to FSM_A[13]
 set_location_assignment PIN_K31 -to FSM_A[14]
-set_location_assignment PIN_AH17 -to FSM_A[15]
-set_location_assignment PIN_AH16 -to FSM_A[16]
 set_location_assignment PIN_AE17 -to FSM_A[17]
 set_location_assignment PIN_AG16 -to FSM_A[18]
+set_location_assignment PIN_AH17 -to FSM_A[15]
+set_location_assignment PIN_AH16 -to FSM_A[16]  
+
+
+
 
 
 set_location_assignment PIN_B19 -to LED[0]
