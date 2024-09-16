@@ -429,11 +429,23 @@ set_instance_assignment -name IO_STANDARD 1.5V PIN_AV28 -to LED_PAINEL_LED_ST1
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AW29 -to LED_PAINEL_LED_ST2
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AG34 -to LED_PAINEL_LED_ST3
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AG35 -to LED_PAINEL_LED_ST4
-======================================
+#======================================
+#-----------HSMA
+#======================================
 
-======================================
 
-
+set_location_assignment PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
+set_location_assignment PIN_AK5 -to HSMA_LVDS_RX_SPWB_DI_N
+set_location_assignment PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
+set_location_assignment PIN_C7 -to HSMA_BUFFER_PWDN_N
+set_location_assignment PIN_C5 -to HSMA_LVDS_RX_SPWH_SI_N
+set_location_assignment PIN_C8 -to HSMA_LVDS_RX_SPWH_DI_N
+set_location_assignment PIN_E7 -to HSMA_LVDS_RX_SPWG_SI_N
+set_location_assignment PIN_F5 -to HSMA_LVDS_RX_SPWG_DI_N
+set_location_assignment PIN_F6 -to HSMA_LVDS_RX_SPWF_SI_N
+set_location_assignment PIN_C9 -to HSMA_LVDS_RX_SPWF_DI_N
+set_location_assignment PIN_AM5 -to HSMA_LVDS_RX_SPWA_SI_N
+set_location_assignment PIN_AN5 -to HSMA_LVDS_RX_SPWA_DI_N
 set_location_assignment PIN_AH5 -to HSMA_LVDS_RX_SPWC_SI_N
 set_location_assignment PIN_AG5 -to HSMA_LVDS_RX_SPWD_DI_N
 set_location_assignment PIN_AC8 -to HSMA_LVDS_RX_SPWD_SI_N
@@ -1737,7 +1749,6 @@ set_instance_assignment -name FAST_INPUT_REGISTER ON -to HSMA_LVDS_RX_SPWB_DI_N
 set_instance_assignment -name FAST_INPUT_REGISTER ON -to HSMA_LVDS_RX_SPWA_SI_P
 set_instance_assignment -name FAST_INPUT_REGISTER ON -to HSMA_LVDS_RX_SPWA_SI_N
 set_instance_assignment -name FAST_INPUT_REGISTER ON -to HSMA_LVDS_RX_SPWA_DI_P
-set_instance_assignment -name FAST_INPUT_REGISTER ON -to HSMA_LVDS_RX_SPWA_DI_N
 set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HSMA_LVDS_TX_SPWH_SO_P
 set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HSMA_LVDS_TX_SPWH_SO_N
 set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HSMA_LVDS_TX_SPWH_DO_P
