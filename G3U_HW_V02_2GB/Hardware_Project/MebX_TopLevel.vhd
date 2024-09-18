@@ -39,7 +39,7 @@ entity MebX_TopLevel is
         OSC_50_BANK4           : in    std_logic;
         OSC_50_BANK3           : in    std_logic;
         -- RST
-     -- CPU_RESET_n            : in    std_logic;
+        CPU_RESET_n            : in    std_logic;
         RESET_PAINEL_n         : in    std_logic; -- painel GPIO1
         --Buttons
           Button                 : in    std_logic_vector(3 downto 0);
@@ -110,8 +110,8 @@ entity MebX_TopLevel is
         -- DDR2 DIM2
         M1_DDR3_addr           : out   std_logic_vector(14 downto 0);
         M1_DDR3_ba             : out   std_logic_vector(2 downto 0);
-        M1_DDR3_clk            : inout std_logic_vector(1 downto 0);
-        M1_DDR3_clk_n          : inout std_logic_vector(1 downto 0);
+        M1_DDR3_ck            : out std_logic_vector(1 downto 0);
+        M1_DDR3_ck_n          : out std_logic_vector(1 downto 0);
         M1_DDR3_cke            : out   std_logic_vector(1 downto 0);
         M1_DDR3_cs_n           : out   std_logic_vector(1 downto 0);
         M1_DDR3_dm             : out   std_logic_vector(7 downto 0);
@@ -599,7 +599,7 @@ architecture bhv of MebX_TopLevel is
 begin
 
     --==========--
-    -- AVALON
+    --  AVALON
     --==========--
     SOPC_INST : MebX_Qsys_Project
         port map(
@@ -632,8 +632,8 @@ begin
            -- m1_ddr3_memory_pll_ref_clk_clk                              => OSC_50_Bank3,
             memory_mem_a                                        => M1_DDR3_addr,
             memory_mem_ba                                       => M1_DDR3_ba,
-            memory_mem_ck                                       => M1_DDR3_clk,
-            memory_mem_ck_n                                     => M1_DDR3_clk_n,
+            memory_mem_ck                                       => M1_DDR3_ck,
+            memory_mem_ck_n                                     => M1_DDR3_ck_n,
             memory_mem_cke                                      => M1_DDR3_cke,
             memory_mem_cs_n                                     => M1_DDR3_cs_n,
             memory_mem_dm                                       => M1_DDR3_dm,

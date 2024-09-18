@@ -1600,13 +1600,8 @@ set_location_assignment PIN_R20 -to M1_DDR3_addr[15]
 set_location_assignment PIN_B26 -to M1_DDR3_ba[0]
 set_location_assignment PIN_A29 -to M1_DDR3_ba[1]
 set_location_assignment PIN_R24 -to M1_DDR3_ba[2]
-set_location_assignment PIN_L26 -to M1_DDR3_cas[0]
 set_location_assignment PIN_P25 -to M1_DDR3_cke[0]
 set_location_assignment PIN_M16 -to M1_DDR3_cke[1]
-set_location_assignment PIN_K27 -to M1_DDR3_ck[0]
-set_location_assignment PIN_L25 -to M1_DDR3_ck[1]
-set_location_assignment PIN_J27 -to M1_DDR3_ck_n[0]
-set_location_assignment PIN_K28 -to M1_DDR3_ck_n[1]
 set_location_assignment PIN_D23 -to M1_DDR3_cs_n[0]
 set_location_assignment PIN_G28 -to M1_DDR3_cs_n[1]
 set_location_assignment PIN_G16 -to M1_DDR3_dm[0]
@@ -1748,8 +1743,8 @@ set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ba[2]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cas_n
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cke[0]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cke[1]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck[0]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck_n[0]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to M1_DDR3_ck[0]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to M1_DDR3_ck_n[0]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cs_n[0]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_cs_n[1]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dm[0]
@@ -1761,9 +1756,6 @@ set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[4]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[5]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[6]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[7]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[0]
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_clk[0]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[1]
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[0]
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[0]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_event_n
@@ -1776,7 +1768,6 @@ set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_sda
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_we_n
 set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_oct_rdn
 set_instance_assignment -name IO_STANDARD 1.5V -to M1_DDR3_oct_rup
-set_location_assignment PIN_L26 -to M1_DDR3_cas_n
 set_location_assignment PIN_D24 -to M1_DDR3_ras_n
 set_location_assignment PIN_M27 -to M1_DDR3_we_n
 set_location_assignment PIN_N26 -to M1_DDR3_oct_rdn
@@ -1818,7 +1809,6 @@ set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_cke[0]
 set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_odt[0]
 set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_reset_n
 set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ck[0]
-set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_ck_n[0]
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[8]
 set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[8]
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[8]
@@ -2187,7 +2177,7 @@ set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[6]
 set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_dqs_n[7]
 set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to M1_DDR3_addr[13]
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to SOPC_INST|m0_ddr3_memory|p0|umemphy|ureset|phy_reset_M1_DDR3_stable_n
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to M1_DDR3_ck[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ck[1]
 set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[0]
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[0]
 set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dq[1]
@@ -2209,7 +2199,6 @@ set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION
 set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[0]
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to M1_DDR3_dqs_n[0]
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_ck[0]
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_ck_n[0]
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[0]
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[10]
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to M1_DDR3_addr[11]
@@ -2259,7 +2248,26 @@ set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[13]
 set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[14]
 set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[15]
 set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to FSM_D[7]
+set_location_assignment PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
+set_location_assignment PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
+set_location_assignment PIN_C7 -to HSMA_BUFFER_PWDN_N
+set_location_assignment PIN_C5 -to HSMA_LVDS_RX_SPWH_SI_N
+set_location_assignment PIN_C8 -to HSMA_LVDS_RX_SPWH_DI_N
+set_location_assignment PIN_E7 -to HSMA_LVDS_RX_SPWG_SI_N
+set_location_assignment PIN_F5 -to HSMA_LVDS_RX_SPWG_DI_N
+set_location_assignment PIN_F6 -to HSMA_LVDS_RX_SPWF_SI_N
+set_location_assignment PIN_C9 -to HSMA_LVDS_RX_SPWF_DI_N
+set_location_assignment PIN_AM5 -to HSMA_LVDS_RX_SPWA_SI_N
+set_location_assignment PIN_AN5 -to HSMA_LVDS_RX_SPWA_DI_N
+set_location_assignment PIN_L26 -to M1_DDR3_cas[0]
+set_location_assignment PIN_L25 -to M1_DDR3_ck[1]
+set_location_assignment PIN_K28 -to M1_DDR3_ck_n[1]
+set_location_assignment PIN_L26 -to M1_DDR3_cas_n
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_ck_n[1]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to "M1_DDR3_ck_n[0](n)"
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to "M1_DDR3_ck[0](n)(n)"
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V HSTL CLASS I" -to "M1_DDR3_ck[0](n)(n)(n)(n)"

@@ -560,9 +560,9 @@ set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[4] -t
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[5] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[6] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_dq[7] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
-set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_clk[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_clk[1] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to M1_DDR3_ck[0] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_ck[1] -tag __MebX_Qsys_Project_m1_ddr2_memory_p0
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to M1_DDR3_dqs_n[0] -tag __MebX_Qsys_Project_m0_ddr3_memory_p0
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to M1_DDR3_event_n
