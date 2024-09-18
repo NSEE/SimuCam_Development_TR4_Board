@@ -429,11 +429,12 @@ set_instance_assignment -name IO_STANDARD 1.5V PIN_AV28 -to LED_PAINEL_LED_ST1
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AW29 -to LED_PAINEL_LED_ST2
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AG34 -to LED_PAINEL_LED_ST3
 set_instance_assignment -name IO_STANDARD 1.5V PIN_AG35 -to LED_PAINEL_LED_ST4
-#======================================
-#-----------HSMA
-#======================================
 
 
+
+#======================================
+#-----------------HSMA----------------
+#======================================
 set_location_assignment PIN_AJ5 -to HSMA_LVDS_RX_SPWC_DI_N
 set_location_assignment PIN_AK5 -to HSMA_LVDS_RX_SPWB_DI_N
 set_location_assignment PIN_AL5 -to HSMA_LVDS_RX_SPWB_DI_N
@@ -496,9 +497,6 @@ set_location_assignment PIN_K10 -to HSMA_BUFFER_PEM0
 set_location_assignment PIN_AG8 -to HSMA_LVDS_TX_SPWA_DO_P
 set_location_assignment PIN_AF11 -to HSMA_LVDS_TX_SPWA_SO_P
 set_location_assignment PIN_AD10 -to HSMA_LVDS_TX_SPWD_DO_P
-set_location_assignment PIN_AB13 -to HSMA_LVDS_TX_SPWD_SO_P
-set_location_assignment PIN_AB13 -to HSMA_LVDS_TX_SPWD_SO_P
-set_location_assignment PIN_AB11 -to HSMA_LVDS_TX_SPWC_DO_P
 set_location_assignment PIN_AB13 -to HSMA_LVDS_TX_SPWD_SO_P
 set_location_assignment PIN_AB11 -to HSMA_LVDS_TX_SPWC_DO_P
 set_location_assignment PIN_T13 -to HSMA_LVDS_TX_SPWC_SO_P
